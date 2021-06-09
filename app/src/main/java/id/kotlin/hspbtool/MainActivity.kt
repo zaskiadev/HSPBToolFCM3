@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
                 .setSmallIcon(R.drawable.ic_stat_ic_notification)
-                .setContentTitle("Welcome"+userLoginName)
+                .setContentTitle("Welcome "+userLoginName)
                 .setContentText("Welcome to HSPB Tool "+userLoginName)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
