@@ -1,0 +1,99 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".LogRecordActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:text="ViewLog"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spinnerChooseLog"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextRoomNumberShowLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Room Number (eg 1127)"
+                android:inputType="text"
+                android:textColor="#000"
+                android:background="#f0f0f4"
+                android:padding="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/mail"
+                android:drawablePadding="16dp"
+                android:layout_below="@+id/spinnerChooseLog"
+
+                />
+
+            <Button
+                android:id="@+id/buttonShowLogDataVentazaFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btnformate"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="View Log"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:layout_below="@+id/editTextTextRoomNumberShowLog"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".LogRecordActivity"
+        tools:showIn="@layout/activity_view_record_battery"
+        android:layout_marginTop="350dp"
+       >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/mRecyclerViewLog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

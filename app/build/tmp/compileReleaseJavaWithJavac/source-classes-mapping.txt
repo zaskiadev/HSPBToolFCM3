@@ -1,0 +1,8 @@
+id/kotlin/hspbtool/customfonts/MyEditText.java
+ customfonts.MyEditText
+id/kotlin/hspbtool/customfonts/MyTextView.java
+ customfonts.MyTextView
+id/kotlin/hspbtool/customfonts/MyRegulerText.java
+ customfonts.MyRegulerText
+id/kotlin/hspbtool/BuildConfig.java
+ id.kotlin.hspbtool.BuildConfig

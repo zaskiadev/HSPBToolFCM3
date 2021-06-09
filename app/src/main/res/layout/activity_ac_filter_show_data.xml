@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentazaFilterShowData"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter View AC Record Data"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter By : "
+        android:textSize="15sp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerACFilterBy"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonShowFilterAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btnformate"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Show Data"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+</LinearLayout>

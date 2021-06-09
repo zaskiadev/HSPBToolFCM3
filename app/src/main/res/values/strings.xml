@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">HSPBTool</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_hotel_information">Hotel Information</string>
+    <string name="menu_work_order">Work Order Status</string>
+    <string name="menu_santika">Santika Information</string>
+    <string name="menu_employee">Employee Information</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_santika_information">ScrollingActivity</string>
+
+    <string name="title_activity_hotelnformation">ScrollingActivity</string>
+    <string name="title_activity_employe_information">ScrollingActivity</string>
+    <string name="title_activity_work_order">ScrollingActivity</string>
+    <string name="santika_information">Santika Information</string>
+    <string name="hotel_information">Hotel Information</string>
+    <string name="employe_information">Employee Information</string>
+    <string name="work_order_information">Work Order Information</string>
+    <string name="title_activity_sales_marketing">Sales and Marketing</string>
+    <string name="title_activity_front_office">Front Office</string>
+    <string name="title_activity_f_b_service">FB Service</string>
+    <string name="title_activity_f_b_product">FB Product</string>
+    <string name="title_activity_engineering">Engineering</string>
+    <string name="title_activity_accounting">Accounting</string>
+    <string name="about_hspb">
+        "Hotel Santika Premiere Bintaro memiliki total jumlah kamar tersedia sebanyak 167 kamar,
+        adapun tipe - tipe kamar diantaranya"
+    </string>
+    <string name="title_activity_h_k">Housekeeping</string>
+    <string name="title_activity_h_r_d">HRD</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="ventaza_choose">
+        <item>Add Record Battery</item>
+        <item>Add Record Time Card</item>
+        <item>Add Record Key Tag Tap</item>
+    </string-array>
+    <string-array name="ventaza_filter_choose">
+        <item>View Record Battery</item>
+        <item>View Record Time Card</item>
+        <item>View Record Keytag Tap</item>
+    </string-array>
+
+    <string-array name="ventaza_filter_by">
+        <item>Sort By Room Number</item>
+        <item>Sort By Older Data</item>
+        <item>Show Only Already Execute</item>
+        <item>Show Only Never Execute</item>
+        <item>Show Only Urgent To Execute</item>
+    </string-array>
+
+    <string-array name="show_log_ventaza">
+        <item>Change Battery</item>
+        <item>Tap Time Card</item>
+        <item>Tap Time Card to Keytag</item>
+        <item>Maintenance Ventaza</item>
+    </string-array>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+
+    <string name="title_activity_ventaza_filter_show_data">VentazaFilterShowData</string>
+    <string name="title_activity_ventaza_filter_show_log">VentazaFilterShowLog</string>
+</resources>

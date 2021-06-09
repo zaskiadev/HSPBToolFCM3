@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRecordActivityVentazaMaintenance"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3AC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Maintenance AC"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editTextTextRoomNumberMaintenanceAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Number (eg 1127)"
+        android:inputType="text"
+        android:textColor="#000"
+        android:background="#f0f0f4"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="16dp"
+        android:layout_below="@+id/textView3AC"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView5AC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextRoomNumberMaintenanceAC"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="1dp"
+        android:text="Maintenance Checklist : "
+        android:textSize="15sp" />
+
+
+    <CheckBox
+        android:id="@+id/CBTuningFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5AC"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/CBCleaningAC"
+        android:text="Tuning Filter"
+        android:layout_marginRight="20dp"/>
+
+    <CheckBox
+        android:id="@+id/CBCleaningAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5AC"
+        android:layout_marginTop="10dp"
+        android:text="Cleaning"
+        android:layout_marginLeft="20dp"/>
+
+    <CheckBox
+        android:id="@+id/CBBlowerAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5AC"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/CBTuningFilter"
+        android:text="Blower"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+    <CheckBox
+        android:id="@+id/CBCoilEvavorator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CBTuningFilter"
+        android:layout_marginTop="10dp"
+        android:text="Coil/Evavorator"
+        android:layout_marginLeft="20dp"/>
+
+    <CheckBox
+        android:id="@+id/CBVacumDrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CBCleaningAC"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/CBCoilEvavorator"
+        android:text="Vacum Drain"
+        android:layout_marginRight="20dp"/>
+
+    <CheckBox
+        android:id="@+id/CBDuctingConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CBCleaningAC"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/CBTuningFilter"
+        android:text="Check Ducting Connection"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textView4AC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CBCoilEvavorator"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="3dp"
+        android:text="Note : "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextNoteMaintenanceAC"
+        android:layout_width="380dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/textView4AC"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="5000"
+        android:maxLines="4"
+        android:scrollHorizontally="false" />
+
+    <Button
+        android:id="@+id/buttonAddMaintenanceAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNoteMaintenanceAC"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btnformate"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Add Record"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

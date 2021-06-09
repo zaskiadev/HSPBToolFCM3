@@ -1,0 +1,268 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.kotlin.hspbtool"
+4    android:installLocation="auto"
+5    android:versionCode="4"
+6    android:versionName="0.0004" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:9:5-79
+13-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.Netw" />
+14-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:10:5-63
+14-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:10:22-60
+15
+16    <application
+16-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:12:5-129:19
+17        android:allowBackup="true"
+17-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:13:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:24:18-86
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:14:9-43
+21        android:label="@string/app_name"
+21-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:15:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:16:9-54
+23        android:supportsRtl="true"
+23-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:17:9-35
+24        android:theme="@style/Theme.HSPBTool"
+24-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:18:9-46
+25        android:usesCleartextTraffic="true" >
+25-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:19:9-44
+26        <activity
+26-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:20:9-23:74
+27            android:name="id.kotlin.hspbtool.VentazaFilterShowLog"
+27-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:21:13-49
+28            android:label="@string/title_activity_ventaza_filter_show_log"
+28-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:22:13-75
+29            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+29-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:23:13-62
+30        <activity
+30-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:24:9-27:65
+31            android:name="id.kotlin.hspbtool.VentazaFilterShowData"
+31-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:25:13-50
+32            android:label="@string/title_activity_ventaza_filter_show_data"
+32-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:26:13-76
+33            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+33-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:27:13-62
+34        <activity android:name="id.kotlin.hspbtool.LogRecordActivity" />
+34-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:28:9-55
+34-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:28:19-52
+35        <activity
+35-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:29:9-32:65
+36            android:name="id.kotlin.hspbtool.ChangePassword"
+36-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:30:13-43
+37            android:label="@string/title_activity_change_password"
+37-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:31:13-67
+38            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+38-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:32:13-62
+39        <activity android:name="id.kotlin.hspbtool.AddRecordActivityVentaza" />
+39-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:33:9-62
+39-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:33:19-59
+40        <activity
+40-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:34:9-37:65
+41            android:name="id.kotlin.hspbtool.HRDActivity"
+41-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:35:13-40
+42            android:label="@string/title_activity_h_r_d"
+42-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:36:13-57
+43            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+43-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:37:13-62
+44        <activity
+44-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:38:9-41:65
+45            android:name="id.kotlin.hspbtool.HKActivity"
+45-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:39:13-39
+46            android:label="@string/title_activity_h_k"
+46-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:40:13-55
+47            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+47-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:41:13-62
+48        <activity
+48-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:42:9-45:65
+49            android:name="id.kotlin.hspbtool.AccountingActivity"
+49-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:43:13-47
+50            android:label="@string/title_activity_accounting"
+50-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:44:13-62
+51            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+51-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:45:13-62
+52        <activity
+52-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:46:9-49:65
+53            android:name="id.kotlin.hspbtool.EngineeringActivity"
+53-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:47:13-48
+54            android:label="@string/title_activity_engineering"
+54-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:48:13-63
+55            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+55-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:49:13-62
+56        <activity
+56-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:50:9-53:65
+57            android:name="id.kotlin.hspbtool.FBProductActivity"
+57-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:51:13-46
+58            android:label="@string/title_activity_f_b_product"
+58-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:52:13-63
+59            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+59-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:53:13-62
+60        <activity
+60-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:54:9-57:65
+61            android:name="id.kotlin.hspbtool.FBServiceActivity"
+61-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:55:13-46
+62            android:label="@string/title_activity_f_b_service"
+62-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:56:13-63
+63            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+63-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:57:13-62
+64        <activity
+64-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:58:9-61:65
+65            android:name="id.kotlin.hspbtool.FrontOfficeActivity"
+65-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:59:13-48
+66            android:label="@string/title_activity_front_office"
+66-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:60:13-64
+67            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+67-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:61:13-62
+68        <activity
+68-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:62:9-65:65
+69            android:name="id.kotlin.hspbtool.SalesMarketingActivity"
+69-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:63:13-51
+70            android:label="@string/title_activity_sales_marketing"
+70-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:64:13-67
+71            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+71-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:65:13-62
+72        <activity
+72-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:66:9-69:65
+73            android:name="id.kotlin.hspbtool.WorkOrderActivity"
+73-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:67:13-46
+74            android:label="@string/title_activity_work_order"
+74-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:68:13-62
+75            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+75-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:69:13-62
+76        <activity
+76-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:70:9-73:65
+77            android:name="id.kotlin.hspbtool.EmployeInformationActivity"
+77-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:71:13-55
+78            android:label="@string/title_activity_employe_information"
+78-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:72:13-71
+79            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+79-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:73:13-62
+80        <activity android:name="id.kotlin.hspbtool.hotel_information_test_activity" />
+80-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:74:9-69
+80-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:74:19-66
+81        <activity
+81-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:75:9-78:65
+82            android:name="id.kotlin.hspbtool.HotelnformationActivity"
+82-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:76:13-52
+83            android:label="@string/title_activity_hotelnformation"
+83-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:77:13-67
+84            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+84-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:78:13-62
+85        <activity
+85-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:79:9-82:65
+86            android:name="id.kotlin.hspbtool.VentazaRecordData"
+86-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:80:13-46
+87            android:label="@string/title_activity_hotelnformation"
+87-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:81:13-67
+88            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+88-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:82:13-62
+89        <activity
+89-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:83:9-86:65
+90            android:name="id.kotlin.hspbtool.MenuEngineeringRecord"
+90-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:84:13-50
+91            android:label="@string/title_activity_hotelnformation"
+91-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:85:13-67
+92            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+92-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:86:13-62
+93        <activity
+93-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:87:9-90:65
+94            android:name="id.kotlin.hspbtool.ACRecordData"
+94-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:88:13-41
+95            android:label="@string/title_activity_hotelnformation"
+95-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:89:13-67
+96            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+96-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:90:13-62
+97        <activity
+97-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:91:9-94:65
+98            android:name="id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance"
+98-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:92:13-64
+99            android:label="Maintenance Ventaza"
+99-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:93:13-48
+100            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+100-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:94:13-62
+101        <activity
+101-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:95:9-98:65
+102            android:name="id.kotlin.hspbtool.ViewRecordBatteryActivity"
+102-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:96:13-54
+103            android:label="@string/title_activity_hotelnformation"
+103-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:97:13-67
+104            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+104-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:98:13-62
+105        <activity
+105-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:99:9-102:65
+106            android:name="id.kotlin.hspbtool.SantikaInformationActivity"
+106-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:100:13-55
+107            android:label="@string/title_activity_santika_information"
+107-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:101:13-71
+108            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+108-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:102:13-62
+109        <activity
+109-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:103:9-106:65
+110            android:name="id.kotlin.hspbtool.AddRecordActivityACMaintenance"
+110-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:104:13-59
+111            android:label="@string/title_activity_santika_information"
+111-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:105:13-71
+112            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+112-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:106:13-62
+113        <activity
+113-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:107:9-109:60
+114            android:name="id.kotlin.hspbtool.ui.login.LoginActivity"
+114-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:108:13-51
+115            android:label="@string/title_activity_login" />
+115-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:109:13-57
+116        <!--
+117<activity
+118            android:name=".MainActivity2"
+119            android:label="@string/title_activity_main2"
+120            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+121        -->
+122        <activity
+122-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:116:9-118:48
+123            android:name="id.kotlin.hspbtool.MainActivity"
+123-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:117:13-41
+124            android:label="@string/app_name" />
+124-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:118:13-45
+125        <activity
+125-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:119:9-128:20
+126            android:name="id.kotlin.hspbtool.LoginActivity"
+126-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:120:13-42
+127            android:label="@string/app_name"
+127-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:121:13-45
+128            android:theme="@style/Theme.HSPBTool.NoActionBar" >
+128-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:122:13-62
+129            <intent-filter>
+129-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:123:13-127:29
+130                <action android:name="android.intent.action.MAIN" />
+130-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:124:17-69
+130-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:124:25-66
+131
+132                <category android:name="android.intent.category.LAUNCHER" />
+132-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:126:17-77
+132-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:126:27-74
+133            </intent-filter>
+134        </activity>
+135
+136        <provider
+136-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+137            android:name="com.squareup.picasso.PicassoProvider"
+137-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+138            android:authorities="id.kotlin.hspbtool.com.squareup.picasso"
+138-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+139            android:exported="false" />
+139-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+140    </application>
+141
+142</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_santika_information"
+            android:title="@string/menu_santika" />
+
+        <item
+            android:id="@+id/nav_hotel_information"
+            android:title="@string/menu_hotel_information" />
+
+        <item
+            android:id="@+id/nav_employee_information"
+            android:title="@string/menu_employee" />
+
+        <item
+            android:id="@+id/nav_work_order"
+            android:title="@string/menu_work_order" />
+
+        <item
+            android:id="@+id/nav_engineering_data_record"
+            android:title="Engineering Data Record">
+
+        </item>
+<!--            android:icon="@drawable/ic_menu_camera"-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_menu"-->
+
+<!--            android:title="@string/menu_gallery" />-->
+<!--&lt;!&ndash;        android:icon="@drawable/ic_menu_gallery"&ndash;&gt;-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+    </group>
+</menu>

@@ -1,0 +1,488 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5735163a7f4219974de100ad9e847355/jetified-groupie-kotlin-android-extensions-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/813059654d806ac7442d8207ab2c0c67/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/716dd8f94bedd23ae6348667dad6f9ae/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/27a78c6a8576ccb8651c5a6754a24658/navigation-ui-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d3c2a532920a8575f904ad3b424106fb/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/56744392a575b6eeb04b5de0c6d81b6f/navigation-common-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/167187429665cbb2a7a8daa14441e446/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6d3e953e83c0f55880e431442d87ef/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e0c1c0f2b02eaaa38478ad9f36295786/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/4a38fd40dad1e79487ddbc28413f4038/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d64a8188cba2a1a877f6c635efa9d0ec/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/db78261d37612f2c98a7a5bd6a38b834/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/428f47faf2ccc768bb2bcbd65ca871d9/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31ac098d93a2a0ddf2e84d89031f5da7/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5458f2244d320383109aeb1da812e345/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:20:1-29:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5e447469544514ca637a8384975a3028/jetified-android-networking-1.0.1/AndroidManifest.xml:18:1-27:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2ce7175a607f1aae5fbba536e8c002c1/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0c1c0845bae9682afd9415b40ee34d35/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f707f3b880faf6d4990ca509cdbe24b1/jetified-groupie-2.1.0/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ff109ff37bd5fe483f187b037275bc82/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/fd41a667a067a85718256afa2871308c/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.romandanylyk:pageindicatorview:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/bd2f7b3e62c04bbc2a323ba12d1aaa7d/jetified-pageindicatorview-1.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b0dd6791cae7cf7d12abc2795c0845bd/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f8737351b005499b1d3d4c8e66712e73/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b18d13c05537937ea94d0841c58aca38/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/26f962049858705d4260213e3a2a9bfc/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/68fa0d48c47539c041f625279d7f4958/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7a809eef369d13c83d5b9b863ba77aae/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d49a9759f41c587988a825e8dc7a27ed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/76471f586d566bf3ffe762c4dad2b743/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/49f76c92c0c102db5507391e9c84cc0f/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f37e9d336475a4f0f8a576fe0fbf0da/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0bbc781f1ac306e1a7e5ad1d393eb8e5/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e016228c6227042e81a1468fc3c35461/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/44705e494f9e3dbe535ed64a1a332fed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d6db6eb2b293e42ff9d51cc69e08a2ed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/67a7d1632461482d254369099a2bf965/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/85125bbc7287fba053ffd541295e82da/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/59a8e6ae22528e95e5da8456899e73f8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0d557e6b5bfccacae04657a900296d61/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d8d7617b9f4707f8405958e59d12249f/navigation-runtime-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a579ac25ce159de149e17d07c3c71a0/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6fe64d6e27c2faa4cd1dc05e5d3fee23/navigation-common-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/8ca5ea6ac3d33c45e3aaa0e277506bcd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/336a4002419a4a1f53f35860ac0a2a92/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b7b1f6519bc009335b55b56a137a0fe7/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2812379b013f2ebaa2b5ae83033056c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/811307f60e43295c797b464f20ee0487/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b246f2825bfe9fb93a58c2e8567e6f0d/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c0e139366c26ad50a15508f7085a3d4/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7fa9fc8ef52ff3e1e226b34daba8a82c/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e20f4a0feb5fd7c39d27e188a43602ad/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/83d67681881fce5c9ccaa940a2e1b25a/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/57a211e14f13f64258f86cc5a1e0acf9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2d5bd593b577b4388261994fb6e33e67/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/8689f2da0688900b5c61388180c1c3cd/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/84c98cb070dd75a88e229c1f9ebb7b22/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c453ae57944e0c881698300b976bdf91/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/65fa869a3d2398e881633f29543be79b/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:1-131:12
+	package
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:6:5-33
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:4:5-35
+uses-permission#android.permission.INTERNET
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.Netw
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:10:5-63
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:10:22-60
+application
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:12:5-129:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31ac098d93a2a0ddf2e84d89031f5da7/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31ac098d93a2a0ddf2e84d89031f5da7/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f707f3b880faf6d4990ca509cdbe24b1/jetified-groupie-2.1.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f707f3b880faf6d4990ca509cdbe24b1/jetified-groupie-2.1.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:18:9-46
+	android:usesCleartextTraffic
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:19:9-44
+activity#id.kotlin.hspbtool.VentazaFilterShowLog
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:20:9-23:74
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:22:13-75
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:23:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:21:13-49
+activity#id.kotlin.hspbtool.VentazaFilterShowData
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:24:9-27:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:26:13-76
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:27:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:25:13-50
+activity#id.kotlin.hspbtool.LogRecordActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:28:9-55
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:28:19-52
+activity#id.kotlin.hspbtool.ChangePassword
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:29:9-32:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:31:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:32:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:30:13-43
+activity#id.kotlin.hspbtool.AddRecordActivityVentaza
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:33:9-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:33:19-59
+activity#id.kotlin.hspbtool.HRDActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:34:9-37:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:36:13-57
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:37:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:35:13-40
+activity#id.kotlin.hspbtool.HKActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:38:9-41:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:40:13-55
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:41:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:39:13-39
+activity#id.kotlin.hspbtool.AccountingActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:42:9-45:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:44:13-62
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:45:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:43:13-47
+activity#id.kotlin.hspbtool.EngineeringActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:46:9-49:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:48:13-63
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:49:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:47:13-48
+activity#id.kotlin.hspbtool.FBProductActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:50:9-53:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:52:13-63
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:53:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:51:13-46
+activity#id.kotlin.hspbtool.FBServiceActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:54:9-57:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:57:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:55:13-46
+activity#id.kotlin.hspbtool.FrontOfficeActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:58:9-61:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:60:13-64
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:61:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:59:13-48
+activity#id.kotlin.hspbtool.SalesMarketingActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:62:9-65:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:64:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:65:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:63:13-51
+activity#id.kotlin.hspbtool.WorkOrderActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:66:9-69:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:68:13-62
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:69:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:67:13-46
+activity#id.kotlin.hspbtool.EmployeInformationActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:70:9-73:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:72:13-71
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:73:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:71:13-55
+activity#id.kotlin.hspbtool.hotel_information_test_activity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:74:9-69
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:74:19-66
+activity#id.kotlin.hspbtool.HotelnformationActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:75:9-78:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:77:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:78:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:76:13-52
+activity#id.kotlin.hspbtool.VentazaRecordData
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:79:9-82:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:81:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:82:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:80:13-46
+activity#id.kotlin.hspbtool.MenuEngineeringRecord
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:83:9-86:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:85:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:86:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:84:13-50
+activity#id.kotlin.hspbtool.ACRecordData
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:87:9-90:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:89:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:90:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:88:13-41
+activity#id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:91:9-94:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:93:13-48
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:94:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:92:13-64
+activity#id.kotlin.hspbtool.ViewRecordBatteryActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:95:9-98:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:97:13-67
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:98:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:96:13-54
+activity#id.kotlin.hspbtool.SantikaInformationActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:99:9-102:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:101:13-71
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:102:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:100:13-55
+activity#id.kotlin.hspbtool.AddRecordActivityACMaintenance
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:103:9-106:65
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:105:13-71
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:106:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:104:13-59
+activity#id.kotlin.hspbtool.ui.login.LoginActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:107:9-109:60
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:109:13-57
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:108:13-51
+activity#id.kotlin.hspbtool.MainActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:116:9-118:48
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:118:13-45
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:117:13-41
+activity#id.kotlin.hspbtool.LoginActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:119:9-128:20
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:121:13-45
+	android:theme
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:122:13-62
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:120:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:123:13-127:29
+action#android.intent.action.MAIN
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:124:17-69
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:124:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:126:17-77
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:126:27-74
+uses-sdk
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5735163a7f4219974de100ad9e847355/jetified-groupie-kotlin-android-extensions-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5735163a7f4219974de100ad9e847355/jetified-groupie-kotlin-android-extensions-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/813059654d806ac7442d8207ab2c0c67/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/813059654d806ac7442d8207ab2c0c67/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/716dd8f94bedd23ae6348667dad6f9ae/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/716dd8f94bedd23ae6348667dad6f9ae/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/27a78c6a8576ccb8651c5a6754a24658/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/27a78c6a8576ccb8651c5a6754a24658/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d3c2a532920a8575f904ad3b424106fb/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d3c2a532920a8575f904ad3b424106fb/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/56744392a575b6eeb04b5de0c6d81b6f/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/56744392a575b6eeb04b5de0c6d81b6f/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/167187429665cbb2a7a8daa14441e446/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/167187429665cbb2a7a8daa14441e446/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6d3e953e83c0f55880e431442d87ef/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6d3e953e83c0f55880e431442d87ef/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e0c1c0f2b02eaaa38478ad9f36295786/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e0c1c0f2b02eaaa38478ad9f36295786/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/4a38fd40dad1e79487ddbc28413f4038/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/4a38fd40dad1e79487ddbc28413f4038/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d64a8188cba2a1a877f6c635efa9d0ec/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d64a8188cba2a1a877f6c635efa9d0ec/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/db78261d37612f2c98a7a5bd6a38b834/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/db78261d37612f2c98a7a5bd6a38b834/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/428f47faf2ccc768bb2bcbd65ca871d9/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/428f47faf2ccc768bb2bcbd65ca871d9/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31ac098d93a2a0ddf2e84d89031f5da7/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31ac098d93a2a0ddf2e84d89031f5da7/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5458f2244d320383109aeb1da812e345/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5458f2244d320383109aeb1da812e345/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5e447469544514ca637a8384975a3028/jetified-android-networking-1.0.1/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5e447469544514ca637a8384975a3028/jetified-android-networking-1.0.1/AndroidManifest.xml:23:5-25:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2ce7175a607f1aae5fbba536e8c002c1/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2ce7175a607f1aae5fbba536e8c002c1/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0c1c0845bae9682afd9415b40ee34d35/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0c1c0845bae9682afd9415b40ee34d35/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f707f3b880faf6d4990ca509cdbe24b1/jetified-groupie-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f707f3b880faf6d4990ca509cdbe24b1/jetified-groupie-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ff109ff37bd5fe483f187b037275bc82/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ff109ff37bd5fe483f187b037275bc82/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/fd41a667a067a85718256afa2871308c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/fd41a667a067a85718256afa2871308c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.romandanylyk:pageindicatorview:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/bd2f7b3e62c04bbc2a323ba12d1aaa7d/jetified-pageindicatorview-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romandanylyk:pageindicatorview:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/bd2f7b3e62c04bbc2a323ba12d1aaa7d/jetified-pageindicatorview-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b0dd6791cae7cf7d12abc2795c0845bd/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b0dd6791cae7cf7d12abc2795c0845bd/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f8737351b005499b1d3d4c8e66712e73/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f8737351b005499b1d3d4c8e66712e73/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b18d13c05537937ea94d0841c58aca38/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b18d13c05537937ea94d0841c58aca38/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/26f962049858705d4260213e3a2a9bfc/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/26f962049858705d4260213e3a2a9bfc/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/68fa0d48c47539c041f625279d7f4958/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/68fa0d48c47539c041f625279d7f4958/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7a809eef369d13c83d5b9b863ba77aae/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7a809eef369d13c83d5b9b863ba77aae/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d49a9759f41c587988a825e8dc7a27ed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d49a9759f41c587988a825e8dc7a27ed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/76471f586d566bf3ffe762c4dad2b743/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/76471f586d566bf3ffe762c4dad2b743/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/49f76c92c0c102db5507391e9c84cc0f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/49f76c92c0c102db5507391e9c84cc0f/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f37e9d336475a4f0f8a576fe0fbf0da/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f37e9d336475a4f0f8a576fe0fbf0da/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0bbc781f1ac306e1a7e5ad1d393eb8e5/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0bbc781f1ac306e1a7e5ad1d393eb8e5/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e016228c6227042e81a1468fc3c35461/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e016228c6227042e81a1468fc3c35461/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/44705e494f9e3dbe535ed64a1a332fed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/44705e494f9e3dbe535ed64a1a332fed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d6db6eb2b293e42ff9d51cc69e08a2ed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d6db6eb2b293e42ff9d51cc69e08a2ed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/67a7d1632461482d254369099a2bf965/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/67a7d1632461482d254369099a2bf965/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/85125bbc7287fba053ffd541295e82da/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/85125bbc7287fba053ffd541295e82da/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/59a8e6ae22528e95e5da8456899e73f8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/59a8e6ae22528e95e5da8456899e73f8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0d557e6b5bfccacae04657a900296d61/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0d557e6b5bfccacae04657a900296d61/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d8d7617b9f4707f8405958e59d12249f/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d8d7617b9f4707f8405958e59d12249f/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a579ac25ce159de149e17d07c3c71a0/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a579ac25ce159de149e17d07c3c71a0/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6fe64d6e27c2faa4cd1dc05e5d3fee23/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6fe64d6e27c2faa4cd1dc05e5d3fee23/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/8ca5ea6ac3d33c45e3aaa0e277506bcd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/8ca5ea6ac3d33c45e3aaa0e277506bcd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/336a4002419a4a1f53f35860ac0a2a92/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/336a4002419a4a1f53f35860ac0a2a92/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b7b1f6519bc009335b55b56a137a0fe7/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b7b1f6519bc009335b55b56a137a0fe7/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2812379b013f2ebaa2b5ae83033056c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2812379b013f2ebaa2b5ae83033056c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/811307f60e43295c797b464f20ee0487/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/811307f60e43295c797b464f20ee0487/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b246f2825bfe9fb93a58c2e8567e6f0d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b246f2825bfe9fb93a58c2e8567e6f0d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c0e139366c26ad50a15508f7085a3d4/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c0e139366c26ad50a15508f7085a3d4/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7fa9fc8ef52ff3e1e226b34daba8a82c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7fa9fc8ef52ff3e1e226b34daba8a82c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e20f4a0feb5fd7c39d27e188a43602ad/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e20f4a0feb5fd7c39d27e188a43602ad/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/83d67681881fce5c9ccaa940a2e1b25a/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/83d67681881fce5c9ccaa940a2e1b25a/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/57a211e14f13f64258f86cc5a1e0acf9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/57a211e14f13f64258f86cc5a1e0acf9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2d5bd593b577b4388261994fb6e33e67/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2d5bd593b577b4388261994fb6e33e67/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/8689f2da0688900b5c61388180c1c3cd/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/8689f2da0688900b5c61388180c1c3cd/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/84c98cb070dd75a88e229c1f9ebb7b22/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/84c98cb070dd75a88e229c1f9ebb7b22/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c453ae57944e0c881698300b976bdf91/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c453ae57944e0c881698300b976bdf91/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/65fa869a3d2398e881633f29543be79b/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/65fa869a3d2398e881633f29543be79b/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
