@@ -11,20 +11,20 @@ import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.navigation.NavigationView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.core.app.NotificationCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.navigation.NavigationView
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_home.view.*
-import android.widget.Toast
-import androidx.core.app.NotificationCompat
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 //        setSupportActionBar(toolbar)
         val sharedPref : SharedPreferences
         sharedPref=   getSharedPreferences("UserName", Context.MODE_PRIVATE)
-        val userLoginName : String = sharedPref.getString("UserName","Belum Login").toString()
+        val userLoginName : String = sharedPref.getString("UserName", "Belum Login").toString()
 
 
         val fab: FloatingActionButton = findViewById(R.id.fab)
@@ -54,32 +54,21 @@ class MainActivity : AppCompatActivity() {
 
 
         appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.nav_home, R.id.nav_santika_information,R.id.nav_hotel_information,R.id.nav_employee_information,
-            R.id.nav_work_order), drawerLayout)
+                R.id.nav_home, R.id.nav_hotel_information, R.id.nav_engineering_data_record
+                ), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
         navView.setNavigationItemSelectedListener { MenuItem->
             when(MenuItem.itemId) {
-                R.id.nav_santika_information -> {
-                    val intent = Intent (this@MainActivity,SantikaInformationActivity::class.java)
-                    startActivity(intent)
-                }
+
                 R.id.nav_hotel_information -> {
-                    val intent = Intent (this@MainActivity,hotel_information_test_activity::class.java)
+                    val intent = Intent(this@MainActivity, hotel_information_test_activity::class.java)
                     startActivity(intent)
                 }
-                R.id.nav_employee_information -> {
-                    val intent = Intent (this@MainActivity,EmployeInformationActivity::class.java)
-                    startActivity(intent)
-                }
-                R.id.nav_work_order -> {
-                    val intent = Intent (this@MainActivity,WorkOrderActivity::class.java)
-                    startActivity(intent)
-                }
-                R.id.nav_engineering_data_record ->
-                {
-                    val intent = Intent (this@MainActivity,MenuEngineeringRecord::class.java)
+
+                R.id.nav_engineering_data_record -> {
+                    val intent = Intent(this@MainActivity, MenuEngineeringRecord::class.java)
                     startActivity(intent)
                 }
             }
@@ -104,8 +93,8 @@ class MainActivity : AppCompatActivity() {
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
                 .setSmallIcon(R.drawable.ic_stat_ic_notification)
-                .setContentTitle("Welcome "+userLoginName)
-                .setContentText("Welcome to HSPB Tool "+userLoginName)
+                .setContentTitle("Welcome " + userLoginName)
+                .setContentText("Welcome to HSPB Tool " + userLoginName)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
                 .setContentIntent(pendingIntent)
@@ -138,8 +127,8 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "click on setting", Toast.LENGTH_LONG).show()
                 true
             }
-            R.id.change_password ->{
-                val intent = Intent (this@MainActivity,ChangePassword::class.java)
+            R.id.change_password -> {
+                val intent = Intent(this@MainActivity, ChangePassword::class.java)
                 startActivity(intent)
                 true
             }
@@ -147,6 +136,8 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+
 
 //    override fun onOptionsItemSelected(item: MenuItem): Boolean {
 //        return when(item?.itemId)

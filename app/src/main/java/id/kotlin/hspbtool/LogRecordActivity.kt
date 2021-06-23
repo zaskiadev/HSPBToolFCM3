@@ -19,6 +19,9 @@ import org.json.JSONObject
 import java.lang.Exception
 import id.kotlin.hspbtool.adapter.AdaptarCardListViewLogRecordMaintenanceVentaza
 import id.kotlin.hspbtool.domain.LogRecordMaintenanceVentaza
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class LogRecordActivity : AppCompatActivity() {
@@ -201,12 +204,22 @@ class LogRecordActivity : AppCompatActivity() {
                                     } catch (e: Exception) {
 
                                     }
+                                    fun String.toDate(dateFormat: String = "yyyy-MM-dd HH:mm:ss", timeZone: TimeZone = TimeZone.getTimeZone("UTC")): Date {
+                                        val parser = SimpleDateFormat(dateFormat, Locale.getDefault())
+                                        parser.timeZone = timeZone
+                                        return parser.parse(this)
+                                    }
 
+                                    fun Date.formatTo(dateFormat: String, timeZone: TimeZone = TimeZone.getTimeZone("Asia/Oral")): String {
+                                        val formatter = SimpleDateFormat(dateFormat, Locale.getDefault())
+                                        formatter.timeZone = timeZone
+                                        return formatter.format(this)
+                                    }
                                     dataViewMaintenance.add(
                                             LogRecordMaintenanceVentaza(
                                                     "Title = " + textSpinnerSelected,
                                                     "Room Number = " + jsonObject.getString("no_kamar"),
-                                                    "Date Maintenance = " + jsonObject.getString("date_maintenance"),
+                                                    "Date Maintenance = " + jsonObject.getString("date_maintenance").toDate().formatTo("dd-MM-YYYY HH:mm:ss "),
                                                     "Maintenance Type = " + jsonObject.getString("maintenace_type"),
                                                     "Remark = " + jsonObject.getString("remark"),
                                                     "User = "+user)

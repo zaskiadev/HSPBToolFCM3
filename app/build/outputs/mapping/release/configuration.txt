@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.1.2
+# The proguard configuration file for the following section is /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.2.1
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -111,8 +111,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.1.2
-# The proguard configuration file for the following section is /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/proguard-rules.pro
+# End of content from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.2.1
+# The proguard configuration file for the following section is /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/proguard-rules.pro
 # Add project specific ProGuard rules here.
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
@@ -134,10 +134,31 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-# End of content from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/proguard-rules.pro
-# The proguard configuration file for the following section is /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# End of content from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+-keep class androidx.work.impl.WorkManagerInitializer { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
+-keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
+-keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
+-keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
+-keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
+-keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
 -keep class com.squareup.picasso.PicassoProvider { <init>(); }
+-keep class id.kotlin.hspbtool.ACFilterShowData { <init>(); }
 -keep class id.kotlin.hspbtool.ACRecordData { <init>(); }
 -keep class id.kotlin.hspbtool.AccountingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.AddRecordActivityACMaintenance { <init>(); }
@@ -153,14 +174,17 @@
 -keep class id.kotlin.hspbtool.HRDActivity { <init>(); }
 -keep class id.kotlin.hspbtool.HotelnformationActivity { <init>(); }
 -keep class id.kotlin.hspbtool.LogRecordActivity { <init>(); }
+-keep class id.kotlin.hspbtool.LogRecordActivityAC { <init>(); }
 -keep class id.kotlin.hspbtool.LoginActivity { <init>(); }
 -keep class id.kotlin.hspbtool.MainActivity { <init>(); }
 -keep class id.kotlin.hspbtool.MenuEngineeringRecord { <init>(); }
+-keep class id.kotlin.hspbtool.MyFirebaseMessagingService { <init>(); }
 -keep class id.kotlin.hspbtool.SalesMarketingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.SantikaInformationActivity { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaFilterShowData { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaFilterShowLog { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaRecordData { <init>(); }
+-keep class id.kotlin.hspbtool.ViewRecordACActivity { <init>(); }
 -keep class id.kotlin.hspbtool.ViewRecordBatteryActivity { <init>(); }
 -keep class id.kotlin.hspbtool.WorkOrderActivity { <init>(); }
 -keep class id.kotlin.hspbtool.hotel_information_test_activity { <init>(); }
@@ -286,8 +310,8 @@
 -keep class id.kotlin.hspbtool.ui.home.HomeFragment { <init>(...); }
 
 
-# End of content from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/56744392a575b6eeb04b5de0c6d81b6f/navigation-common-ktx-2.3.3/proguard.txt
+# End of content from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/01211f0d2c288b543a2f668c2f88f38c/navigation-common-ktx-2.3.3/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -308,16 +332,16 @@
     ** fromBundle(android.os.Bundle);
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/56744392a575b6eeb04b5de0c6d81b6f/navigation-common-ktx-2.3.3/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/4ccb35bf83c150edc98076b70bc9ade3/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/01211f0d2c288b543a2f668c2f88f38c/navigation-common-ktx-2.3.3/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/3b9de06d779c40273141307ddfa46bd8/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
 # this results in direct instantiation when loading Dispatchers.Main
 -assumenosideeffects class kotlinx.coroutines.internal.MainDispatcherLoader {
     boolean FAST_SERVICE_LOADER_ENABLED return false;
 }
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/4ccb35bf83c150edc98076b70bc9ade3/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/f896fdc64601e8da11c30e0ba6334e49/rules/lib/META-INF/proguard/coroutines.pro
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/3b9de06d779c40273141307ddfa46bd8/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/08f4c7ec707f3b286cb9aa7e1ceefb09/rules/lib/META-INF/proguard/coroutines.pro
 # ServiceLoader support
 -keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}
 -keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}
@@ -329,8 +353,8 @@
     volatile <fields>;
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/f896fdc64601e8da11c30e0ba6334e49/rules/lib/META-INF/proguard/coroutines.pro
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/428f47faf2ccc768bb2bcbd65ca871d9/navigation-ui-2.3.3/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/08f4c7ec707f3b286cb9aa7e1ceefb09/rules/lib/META-INF/proguard/coroutines.pro
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/1f1e4ab8d201503c8156985e97078249/navigation-ui-2.3.3/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -350,8 +374,8 @@
     void setProgress(float);
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/428f47faf2ccc768bb2bcbd65ca871d9/navigation-ui-2.3.3/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/1f1e4ab8d201503c8156985e97078249/navigation-ui-2.3.3/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/a52f4fc1300416e5bce991277242fff5/material-1.3.0/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -399,8 +423,8 @@
 }
 
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/1e35180f46140cb6767ab7b7fd708bff/material-1.3.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/5e447469544514ca637a8384975a3028/jetified-android-networking-1.0.1/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/a52f4fc1300416e5bce991277242fff5/material-1.3.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/proguard.txt
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
 # in /Users/amitshekhar/Library/Android/sdk/tools/proguard/proguard-android.txt
@@ -422,8 +446,8 @@
 # For OkHttp
 -dontwarn okio.**
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/5e447469544514ca637a8384975a3028/jetified-android-networking-1.0.1/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/2ce7175a607f1aae5fbba536e8c002c1/appcompat-1.2.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/273fee1b072dfe16d191efd8a504e852/appcompat-1.2.0/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -447,8 +471,8 @@
   <methods>;
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/2ce7175a607f1aae5fbba536e8c002c1/appcompat-1.2.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/fd41a667a067a85718256afa2871308c/recyclerview-1.1.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/273fee1b072dfe16d191efd8a504e852/appcompat-1.2.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/0f06318e86e9fe55d5dc496ed2d22752/recyclerview-1.1.0/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -474,8 +498,8 @@
     public void suppressLayout(boolean);
     public boolean isLayoutSuppressed();
 }
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/fd41a667a067a85718256afa2871308c/recyclerview-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/0f06318e86e9fe55d5dc496ed2d22752/recyclerview-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/proguard.txt
 ### OKHTTP
 
 # Platform calls Class.forName on types which do not exist on Android to determine platform.
@@ -489,8 +513,26 @@
 # JDK 7-only method which is @hide on Android. Animal sniffer annotation.
 -dontwarn okio.DeflaterSink
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/7a809eef369d13c83d5b9b863ba77aae/coordinatorlayout-1.1.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/proguard.txt
+# Analytics library is optional.
+# Access to this class is protected by try/catch(NoClassDefFoundError e)
+# b/35686744 Don't fail during proguard if the class is missing from the APK.
+-dontwarn com.google.android.gms.measurement.AppMeasurement*
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/proguard.txt
+-keep class * extends androidx.work.Worker
+-keep class * extends androidx.work.InputMerger
+# Keep all constructors on ListenableWorker, Worker (also marked with @Keep)
+-keep public class * extends androidx.work.ListenableWorker {
+    public <init>(...);
+}
+# We need to keep WorkerParameters for the ListenableWorker constructor
+-keep class androidx.work.WorkerParameters
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/b58005bc0f007be2cdd659cd7dc638ff/coordinatorlayout-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -514,8 +556,8 @@
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
 -keepattributes *Annotation*
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/7a809eef369d13c83d5b9b863ba77aae/coordinatorlayout-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/76471f586d566bf3ffe762c4dad2b743/vectordrawable-animated-1.1.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/b58005bc0f007be2cdd659cd7dc638ff/coordinatorlayout-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f7d1bbc8b76f2bd24c463f0edbd9c31/vectordrawable-animated-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -536,8 +578,74 @@
    *** get*();
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/76471f586d566bf3ffe762c4dad2b743/vectordrawable-animated-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f37e9d336475a4f0f8a576fe0fbf0da/fragment-1.2.4/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f7d1bbc8b76f2bd24c463f0edbd9c31/vectordrawable-animated-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/proguard.txt
+-dontwarn com.google.firebase.platforminfo.KotlinDetector
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/proguard.txt
+# Proguard flags for consumers of the Google Play services SDK
+# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project
+
+# Keep SafeParcelable NULL value, needed for reflection by DowngradeableSafeParcel
+-keepclassmembers public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are
+# found via reflection.
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final *** CREATOR;
+}
+
+# Keep the classes/members we need for client functionality.
+-keep @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class *
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <fields>;
+}
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <methods>;
+}
+
+# Keep the names of classes/members we need for client functionality.
+-keep @interface com.google.android.gms.common.annotation.KeepName
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+  @com.google.android.gms.common.annotation.KeepName *;
+}
+
+# Keep Dynamite API entry points
+-keep @interface com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+  public <fields>;
+  public <methods>;
+}
+
+# Needed when building against pre-Marshmallow SDK.
+-dontwarn android.security.NetworkSecurityPolicy
+
+# Needed when building against Marshmallow SDK.
+-dontwarn android.app.Notification
+
+# Protobuf has references not on the Android boot classpath
+-dontwarn sun.misc.Unsafe
+-dontwarn libcore.io.Memory
+
+# Internal Google annotations for generating Proguard keep rules.
+-dontwarn com.google.android.apps.common.proguard.UsedBy*
+
+# Annotations referenced by the SDK but whose definitions are contained in
+# non-required dependencies.
+-dontwarn javax.annotation.**
+-dontwarn org.checkerframework.**
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/bdc180185e21fb8032dc1fee4b08c8f8/fragment-1.2.4/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -558,8 +666,8 @@
     public <init>();
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f37e9d336475a4f0f8a576fe0fbf0da/fragment-1.2.4/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/e016228c6227042e81a1468fc3c35461/transition-1.3.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/bdc180185e21fb8032dc1fee4b08c8f8/fragment-1.2.4/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -579,8 +687,8 @@
   androidx.transition.ChangeBounds$ViewBounds mViewBounds;
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/e016228c6227042e81a1468fc3c35461/transition-1.3.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/85125bbc7287fba053ffd541295e82da/media-1.0.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/97713a5f065d8e056c43e19c7a3d7fdc/media-1.0.0/proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -604,8 +712,8 @@
 -keep class androidx.media.** implements android.os.Parcelable {
     public static final android.os.Parcelable$Creator *;
 }
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/85125bbc7287fba053ffd541295e82da/media-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/97713a5f065d8e056c43e19c7a3d7fdc/media-1.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6a2ff881f30d1447711090e13a4add/core-1.3.2/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -616,8 +724,8 @@
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.WindowInsetsCompat$BuilderImpl* {
   <methods>;
 }
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/2812379b013f2ebaa2b5ae83033056c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6a2ff881f30d1447711090e13a4add/core-1.3.2/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/8ea85297e676ac6575be24882fa5bd39/jetified-lifecycle-viewmodel-savedstate-2.2.0/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -626,8 +734,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/2812379b013f2ebaa2b5ae83033056c0/jetified-lifecycle-viewmodel-savedstate-2.2.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/811307f60e43295c797b464f20ee0487/lifecycle-viewmodel-2.2.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/8ea85297e676ac6575be24882fa5bd39/jetified-lifecycle-viewmodel-savedstate-2.2.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/5cba9694c5bb7456b5e7565b255451cb/lifecycle-viewmodel-2.2.0/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -636,15 +744,42 @@
     <init>(android.app.Application);
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/811307f60e43295c797b464f20ee0487/lifecycle-viewmodel-2.2.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/5cba9694c5bb7456b5e7565b255451cb/lifecycle-viewmodel-2.2.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/proguard.txt
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/proguard.txt
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a8a2f467cb2e4f55f4bcd56535aa979/jetified-transport-api-3.0.0/proguard.txt
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a8a2f467cb2e4f55f4bcd56535aa979/jetified-transport-api-3.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/b173e74a52f4730e52f2b54e2e9fd5f6/jetified-firebase-components-17.0.0/proguard.txt
+-dontwarn com.google.firebase.components.Component$Instantiation
+-dontwarn com.google.firebase.components.Component$ComponentType
+
+-keep class * implements com.google.firebase.components.ComponentRegistrar
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/b173e74a52f4730e52f2b54e2e9fd5f6/jetified-firebase-components-17.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/f87a3c358f54c3143aac7a60a2b15e1a/room-runtime-2.2.5/proguard.txt
+-keep class * extends androidx.room.RoomDatabase
+-dontwarn androidx.room.paging.**
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/f87a3c358f54c3143aac7a60a2b15e1a/room-runtime-2.2.5/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a6f1a63042ace67e82f6abad5d454e/versionedparcelable-1.1.0/proguard.txt
 -keep public class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/de534ec502b5897f37cd0656f012af8b/versionedparcelable-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c0e139366c26ad50a15508f7085a3d4/jetified-savedstate-1.0.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a6f1a63042ace67e82f6abad5d454e/versionedparcelable-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/7f2894ff91e0e2bba6fa490c4a961186/jetified-savedstate-1.0.0/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -663,8 +798,8 @@
     <init>();
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c0e139366c26ad50a15508f7085a3d4/jetified-savedstate-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/7fa9fc8ef52ff3e1e226b34daba8a82c/lifecycle-runtime-2.2.0/proguard.txt
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/7f2894ff91e0e2bba6fa490c4a961186/jetified-savedstate-1.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/f13cc559173ab439a832f164b1f698a6/lifecycle-runtime-2.2.0/proguard.txt
 -keepattributes *Annotation*
 
 -keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
@@ -684,8 +819,11 @@
 
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/7fa9fc8ef52ff3e1e226b34daba8a82c/lifecycle-runtime-2.2.0/proguard.txt
-# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/2701b830673e990ddf11bce967cad43b/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/f13cc559173ab439a832f164b1f698a6/lifecycle-runtime-2.2.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/01645e5b9c0d0b806f0bd36dfefae245/jetified-firebase-encoders-json-18.0.0/proguard.txt
+
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/01645e5b9c0d0b806f0bd36dfefae245/jetified-firebase-encoders-json-18.0.0/proguard.txt
+# The proguard configuration file for the following section is /Users/fandy/.gradle/caches/transforms-2/files-2.1/b28b38882af51b80a1b4042a1d10bfbf/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -701,7 +839,7 @@
     @androidx.annotation.Keep <init>(...);
 }
 
-# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/2701b830673e990ddf11bce967cad43b/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /Users/fandy/.gradle/caches/transforms-2/files-2.1/b28b38882af51b80a1b4042a1d10bfbf/rules/lib/META-INF/proguard/androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

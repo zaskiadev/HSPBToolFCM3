@@ -2,7 +2,6 @@ package id.kotlin.hspbtool
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -10,18 +9,18 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
-import id.kotlin.hspbtool.adapter.AdaptarCardListViewLogRecordVentazaAll
-
-import id.kotlin.hspbtool.domain.LogRecordVentazaAll
+import java.util.TimeZone
+import java.text.DateFormat
+import java.util.Locale
+import java.util.Date
 import kotlinx.android.synthetic.main.activity_add_record_ventaza.*
 import kotlinx.android.synthetic.main.activity_log_record.*
 import org.json.JSONObject
 import java.lang.Exception
-import id.kotlin.hspbtool.adapter.AdaptarCardListViewLogRecordMaintenanceVentaza
 import id.kotlin.hspbtool.adapter.AdapterCardListViewDataMaintenanceAc
-import id.kotlin.hspbtool.domain.LogRecordMaintenanceVentaza
 import id.kotlin.hspbtool.domain.ShowDataACMaintenanceRoom
 import kotlinx.android.synthetic.main.activity_log_record_maintenance_ac.*
+import java.text.SimpleDateFormat
 
 
 class LogRecordActivityAC : AppCompatActivity() {
@@ -34,7 +33,7 @@ class LogRecordActivityAC : AppCompatActivity() {
         //findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = "Log Record"
 
 
-        var isCleaning:String="No"; var isTuningFilter:String="No"; var isBlower:String="No"; var isCoilEvavorator:String="No"; var isVacumDrain:String="No"; var isDuctingConnection:String="No"
+        var IsRepairBrokenPart:String="No"; var isCleaningFilter:String="No"; var isBlower:String="No"; var isCoilEvavorator:String="No"; var isVacumDrain:String="No"; var isDuctingConnection:String="No"
         val button_click= findViewById(R.id.buttonShowLogDataAC) as Button
 
 
@@ -81,21 +80,21 @@ class LogRecordActivityAC : AppCompatActivity() {
                                     }
 
 
-                                    if(jsonObject.getString("isCleaning")=="1")
+                                    if(jsonObject.getString("isRepairBrokenPart")=="1")
                                     {
-                                        isCleaning="Yes"
+                                        IsRepairBrokenPart="Yes"
                                     }
                                     else
                                     {
-                                        isCleaning="No"
+                                        IsRepairBrokenPart="No"
                                     }
-                                    if(jsonObject.getString("isTuningFilter")=="1")
+                                    if(jsonObject.getString("isCleaningFilter")=="1")
                                     {
-                                        isTuningFilter="Yes"
+                                        isCleaningFilter="Yes"
                                     }
                                     else
                                     {
-                                        isTuningFilter="No"
+                                        isCleaningFilter="No"
                                     }
                                     if(jsonObject.getString("isBlower")=="1")
                                     {
@@ -125,17 +124,29 @@ class LogRecordActivityAC : AppCompatActivity() {
                                     else{
                                         isDuctingConnection="No"
                                     }
+                                    val date:String="";
+                                    fun String.toDate(dateFormat: String = "yyyy-MM-dd HH:mm:ss", timeZone: TimeZone = TimeZone.getTimeZone("UTC")): Date {
+                                        val parser = SimpleDateFormat(dateFormat, Locale.getDefault())
+                                        parser.timeZone = timeZone
+                                        return parser.parse(this)
+                                    }
+
+                                    fun Date.formatTo(dateFormat: String, timeZone: TimeZone = TimeZone.getTimeZone("Asia/Oral")): String {
+                                        val formatter = SimpleDateFormat(dateFormat, Locale.getDefault())
+                                        formatter.timeZone = timeZone
+                                        return formatter.format(this)
+                                    }
                                     dataViewMaintenance.add(
                                             ShowDataACMaintenanceRoom(
                                                     "Room Number = " + jsonObject.getString("room_number"),
-                                                    "Date Maintenance = " + jsonObject.getString("date_maintenance"),
+                                                    "Date Maintenance = " + jsonObject.getString("date_maintenance").toDate().formatTo("dd-MM-YYYY HH:mm:ss "),
                                                     "User = " + user,
-                                                    "Is Cleaning = " + isCleaning,
-                                                    "Is Tuning Filter = "+isTuningFilter,
-                                                    "Is Blower = " +isBlower,
-                                                    "Is Coil Evavorator = "+isCoilEvavorator,
+                                                    "Is Repair Broken Part = " + IsRepairBrokenPart,
+                                                    "Is Cleaning Filter = "+isCleaningFilter,
+                                                    "Is Cleaning Blower = " +isBlower,
+                                                    "Is Cleaning Coil/Evavorator = "+isCoilEvavorator,
                                                     "Is Vacum Drain = "+isVacumDrain,
-                                                    "Is Checking Ducting Connection = "+isDuctingConnection,
+                                                    "Is Check Flexible Join = "+isDuctingConnection,
                                                     "Remark = "+jsonObject.getString("remark")
                                             )
                                     )

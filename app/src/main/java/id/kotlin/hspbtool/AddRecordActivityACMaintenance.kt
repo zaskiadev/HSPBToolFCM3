@@ -2,7 +2,6 @@ package id.kotlin.hspbtool
 
 import android.content.Context
 import android.content.SharedPreferences
-import android.net.wifi.WifiManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.androidnetworking.AndroidNetworking
@@ -11,7 +10,6 @@ import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
 import kotlinx.android.synthetic.main.activity_add_record_ventaza.*
 import org.json.JSONObject
-import android.view.View
 import android.widget.*
 import kotlinx.android.synthetic.main.activity_add_maintenance_ac.*
 import kotlinx.android.synthetic.main.activity_add_maintenance_ventaza.*
@@ -26,12 +24,12 @@ class AddRecordActivityACMaintenance : AppCompatActivity() {
         val userLoginName : String = sharedPref.getString("UserName","Belum Login").toString()
         var maintenance_type : String=""
 
-        var isCleaning:Int=0; var isTuningFilter:Int=0; var isBlower:Int=0; var isCoilEvavorator:Int=0; var isVacumDrain:Int=0
+        var isRepairBrokenPart:Int=0; var isTuningFilter:Int=0; var isBlower:Int=0; var isCoilEvavorator:Int=0; var isVacumDrain:Int=0
         var isCheckingDuctingConnection:Int=0
 
         val button_click= findViewById(R.id.buttonAddMaintenanceAC) as Button
 
-        val chkIsCleaning = findViewById(R.id.CBCleaningAC) as CheckBox
+        val chkIsRepairBrokenPart = findViewById(R.id.CBRepairBrokenPart) as CheckBox
         val chkIsTuningFilter = findViewById(R.id.CBTuningFilter) as CheckBox
         val chkIsBlower = findViewById(R.id.CBBlowerAC) as CheckBox
         val chkIsCoilEvavorator = findViewById(R.id.CBCoilEvavorator) as CheckBox
@@ -42,9 +40,9 @@ class AddRecordActivityACMaintenance : AppCompatActivity() {
         button_click.setOnClickListener {
 
 
-            if(chkIsCleaning.isChecked)
+            if(chkIsRepairBrokenPart.isChecked)
             {
-                isCleaning=1
+                isRepairBrokenPart=1
             }
             if(chkIsTuningFilter.isChecked)
             {
@@ -72,8 +70,8 @@ class AddRecordActivityACMaintenance : AppCompatActivity() {
                             .addBodyParameter("room_number", editTextTextRoomNumberMaintenanceAC.text.toString())
                             .addBodyParameter("user", userLoginName)
                             .addBodyParameter("remark",editTextNoteMaintenanceAC.text.toString())
-                            .addBodyParameter("isCleaning",isCleaning.toString())
-                            .addBodyParameter("isTuningFilter", isTuningFilter.toString())
+                            .addBodyParameter("isRepairBrokenPart",isRepairBrokenPart.toString())
+                            .addBodyParameter("isCleaningFilter", isTuningFilter.toString())
                             .addBodyParameter("isBlower", isBlower.toString())
                                 .addBodyParameter("isCoilEvavorator", isCoilEvavorator.toString())
                             .addBodyParameter("isVacumDrain", isVacumDrain.toString())

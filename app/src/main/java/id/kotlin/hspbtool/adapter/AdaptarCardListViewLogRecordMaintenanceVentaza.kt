@@ -24,7 +24,7 @@ class AdaptarCardListViewLogRecordMaintenanceVentaza (private val list:List<LogR
         holder.view.LogJudulMaintenanceVentaza.text=list?.get(position)?.judul
         holder.view.roomNumberListLogMaintenanceVentaza.text = list?.get(position)?.room_number
         holder.view.dateExecuteLogMaintenanceVentaza.text = list?.get(position)?.date_maintenance
-        holder.view.maintenanceTypeVentaza.text = list?.get(position)?.date_maintenance
+        holder.view.maintenanceTypeVentaza.text = list?.get(position)?.maintenance_type
         holder.view.remarkMaintenanceTypeVentaza.text = list?.get(position)?.remark
         holder.view.userExecuteMaintenanceVentaza.text = list?.get(position)?.user
 

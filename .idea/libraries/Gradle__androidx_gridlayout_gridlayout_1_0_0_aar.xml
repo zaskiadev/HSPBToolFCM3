@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.gridlayout:gridlayout:1.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b18d13c05537937ea94d0841c58aca38/gridlayout-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b18d13c05537937ea94d0841c58aca38/gridlayout-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b18d13c05537937ea94d0841c58aca38/gridlayout-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec27a0ef0ea4552f34290dd1f9426a8/gridlayout-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec27a0ef0ea4552f34290dd1f9426a8/gridlayout-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec27a0ef0ea4552f34290dd1f9426a8/gridlayout-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

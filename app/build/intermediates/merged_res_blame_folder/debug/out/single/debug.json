@@ -4,10 +4,6 @@
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_fragment_second2.xml.flat",
-        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/fragment_second2.xml"
-    },
-    {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/drawable_promo3.jpg.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/promo3.jpg"
     },
@@ -196,10 +192,6 @@
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/ac.png"
     },
     {
-        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_fragment_second3.xml.flat",
-        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/fragment_second3.xml"
-    },
-    {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -238,10 +230,6 @@
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_spinner_item.xml.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/spinner_item.xml"
-    },
-    {
-        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_fragment_slideshow.xml.flat",
-        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/fragment_slideshow.xml"
     },
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_list.xml.flat",
@@ -372,12 +360,12 @@
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/ventaza.jpg"
     },
     {
-        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/drawable_view_icon.png.flat",
-        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/view_icon.png"
-    },
-    {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/drawable-v24_ic_stat_ic_notification.png.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable-v24/ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/drawable_view_icon.png.flat",
+        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/view_icon.png"
     },
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/menu_menu_engineering.xml.flat",
@@ -390,10 +378,6 @@
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_hotel_information_test.xml.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/hotel_information_test.xml"
-    },
-    {
-        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_blank_fragment.xml.flat",
-        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/blank_fragment.xml"
     },
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_activity_f_b_service.xml.flat",

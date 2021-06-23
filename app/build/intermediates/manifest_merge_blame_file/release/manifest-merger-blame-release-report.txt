@@ -7,262 +7,624 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="24"
-9-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+9-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml
+10-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 11
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:8:5-67
-12-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:8:22-64
+12-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:8:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:9:5-79
-13-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:9:22-76
+13-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:9:5-79
+13-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:9:22-76
 14    <uses-permission android:name="android.permission.Netw" />
-14-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:10:5-63
-14-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:10:22-60
-15
-16    <application
-16-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:12:5-129:19
-17        android:allowBackup="true"
-17-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:13:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:24:18-86
-19        android:extractNativeLibs="false"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:14:9-43
-21        android:label="@string/app_name"
-21-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:15:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:16:9-54
-23        android:supportsRtl="true"
-23-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:17:9-35
-24        android:theme="@style/Theme.HSPBTool"
-24-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:18:9-46
-25        android:usesCleartextTraffic="true" >
-25-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:19:9-44
-26        <activity
-26-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:20:9-23:74
-27            android:name="id.kotlin.hspbtool.VentazaFilterShowLog"
-27-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:21:13-49
-28            android:label="@string/title_activity_ventaza_filter_show_log"
-28-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:22:13-75
-29            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-29-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:23:13-62
+14-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:10:5-63
+14-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:10:22-60
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+15-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+16-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+17-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+18-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
+19
+20    <application
+20-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:13:5-159:19
+21        android:allowBackup="true"
+21-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:14:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6a2ff881f30d1447711090e13a4add/core-1.3.2/AndroidManifest.xml:24:18-86
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:15:9-43
+25        android:label="@string/app_name"
+25-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:16:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:17:9-54
+27        android:supportsRtl="true"
+27-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:18:9-35
+28        android:theme="@style/Theme.HSPBTool"
+28-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:19:9-46
+29        android:usesCleartextTraffic="true" >
+29-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:20:9-44
 30        <activity
-30-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:24:9-27:65
-31            android:name="id.kotlin.hspbtool.VentazaFilterShowData"
-31-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:25:13-50
-32            android:label="@string/title_activity_ventaza_filter_show_data"
-32-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:26:13-76
+30-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:23:9-26:74
+31            android:name="id.kotlin.hspbtool.VentazaFilterShowLog"
+31-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:24:13-49
+32            android:label="@string/title_activity_ventaza_filter_show_log"
+32-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:25:13-75
 33            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-33-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:27:13-62
-34        <activity android:name="id.kotlin.hspbtool.LogRecordActivity" />
-34-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:28:9-55
-34-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:28:19-52
-35        <activity
-35-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:29:9-32:65
-36            android:name="id.kotlin.hspbtool.ChangePassword"
-36-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:30:13-43
-37            android:label="@string/title_activity_change_password"
-37-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:31:13-67
-38            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-38-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:32:13-62
-39        <activity android:name="id.kotlin.hspbtool.AddRecordActivityVentaza" />
-39-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:33:9-62
-39-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:33:19-59
-40        <activity
-40-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:34:9-37:65
-41            android:name="id.kotlin.hspbtool.HRDActivity"
-41-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:35:13-40
-42            android:label="@string/title_activity_h_r_d"
-42-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:36:13-57
-43            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-43-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:37:13-62
+33-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:26:13-62
+34        <activity
+34-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:27:9-30:65
+35            android:name="id.kotlin.hspbtool.VentazaFilterShowData"
+35-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:28:13-50
+36            android:label="@string/title_activity_ventaza_filter_show_data"
+36-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:29:13-76
+37            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+37-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:30:13-62
+38        <activity android:name="id.kotlin.hspbtool.LogRecordActivity" />
+38-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:31:9-55
+38-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:31:19-52
+39        <activity
+39-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:32:9-35:65
+40            android:name="id.kotlin.hspbtool.ChangePassword"
+40-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:33:13-43
+41            android:label="@string/title_activity_change_password"
+41-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:34:13-67
+42            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+42-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:35:13-62
+43        <activity android:name="id.kotlin.hspbtool.AddRecordActivityVentaza" />
+43-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:36:9-62
+43-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:36:19-59
 44        <activity
-44-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:38:9-41:65
-45            android:name="id.kotlin.hspbtool.HKActivity"
-45-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:39:13-39
-46            android:label="@string/title_activity_h_k"
-46-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:40:13-55
+44-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:37:9-40:65
+45            android:name="id.kotlin.hspbtool.HRDActivity"
+45-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:38:13-40
+46            android:label="@string/title_activity_h_r_d"
+46-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:39:13-57
 47            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-47-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:41:13-62
+47-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:40:13-62
 48        <activity
-48-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:42:9-45:65
-49            android:name="id.kotlin.hspbtool.AccountingActivity"
-49-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:43:13-47
-50            android:label="@string/title_activity_accounting"
-50-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:44:13-62
+48-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:41:9-44:65
+49            android:name="id.kotlin.hspbtool.HKActivity"
+49-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:42:13-39
+50            android:label="@string/title_activity_h_k"
+50-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:43:13-55
 51            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-51-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:45:13-62
+51-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:44:13-62
 52        <activity
-52-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:46:9-49:65
-53            android:name="id.kotlin.hspbtool.EngineeringActivity"
-53-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:47:13-48
-54            android:label="@string/title_activity_engineering"
-54-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:48:13-63
+52-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:45:9-48:65
+53            android:name="id.kotlin.hspbtool.AccountingActivity"
+53-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:46:13-47
+54            android:label="@string/title_activity_accounting"
+54-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:47:13-62
 55            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-55-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:49:13-62
+55-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:48:13-62
 56        <activity
-56-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:50:9-53:65
-57            android:name="id.kotlin.hspbtool.FBProductActivity"
-57-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:51:13-46
-58            android:label="@string/title_activity_f_b_product"
-58-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:52:13-63
+56-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:49:9-52:65
+57            android:name="id.kotlin.hspbtool.EngineeringActivity"
+57-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:50:13-48
+58            android:label="@string/title_activity_engineering"
+58-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:51:13-63
 59            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-59-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:53:13-62
+59-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:52:13-62
 60        <activity
-60-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:54:9-57:65
-61            android:name="id.kotlin.hspbtool.FBServiceActivity"
-61-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:55:13-46
-62            android:label="@string/title_activity_f_b_service"
-62-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:56:13-63
+60-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:53:9-56:65
+61            android:name="id.kotlin.hspbtool.FBProductActivity"
+61-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:54:13-46
+62            android:label="@string/title_activity_f_b_product"
+62-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:55:13-63
 63            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-63-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:57:13-62
+63-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:56:13-62
 64        <activity
-64-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:58:9-61:65
-65            android:name="id.kotlin.hspbtool.FrontOfficeActivity"
-65-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:59:13-48
-66            android:label="@string/title_activity_front_office"
-66-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:60:13-64
+64-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:57:9-60:65
+65            android:name="id.kotlin.hspbtool.FBServiceActivity"
+65-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:58:13-46
+66            android:label="@string/title_activity_f_b_service"
+66-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:59:13-63
 67            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-67-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:61:13-62
+67-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:60:13-62
 68        <activity
-68-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:62:9-65:65
-69            android:name="id.kotlin.hspbtool.SalesMarketingActivity"
-69-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:63:13-51
-70            android:label="@string/title_activity_sales_marketing"
-70-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:64:13-67
+68-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:61:9-64:65
+69            android:name="id.kotlin.hspbtool.FrontOfficeActivity"
+69-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:62:13-48
+70            android:label="@string/title_activity_front_office"
+70-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:63:13-64
 71            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-71-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:65:13-62
+71-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:64:13-62
 72        <activity
-72-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:66:9-69:65
-73            android:name="id.kotlin.hspbtool.WorkOrderActivity"
-73-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:67:13-46
-74            android:label="@string/title_activity_work_order"
-74-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:68:13-62
+72-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:65:9-68:65
+73            android:name="id.kotlin.hspbtool.SalesMarketingActivity"
+73-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:66:13-51
+74            android:label="@string/title_activity_sales_marketing"
+74-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:67:13-67
 75            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-75-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:69:13-62
+75-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:68:13-62
 76        <activity
-76-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:70:9-73:65
-77            android:name="id.kotlin.hspbtool.EmployeInformationActivity"
-77-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:71:13-55
-78            android:label="@string/title_activity_employe_information"
-78-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:72:13-71
+76-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:69:9-72:65
+77            android:name="id.kotlin.hspbtool.WorkOrderActivity"
+77-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:70:13-46
+78            android:label="@string/title_activity_work_order"
+78-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:71:13-62
 79            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-79-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:73:13-62
-80        <activity android:name="id.kotlin.hspbtool.hotel_information_test_activity" />
-80-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:74:9-69
-80-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:74:19-66
-81        <activity
-81-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:75:9-78:65
-82            android:name="id.kotlin.hspbtool.HotelnformationActivity"
-82-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:76:13-52
-83            android:label="@string/title_activity_hotelnformation"
-83-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:77:13-67
-84            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-84-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:78:13-62
+79-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:72:13-62
+80        <activity
+80-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:73:9-76:65
+81            android:name="id.kotlin.hspbtool.EmployeInformationActivity"
+81-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:74:13-55
+82            android:label="@string/title_activity_employe_information"
+82-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:75:13-71
+83            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+83-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:76:13-62
+84        <activity android:name="id.kotlin.hspbtool.hotel_information_test_activity" />
+84-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:77:9-69
+84-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:77:19-66
 85        <activity
-85-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:79:9-82:65
-86            android:name="id.kotlin.hspbtool.VentazaRecordData"
-86-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:80:13-46
+85-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:78:9-81:65
+86            android:name="id.kotlin.hspbtool.HotelnformationActivity"
+86-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:79:13-52
 87            android:label="@string/title_activity_hotelnformation"
-87-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:81:13-67
+87-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:80:13-67
 88            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-88-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:82:13-62
+88-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:81:13-62
 89        <activity
-89-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:83:9-86:65
-90            android:name="id.kotlin.hspbtool.MenuEngineeringRecord"
-90-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:84:13-50
+89-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:82:9-85:65
+90            android:name="id.kotlin.hspbtool.VentazaRecordData"
+90-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:83:13-46
 91            android:label="@string/title_activity_hotelnformation"
-91-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:85:13-67
+91-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:84:13-67
 92            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-92-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:86:13-62
+92-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:85:13-62
 93        <activity
-93-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:87:9-90:65
-94            android:name="id.kotlin.hspbtool.ACRecordData"
-94-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:88:13-41
+93-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:86:9-89:65
+94            android:name="id.kotlin.hspbtool.MenuEngineeringRecord"
+94-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:87:13-50
 95            android:label="@string/title_activity_hotelnformation"
-95-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:89:13-67
+95-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:88:13-67
 96            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-96-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:90:13-62
+96-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:89:13-62
 97        <activity
-97-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:91:9-94:65
-98            android:name="id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance"
-98-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:92:13-64
-99            android:label="Maintenance Ventaza"
-99-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:93:13-48
+97-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:90:9-93:65
+98            android:name="id.kotlin.hspbtool.ACRecordData"
+98-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:91:13-41
+99            android:label="@string/title_activity_hotelnformation"
+99-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:92:13-67
 100            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-100-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:94:13-62
+100-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:93:13-62
 101        <activity
-101-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:95:9-98:65
-102            android:name="id.kotlin.hspbtool.ViewRecordBatteryActivity"
-102-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:96:13-54
-103            android:label="@string/title_activity_hotelnformation"
-103-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:97:13-67
+101-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:94:9-97:65
+102            android:name="id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance"
+102-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:95:13-64
+103            android:label="Maintenance Ventaza"
+103-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:96:13-48
 104            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-104-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:98:13-62
+104-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:97:13-62
 105        <activity
-105-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:99:9-102:65
-106            android:name="id.kotlin.hspbtool.SantikaInformationActivity"
-106-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:100:13-55
-107            android:label="@string/title_activity_santika_information"
-107-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:101:13-71
+105-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:98:9-101:65
+106            android:name="id.kotlin.hspbtool.ViewRecordBatteryActivity"
+106-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:99:13-54
+107            android:label="@string/title_activity_hotelnformation"
+107-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:100:13-67
 108            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-108-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:102:13-62
+108-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:101:13-62
 109        <activity
-109-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:103:9-106:65
-110            android:name="id.kotlin.hspbtool.AddRecordActivityACMaintenance"
-110-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:104:13-59
+109-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:102:9-105:65
+110            android:name="id.kotlin.hspbtool.SantikaInformationActivity"
+110-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:103:13-55
 111            android:label="@string/title_activity_santika_information"
-111-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:105:13-71
+111-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:104:13-71
 112            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-112-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:106:13-62
+112-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:105:13-62
 113        <activity
-113-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:107:9-109:60
-114            android:name="id.kotlin.hspbtool.ui.login.LoginActivity"
-114-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:108:13-51
-115            android:label="@string/title_activity_login" />
-115-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:109:13-57
-116        <!--
-117<activity
-118            android:name=".MainActivity2"
-119            android:label="@string/title_activity_main2"
-120            android:theme="@style/Theme.HSPBTool.NoActionBar" />
-121        -->
-122        <activity
-122-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:116:9-118:48
-123            android:name="id.kotlin.hspbtool.MainActivity"
-123-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:117:13-41
-124            android:label="@string/app_name" />
-124-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:118:13-45
-125        <activity
-125-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:119:9-128:20
-126            android:name="id.kotlin.hspbtool.LoginActivity"
-126-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:120:13-42
-127            android:label="@string/app_name"
-127-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:121:13-45
-128            android:theme="@style/Theme.HSPBTool.NoActionBar" >
-128-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:122:13-62
-129            <intent-filter>
-129-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:123:13-127:29
-130                <action android:name="android.intent.action.MAIN" />
-130-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:124:17-69
-130-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:124:25-66
-131
-132                <category android:name="android.intent.category.LAUNCHER" />
-132-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:126:17-77
-132-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.1/app/src/main/AndroidManifest.xml:126:27-74
-133            </intent-filter>
-134        </activity>
-135
-136        <provider
-136-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-137            android:name="com.squareup.picasso.PicassoProvider"
-137-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-138            android:authorities="id.kotlin.hspbtool.com.squareup.picasso"
-138-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-139            android:exported="false" />
-139-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a2a7ce3a22e477394c0abe322eb7ed49/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-140    </application>
-141
-142</manifest>
+113-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:106:9-109:65
+114            android:name="id.kotlin.hspbtool.AddRecordActivityACMaintenance"
+114-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:107:13-59
+115            android:label="@string/title_activity_santika_information"
+115-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:108:13-71
+116            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+116-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:109:13-62
+117        <activity
+117-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:110:9-112:60
+118            android:name="id.kotlin.hspbtool.ui.login.LoginActivity"
+118-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:111:13-51
+119            android:label="@string/title_activity_login" />
+119-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:112:13-57
+120        <activity
+120-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:114:9-117:65
+121            android:name="id.kotlin.hspbtool.ACFilterShowData"
+121-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:115:13-45
+122            android:label="@string/title_activity_santika_information"
+122-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:116:13-71
+123            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+123-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:117:13-62
+124        <activity
+124-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:119:9-122:65
+125            android:name="id.kotlin.hspbtool.ViewRecordACActivity"
+125-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:120:13-49
+126            android:label="@string/title_activity_santika_information"
+126-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:121:13-71
+127            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+127-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:122:13-62
+128        <activity
+128-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:124:9-127:65
+129            android:name="id.kotlin.hspbtool.LogRecordActivityAC"
+129-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:125:13-48
+130            android:label="@string/title_activity_santika_information"
+130-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:126:13-71
+131            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+131-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:127:13-62
+132
+133        <!--
+134<activity
+135            android:name=".MainActivity2"
+136            android:label="@string/title_activity_main2"
+137            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+138        -->
+139        <activity
+139-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:137:9-139:48
+140            android:name="id.kotlin.hspbtool.MainActivity"
+140-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:138:13-41
+141            android:label="@string/app_name" />
+141-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:139:13-45
+142        <activity
+142-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:140:9-149:20
+143            android:name="id.kotlin.hspbtool.LoginActivity"
+143-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:141:13-42
+144            android:label="@string/app_name"
+144-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:142:13-45
+145            android:theme="@style/Theme.HSPBTool.NoActionBar" >
+145-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:143:13-62
+146            <intent-filter>
+146-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:144:13-148:29
+147                <action android:name="android.intent.action.MAIN" />
+147-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:145:17-69
+147-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:145:25-66
+148
+149                <category android:name="android.intent.category.LAUNCHER" />
+149-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:147:17-77
+149-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:147:27-74
+150            </intent-filter>
+151        </activity>
+152
+153        <service android:name="id.kotlin.hspbtool.MyFirebaseMessagingService" >
+153-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:152:9-157:19
+153-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:153:13-55
+154            <intent-filter>
+154-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:154:13-156:29
+155                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+155-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:155:17-77
+155-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:155:25-75
+156            </intent-filter>
+157        </service>
+158
+159        <provider
+159-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+160            android:name="com.squareup.picasso.PicassoProvider"
+160-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+161            android:authorities="id.kotlin.hspbtool.com.squareup.picasso"
+161-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+162            android:exported="false" />
+162-->[com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+163
+164        <receiver
+164-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+165            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+165-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+166            android:exported="true"
+166-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+167            android:permission="com.google.android.c2dm.permission.SEND" >
+167-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+168            <intent-filter>
+168-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+169                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+169-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+169-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+170            </intent-filter>
+171        </receiver>
+172        <!--
+173             FirebaseMessagingService performs security checks at runtime,
+174             but set to not exported to explicitly avoid allowing another app to call it.
+175        -->
+176        <service
+176-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+177            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+177-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+179            android:exported="false" >
+179-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+180            <intent-filter android:priority="-500" >
+180-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:154:13-156:29
+181                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+181-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:155:17-77
+181-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:155:25-75
+182            </intent-filter>
+183        </service>
+184        <service
+184-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+185            android:name="com.google.firebase.components.ComponentDiscoveryService"
+185-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:50:13-84
+186            android:directBootAware="true"
+186-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+187            android:exported="false" >
+187-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+188            <meta-data
+188-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+189                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+189-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/206317bbbeaa517684d70c4e3ae15467/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+192                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+192-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/206317bbbeaa517684d70c4e3ae15467/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/206317bbbeaa517684d70c4e3ae15467/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-installations:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8bae1614f48d94960d626ee640d4abb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+195                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+195-->[com.google.firebase:firebase-installations:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8bae1614f48d94960d626ee640d4abb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-installations:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8bae1614f48d94960d626ee640d4abb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+197        </service>
+198
+199        <provider
+199-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+200            android:name="androidx.work.impl.WorkManagerInitializer"
+200-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+201            android:authorities="id.kotlin.hspbtool.workmanager-init"
+201-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+203            android:exported="false"
+203-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+204            android:multiprocess="true" />
+204-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+205
+206        <service
+206-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+207            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+207-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+209            android:enabled="@bool/enable_system_alarm_service_default"
+209-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+210            android:exported="false" />
+210-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+211        <service
+211-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+212            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+212-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+213            android:directBootAware="false"
+213-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+214            android:enabled="@bool/enable_system_job_service_default"
+214-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+215            android:exported="true"
+215-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+216            android:permission="android.permission.BIND_JOB_SERVICE" />
+216-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+217        <service
+217-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+218            android:name="androidx.work.impl.foreground.SystemForegroundService"
+218-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+219            android:directBootAware="false"
+219-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+220            android:enabled="@bool/enable_system_foreground_service_default"
+220-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+221            android:exported="false" />
+221-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+222
+223        <receiver
+223-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+224            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+224-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+226            android:enabled="true"
+226-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+227            android:exported="false" />
+227-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+228        <receiver
+228-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+229            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+229-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+231            android:enabled="false"
+231-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+232            android:exported="false" >
+232-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+233            <intent-filter>
+233-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+234                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+234-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+234-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+235                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+235-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+235-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+236            </intent-filter>
+237        </receiver>
+238        <receiver
+238-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+239            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+239-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+240            android:directBootAware="false"
+240-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+241            android:enabled="false"
+241-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+242            android:exported="false" >
+242-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+243            <intent-filter>
+243-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+244                <action android:name="android.intent.action.BATTERY_OKAY" />
+244-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+244-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+245                <action android:name="android.intent.action.BATTERY_LOW" />
+245-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+245-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+249-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+251            android:enabled="false"
+251-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+252            android:exported="false" >
+252-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+253            <intent-filter>
+253-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+254                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+254-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+254-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+255                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+255-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+255-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+256            </intent-filter>
+257        </receiver>
+258        <receiver
+258-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+259            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+259-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+260            android:directBootAware="false"
+260-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+261            android:enabled="false"
+261-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+262            android:exported="false" >
+262-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+263            <intent-filter>
+263-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+264                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+264-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+264-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+265            </intent-filter>
+266        </receiver>
+267        <receiver
+267-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+268            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+268-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+269            android:directBootAware="false"
+269-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+270            android:enabled="false"
+270-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+271            android:exported="false" >
+271-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+272            <intent-filter>
+272-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+273                <action android:name="android.intent.action.BOOT_COMPLETED" />
+273-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+273-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+274                <action android:name="android.intent.action.TIME_SET" />
+274-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+274-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+275                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+275-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+275-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+276            </intent-filter>
+277        </receiver>
+278        <receiver
+278-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+279            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+279-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+280            android:directBootAware="false"
+280-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+281            android:enabled="@bool/enable_system_alarm_service_default"
+281-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+282            android:exported="false" >
+282-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+283            <intent-filter>
+283-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+284                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+284-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+284-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+285            </intent-filter>
+286        </receiver>
+287        <receiver
+287-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+288            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+288-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+289            android:directBootAware="false"
+289-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+290            android:enabled="true"
+290-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+291            android:exported="true"
+291-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+292            android:permission="android.permission.DUMP" >
+292-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+293            <intent-filter>
+293-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+294                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+294-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+294-->[androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+295            </intent-filter>
+296        </receiver>
+297
+298        <provider
+298-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+299            android:name="com.google.firebase.provider.FirebaseInitProvider"
+299-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+300            android:authorities="id.kotlin.hspbtool.firebaseinitprovider"
+300-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+301            android:directBootAware="true"
+301-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+302            android:exported="false"
+302-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+303            android:initOrder="100" />
+303-->[com.google.firebase:firebase-common:20.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6b7cf18260ccc2c8fcb2a45aabbf3d0b/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+304
+305        <meta-data
+305-->[com.google.android.gms:play-services-basement:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+306            android:name="com.google.android.gms.version"
+306-->[com.google.android.gms:play-services-basement:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+307            android:value="@integer/google_play_services_version" />
+307-->[com.google.android.gms:play-services-basement:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+308
+309        <service
+309-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+310            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+310-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+311            android:exported="false" >
+311-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+312            <meta-data
+312-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+313                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+313-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+314                android:value="cct" />
+314-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/70dae02ae0336bf055d9b684b3d33d85/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+315        </service>
+316        <service
+316-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+317            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+317-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+318            android:exported="false"
+318-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+319            android:permission="android.permission.BIND_JOB_SERVICE" >
+319-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+320        </service>
+321
+322        <receiver
+322-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+323            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+323-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+324            android:exported="false" />
+324-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/6935462654bf7f9ede3394e92b0a0d89/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+325
+326        <service
+326-->[androidx.room:room-runtime:2.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f87a3c358f54c3143aac7a60a2b15e1a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+327            android:name="androidx.room.MultiInstanceInvalidationService"
+327-->[androidx.room:room-runtime:2.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f87a3c358f54c3143aac7a60a2b15e1a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+328            android:directBootAware="true"
+328-->[androidx.room:room-runtime:2.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f87a3c358f54c3143aac7a60a2b15e1a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+329            android:exported="false" />
+329-->[androidx.room:room-runtime:2.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f87a3c358f54c3143aac7a60a2b15e1a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+330    </application>
+331
+332</manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddRecordActivityVentazaMaintenance"
+    tools:context=".AddRecordActivityACMaintenance"
     android:orientation="vertical">
 
 
@@ -61,28 +61,28 @@
         android:layout_below="@id/textView5AC"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/CBCleaningAC"
-        android:text="Tuning Filter"
+        android:layout_toRightOf="@id/CBRepairBrokenPart"
+        android:text="Cleaning Filter"
         android:layout_marginRight="20dp"/>
 
     <CheckBox
-        android:id="@+id/CBCleaningAC"
+        android:id="@+id/CBRepairBrokenPart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView5AC"
         android:layout_marginTop="10dp"
-        android:text="Cleaning"
+        android:text="Repair Broken Part"
         android:layout_marginLeft="20dp"/>
 
     <CheckBox
-        android:id="@+id/CBBlowerAC"
+        android:id="@+id/CBVacumDrain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView5AC"
+        android:layout_below="@id/CBBlowerAC"
         android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/CBTuningFilter"
-        android:text="Blower"
-        android:layout_marginLeft="20dp"/>
+        android:layout_toRightOf="@id/CBDuctingConnection"
+        android:text="Vacum Drain"
+        android:layout_marginLeft="46dp"/>
 
 
 
@@ -93,35 +93,34 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/CBTuningFilter"
         android:layout_marginTop="10dp"
-        android:text="Coil/Evavorator"
+        android:text="Cleaning Coil/Evavorator"
         android:layout_marginLeft="20dp"/>
 
     <CheckBox
-        android:id="@+id/CBVacumDrain"
+        android:id="@+id/CBBlowerAC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/CBCleaningAC"
-        android:layout_marginLeft="8dp"
+        android:layout_below="@id/CBRepairBrokenPart"
+        android:layout_marginLeft="12dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/CBCoilEvavorator"
-        android:text="Vacum Drain"
+        android:text="Cleaning Blower"
         android:layout_marginRight="20dp"/>
 
     <CheckBox
         android:id="@+id/CBDuctingConnection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/CBCleaningAC"
+        android:layout_below="@id/CBCoilEvavorator"
         android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/CBTuningFilter"
-        android:text="Check Ducting Connection"
+        android:text="Check Flexible Join"
         android:layout_marginLeft="20dp"/>
 
     <TextView
         android:id="@+id/textView4AC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/CBCoilEvavorator"
+        android:layout_below="@+id/CBDuctingConnection"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="8dp"
