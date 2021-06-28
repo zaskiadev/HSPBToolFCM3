@@ -1,8 +1,126 @@
 id/kotlin/hspbtool/customfonts/MyEditText.java
  customfonts.MyEditText
-id/kotlin/hspbtool/customfonts/MyTextView.java
- customfonts.MyTextView
+id/kotlin/hspbtool/databinding/ItemCarouselBannerBinding.java
+ id.kotlin.hspbtool.databinding.ItemCarouselBannerBinding
+id/kotlin/hspbtool/databinding/ActivityViewRecordBatteryBinding.java
+ id.kotlin.hspbtool.databinding.ActivityViewRecordBatteryBinding
+id/kotlin/hspbtool/databinding/ActivityLoginBinding.java
+ id.kotlin.hspbtool.databinding.ActivityLoginBinding
+id/kotlin/hspbtool/databinding/FragmentBannerBinding.java
+ id.kotlin.hspbtool.databinding.FragmentBannerBinding
+id/kotlin/hspbtool/databinding/FragmentFirst2Binding.java
+ id.kotlin.hspbtool.databinding.FragmentFirst2Binding
+id/kotlin/hspbtool/databinding/ContentScrollingBinding.java
+ id.kotlin.hspbtool.databinding.ContentScrollingBinding
+id/kotlin/hspbtool/databinding/FragmentFirst3Binding.java
+ id.kotlin.hspbtool.databinding.FragmentFirst3Binding
+id/kotlin/hspbtool/databinding/ActivityLoadingBinding.java
+ id.kotlin.hspbtool.databinding.ActivityLoadingBinding
+id/kotlin/hspbtool/databinding/ListCardTimeCardBinding.java
+ id.kotlin.hspbtool.databinding.ListCardTimeCardBinding
+id/kotlin/hspbtool/databinding/ActivityAddRecordVentazaBinding.java
+ id.kotlin.hspbtool.databinding.ActivityAddRecordVentazaBinding
+id/kotlin/hspbtool/databinding/ActivityHRDBinding.java
+ id.kotlin.hspbtool.databinding.ActivityHRDBinding
+id/kotlin/hspbtool/databinding/SpinnerItemBinding.java
+ id.kotlin.hspbtool.databinding.SpinnerItemBinding
+id/kotlin/hspbtool/databinding/ActivityEmployeInformationBinding.java
+ id.kotlin.hspbtool.databinding.ActivityEmployeInformationBinding
+id/kotlin/hspbtool/databinding/ItemHeroSecondBinding.java
+ id.kotlin.hspbtool.databinding.ItemHeroSecondBinding
+id/kotlin/hspbtool/databinding/ContentChangePasswordBinding.java
+ id.kotlin.hspbtool.databinding.ContentChangePasswordBinding
+id/kotlin/hspbtool/databinding/ActivityAccountingBinding.java
+ id.kotlin.hspbtool.databinding.ActivityAccountingBinding
+id/kotlin/hspbtool/databinding/ListBinding.java
+ id.kotlin.hspbtool.databinding.ListBinding
+id/kotlin/hspbtool/databinding/ActivityAddMaintenanceAcBinding.java
+ id.kotlin.hspbtool.databinding.ActivityAddMaintenanceAcBinding
+id/kotlin/hspbtool/databinding/ListCardAcBinding.java
+ id.kotlin.hspbtool.databinding.ListCardAcBinding
+id/kotlin/hspbtool/databinding/ActivityLogRecordBinding.java
+ id.kotlin.hspbtool.databinding.ActivityLogRecordBinding
+id/kotlin/hspbtool/databinding/ActivityAcFilterShowDataBinding.java
+ id.kotlin.hspbtool.databinding.ActivityAcFilterShowDataBinding
+id/kotlin/hspbtool/databinding/ActivityHKBinding.java
+ id.kotlin.hspbtool.databinding.ActivityHKBinding
+id/kotlin/hspbtool/databinding/HotelInformationTestBinding.java
+ id.kotlin.hspbtool.databinding.HotelInformationTestBinding
+id/kotlin/hspbtool/databinding/ActivityHotelnformationBinding.java
+ id.kotlin.hspbtool.databinding.ActivityHotelnformationBinding
+id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowDataBinding.java
+ id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowDataBinding
+id/kotlin/hspbtool/databinding/FragmentGalleryBinding.java
+ id.kotlin.hspbtool.databinding.FragmentGalleryBinding
+id/kotlin/hspbtool/databinding/ActivityMainBinding.java
+ id.kotlin.hspbtool.databinding.ActivityMainBinding
+id/kotlin/hspbtool/databinding/ActivityEngineeringBinding.java
+ id.kotlin.hspbtool.databinding.ActivityEngineeringBinding
+id/kotlin/hspbtool/databinding/ContentVentazaFilterShowLogBinding.java
+ id.kotlin.hspbtool.databinding.ContentVentazaFilterShowLogBinding
+id/kotlin/hspbtool/databinding/ActivityLogRecordMaintenanceAcBinding.java
+ id.kotlin.hspbtool.databinding.ActivityLogRecordMaintenanceAcBinding
+id/kotlin/hspbtool/databinding/NavHeaderMainBinding.java
+ id.kotlin.hspbtool.databinding.NavHeaderMainBinding
+id/kotlin/hspbtool/databinding/FragmentSecondBinding.java
+ id.kotlin.hspbtool.databinding.FragmentSecondBinding
+id/kotlin/hspbtool/databinding/ActivityFBProductBinding.java
+ id.kotlin.hspbtool.databinding.ActivityFBProductBinding
+id/kotlin/hspbtool/databinding/ActivitySalesMarketingBinding.java
+ id.kotlin.hspbtool.databinding.ActivitySalesMarketingBinding
+id/kotlin/hspbtool/databinding/ItemHeroBinding.java
+ id.kotlin.hspbtool.databinding.ItemHeroBinding
+id/kotlin/hspbtool/databinding/ItemProductCategoryBinding.java
+ id.kotlin.hspbtool.databinding.ItemProductCategoryBinding
+id/kotlin/hspbtool/databinding/ActivityMenuEngineeringRecordBinding.java
+ id.kotlin.hspbtool.databinding.ActivityMenuEngineeringRecordBinding
+id/kotlin/hspbtool/databinding/FragmentLoginBinding.java
+ id.kotlin.hspbtool.databinding.FragmentLoginBinding
+id/kotlin/hspbtool/databinding/ActivityFrontOfficeBinding.java
+ id.kotlin.hspbtool.databinding.ActivityFrontOfficeBinding
+id/kotlin/hspbtool/databinding/ActivitySantikaInformationBinding.java
+ id.kotlin.hspbtool.databinding.ActivitySantikaInformationBinding
+id/kotlin/hspbtool/databinding/ActivityVentazaRecordBinding.java
+ id.kotlin.hspbtool.databinding.ActivityVentazaRecordBinding
+id/kotlin/hspbtool/databinding/ActivityWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.ActivityWorkOrderBinding
+id/kotlin/hspbtool/databinding/FragmentHomeBinding.java
+ id.kotlin.hspbtool.databinding.FragmentHomeBinding
+id/kotlin/hspbtool/databinding/ListcardlogalldataBinding.java
+ id.kotlin.hspbtool.databinding.ListcardlogalldataBinding
+id/kotlin/hspbtool/databinding/ActivityFBServiceBinding.java
+ id.kotlin.hspbtool.databinding.ActivityFBServiceBinding
+id/kotlin/hspbtool/databinding/ItemProductBinding.java
+ id.kotlin.hspbtool.databinding.ItemProductBinding
 id/kotlin/hspbtool/customfonts/MyRegulerText.java
  customfonts.MyRegulerText
+id/kotlin/hspbtool/databinding/FragmentFirstBinding.java
+ id.kotlin.hspbtool.databinding.FragmentFirstBinding
+id/kotlin/hspbtool/databinding/FragmentSecond2Binding.java
+ id.kotlin.hspbtool.databinding.FragmentSecond2Binding
+id/kotlin/hspbtool/databinding/ActivityChangePasswordBinding.java
+ id.kotlin.hspbtool.databinding.ActivityChangePasswordBinding
+id/kotlin/hspbtool/databinding/ContentVentazaFilterShowDataBinding.java
+ id.kotlin.hspbtool.databinding.ContentVentazaFilterShowDataBinding
+id/kotlin/hspbtool/databinding/ListCardBatteryBinding.java
+ id.kotlin.hspbtool.databinding.ListCardBatteryBinding
+id/kotlin/hspbtool/databinding/AppBarMainBinding.java
+ id.kotlin.hspbtool.databinding.AppBarMainBinding
+id/kotlin/hspbtool/databinding/ActivityAcRecordBinding.java
+ id.kotlin.hspbtool.databinding.ActivityAcRecordBinding
+id/kotlin/hspbtool/databinding/FragmentFirst4Binding.java
+ id.kotlin.hspbtool.databinding.FragmentFirst4Binding
+id/kotlin/hspbtool/databinding/ActivityAddMaintenanceVentazaBinding.java
+ id.kotlin.hspbtool.databinding.ActivityAddMaintenanceVentazaBinding
+id/kotlin/hspbtool/databinding/ActivityViewRecordAcBinding.java
+ id.kotlin.hspbtool.databinding.ActivityViewRecordAcBinding
+id/kotlin/hspbtool/customfonts/MyTextView.java
+ customfonts.MyTextView
+id/kotlin/hspbtool/databinding/ListCardLogMaintenanceVentazaBinding.java
+ id.kotlin.hspbtool.databinding.ListCardLogMaintenanceVentazaBinding
+id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowLogBinding.java
+ id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowLogBinding
 id/kotlin/hspbtool/BuildConfig.java
  id.kotlin.hspbtool.BuildConfig
+id/kotlin/hspbtool/databinding/ContentMainBinding.java
+ id.kotlin.hspbtool.databinding.ContentMainBinding

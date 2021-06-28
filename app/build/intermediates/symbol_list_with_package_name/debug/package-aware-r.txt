@@ -1742,6 +1742,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable btnformate
+drawable custom_progressbar
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1754,6 +1755,7 @@ drawable f_b_s_icon
 drawable front_office_icon
 drawable hk_icon
 drawable hr_icon
+drawable human_hand_holding_2
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1766,6 +1768,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_stat_ic_notification
+drawable image_hand
 drawable lockkers
 drawable log_icon
 drawable login
@@ -1833,11 +1836,13 @@ id CTRL
 id FUNCTION
 id First2Fragment
 id First3Fragment
+id First4Fragment
 id FirstFragment
 id LogJudul
 id LogJudulMaintenanceVentaza
 id META
 id NO_DEBUG
+id PBLogin
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1848,7 +1853,6 @@ id Second3Fragment
 id SecondFragment
 id TOP_END
 id TOP_START
-id UserLogin
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1886,8 +1890,10 @@ id accessibility_custom_action_9
 id action0
 id action_First2Fragment_to_Second2Fragment
 id action_First3Fragment_to_Second3Fragment
+id action_First4Fragment_to_Second2Fragment
 id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
+id action_Second2Fragment_to_First4Fragment
 id action_Second3Fragment_to_First3Fragment
 id action_SecondFragment_to_FirstFragment
 id action_bar
@@ -1947,8 +1953,6 @@ id buttonShowLogDataAC
 id buttonShowLogDataVentaza
 id buttonShowLogDataVentazaFilter
 id buttonSignIn
-id button_first
-id button_second
 id cache_measures
 id cancel_action
 id cancel_button
@@ -2071,7 +2075,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imgBanner
 id imgHeroes
 id indicator
@@ -2168,6 +2171,7 @@ id multiply
 id nav_controller_view_tag
 id nav_engineering_data_record
 id nav_graph
+id nav_graph2
 id nav_home
 id nav_host_fragment
 id nav_host_fragment_container
@@ -2184,6 +2188,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id nsvw
 id off
 id on
 id outline
@@ -2205,6 +2210,8 @@ id position
 id postLayout
 id productImage
 id productName
+id proggress_bar
+id progressBarLoading
 id progress_circular
 id progress_horizontal
 id radio
@@ -2220,6 +2227,7 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id rlPB
 id roomNumberList
 id roomNumberListAC
 id roomNumberListLog
@@ -2317,13 +2325,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView3
 id textView3AC
 id textView4
 id textView4AC
 id textView5
 id textView5AC
+id textViewLoadingStatus
 id textViewPassword
 id textViewUser
 id text_gallery
@@ -2336,8 +2344,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_first
-id textview_second
 id thinWorm
 id time
 id title
@@ -2455,6 +2461,7 @@ layout activity_front_office
 layout activity_h_k
 layout activity_h_r_d
 layout activity_hotelnformation
+layout activity_loading
 layout activity_log_record
 layout activity_log_record_maintenance_ac
 layout activity_login
@@ -2491,13 +2498,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_banner
-layout fragment_first
-layout fragment_first2
-layout fragment_first3
 layout fragment_gallery
 layout fragment_home
 layout fragment_login
-layout fragment_second
 layout hotel_information_test
 layout item_carousel_banner
 layout item_hero
@@ -2606,6 +2609,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
 navigation nav_graph
+navigation nav_graph2
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2769,6 +2773,7 @@ string title_activity_h_r_d
 string title_activity_hotelnformation
 string title_activity_login
 string title_activity_main2
+string title_activity_progress_dialog
 string title_activity_sales_marketing
 string title_activity_santika_information
 string title_activity_ventaza_filter_show_data

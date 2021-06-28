@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+  >
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="260dp">
+        android:layout_height="260dp"
+        android:id="@+id/frameBG">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="260dp"
@@ -17,16 +18,17 @@
         android:id="@+id/textViewUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Usera"
+        android:hint="User"
         android:inputType="text"
         android:textColor="#000"
         android:background="#f0f0f4"
         android:padding="12dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:drawableLeft="@drawable/mail"
+        android:layout_below="@+id/frameBG"
         android:drawablePadding="16dp"
         />
     <EditText
@@ -44,23 +46,50 @@
         android:padding="12dp"
         android:drawablePadding="16dp"
         android:drawableLeft="@drawable/lockkers"
+        android:layout_below="@+id/textViewUser"
         />
 
     <Button
         android:id="@+id/buttonSignIn"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/btnformate"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:padding="14dp"
         android:gravity="center"
         android:text="Sign In"
         android:textSize="16dp"
         android:textColor="#fff"
+        android:layout_below="@+id/textViewPassword"
         />
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnformate"
+        android:layout_marginBottom="5dp"
 
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/buttonSignIn"
+        android:layout_below="@+id/textViewPassword"
+        />
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="180dp"
+    android:id="@+id/PBLogin"
+    android:layout_below="@+id/buttonSignIn"/>
 
-</LinearLayout>
+</RelativeLayout>

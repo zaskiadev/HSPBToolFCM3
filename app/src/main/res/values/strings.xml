@@ -87,8 +87,6 @@
     <string name="title_activity_ventaza_filter_show_log">VentazaFilterShowLog</string>
 
 
-
-
     <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
         weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
         FCM registration token to logcat.</string>
@@ -107,6 +105,7 @@
     <!-- [END fcm_default_icon_string] -->
     <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
     <string name="fcm_message">FCM Message</string>
+    <string name="title_activity_progress_dialog">ProgressDialog</string>
 
 
 </resources>

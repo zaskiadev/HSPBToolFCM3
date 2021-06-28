@@ -173,12 +173,14 @@
 -keep class id.kotlin.hspbtool.HKActivity { <init>(); }
 -keep class id.kotlin.hspbtool.HRDActivity { <init>(); }
 -keep class id.kotlin.hspbtool.HotelnformationActivity { <init>(); }
+-keep class id.kotlin.hspbtool.LoadingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.LogRecordActivity { <init>(); }
 -keep class id.kotlin.hspbtool.LogRecordActivityAC { <init>(); }
 -keep class id.kotlin.hspbtool.LoginActivity { <init>(); }
 -keep class id.kotlin.hspbtool.MainActivity { <init>(); }
 -keep class id.kotlin.hspbtool.MenuEngineeringRecord { <init>(); }
 -keep class id.kotlin.hspbtool.MyFirebaseMessagingService { <init>(); }
+-keep class id.kotlin.hspbtool.ProgressDialog { <init>(); }
 -keep class id.kotlin.hspbtool.SalesMarketingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.SantikaInformationActivity { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaFilterShowData { <init>(); }
@@ -298,6 +300,8 @@
 -keep class id.kotlin.hspbtool.First2Fragment { <init>(...); }
 
 -keep class id.kotlin.hspbtool.First3Fragment { <init>(...); }
+
+-keep class id.kotlin.hspbtool.First4Fragment { <init>(...); }
 
 -keep class id.kotlin.hspbtool.FirstFragment { <init>(...); }
 

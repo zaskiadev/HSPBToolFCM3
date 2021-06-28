@@ -2,6 +2,7 @@ package id.kotlin.hspbtool
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,6 +28,8 @@ class LogRecordActivityAC : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_log_record_maintenance_ac)
+
+        val progressBar:ProgressBar=findViewById(R.id.proggress_bar)
 
 //        setSupportActionBar(findViewById(R.id.toolbar))
 
@@ -194,6 +197,7 @@ class LogRecordActivityAC : AppCompatActivity() {
 
 
         }
+        progressBar.setVisibility(View.INVISIBLE)
 
     }
 }

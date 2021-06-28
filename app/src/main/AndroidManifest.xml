@@ -3,12 +3,11 @@
     package="id.kotlin.hspbtool"
     android:installLocation="auto"
     android:versionCode="2"
-    android:versionName="0.0002" >
+    android:versionName="0.0002">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.Netw" />
-
 
     <application
         android:allowBackup="true"
@@ -18,12 +17,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HSPBTool"
         android:usesCleartextTraffic="true">
-
-
+        <activity
+            android:name=".ProgressDialog"
+            android:label="@string/title_activity_progress_dialog"
+            android:theme="@style/Theme.HSPBTool.NoActionBar"></activity>
         <activity
             android:name=".VentazaFilterShowLog"
             android:label="@string/title_activity_ventaza_filter_show_log"
-            android:theme="@style/Theme.HSPBTool.NoActionBar"></activity>
+            android:theme="@style/Theme.HSPBTool.NoActionBar" />
         <activity
             android:name=".VentazaFilterShowData"
             android:label="@string/title_activity_ventaza_filter_show_data"
@@ -112,22 +113,19 @@
             android:label="@string/title_activity_login" />
 
         <activity
+            android:name=".LoadingActivity" />
+        <activity
             android:name=".ACFilterShowData"
             android:label="@string/title_activity_santika_information"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />
-
         <activity
             android:name=".ViewRecordACActivity"
             android:label="@string/title_activity_santika_information"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />
-
         <activity
             android:name=".LogRecordActivityAC"
             android:label="@string/title_activity_santika_information"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />
-
-
-
         <!--
 <activity
             android:name=".MainActivity2"
@@ -148,14 +146,11 @@
             </intent-filter>
         </activity>
 
-
-        <service
-            android:name=".MyFirebaseMessagingService">
+        <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
     </application>
 
 </manifest>

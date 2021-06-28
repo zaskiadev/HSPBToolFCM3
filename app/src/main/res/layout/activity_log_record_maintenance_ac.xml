@@ -1,4 +1,4 @@
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,7 +23,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp">
+            android:layout_marginBottom="2dp"
+            android:id="@+id/rlPB">
 
             <EditText
                 android:id="@+id/editTextTextRoomNumberACShowLog"
@@ -73,7 +74,8 @@
         android:layout_marginTop="250dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context=".LogRecordActivity"
-        tools:showIn="@layout/activity_view_record_battery">
+        tools:showIn="@layout/activity_view_record_battery"
+        android:id="@+id/nsvw">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/mRecyclerViewLogAC"
@@ -83,6 +85,16 @@
 
     </androidx.core.widget.NestedScrollView>
 
+<ProgressBar
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/proggress_bar"
+    android:max="100"
+    android:indeterminate="true"
+    android:indeterminateTint="@color/white"
+    android:backgroundTint="@color/black"
+    android:layout_below="@id/nsvw">
 
+</ProgressBar>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

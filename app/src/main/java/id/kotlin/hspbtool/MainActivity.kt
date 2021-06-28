@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
             val channel = NotificationChannel(channelId, "Channel human readable title", NotificationManager.IMPORTANCE_HIGH)
             notificationManager.createNotificationChannel(channel)
         }
-        notificationManager.notify(0, notificationBuilder.build())
+        notificationManager.notify(1, notificationBuilder.build())
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

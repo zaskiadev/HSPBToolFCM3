@@ -19,6 +19,9 @@ class ApiEndPoint {
         val create_maintenance_ac_room= SERVER+"create_maintenance_ac_room.php"
         //val log_time_card=SERVER+"read_record_tap_time_card.php"
         val change_password=SERVER+"user_change_password.php"
+        val notification_tap_time_card=SERVER+"notification_tap_time_card.php"
+        val notification_change_battery=SERVER+"notification_change_battery.php"
+        val notification_ac_maintenance=SERVER+"notification_ac_maintenance.php"
     }
 
 }
