@@ -115,6 +115,8 @@
         <activity
             android:name=".LoadingActivity" />
         <activity
+            android:name=".RegisterAccount" />
+        <activity
             android:name=".ACFilterShowData"
             android:label="@string/title_activity_santika_information"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />

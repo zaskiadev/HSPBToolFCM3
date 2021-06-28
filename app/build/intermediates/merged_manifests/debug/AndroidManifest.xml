@@ -124,6 +124,7 @@
             android:name="id.kotlin.hspbtool.ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity android:name="id.kotlin.hspbtool.LoadingActivity" />
+        <activity android:name="id.kotlin.hspbtool.RegisterAccount" />
         <activity
             android:name="id.kotlin.hspbtool.ACFilterShowData"
             android:label="@string/title_activity_santika_information"

@@ -16,6 +16,8 @@ id/kotlin/hspbtool/databinding/ListCardTimeCardBinding.java
  id.kotlin.hspbtool.databinding.ListCardTimeCardBinding
 id/kotlin/hspbtool/databinding/ActivityAddRecordVentazaBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddRecordVentazaBinding
+id/kotlin/hspbtool/databinding/RegisterBinding.java
+ id.kotlin.hspbtool.databinding.RegisterBinding
 id/kotlin/hspbtool/databinding/ActivityHRDBinding.java
  id.kotlin.hspbtool.databinding.ActivityHRDBinding
 id/kotlin/hspbtool/databinding/SpinnerItemBinding.java

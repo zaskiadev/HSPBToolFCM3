@@ -76,8 +76,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
                 })
     }
     button_click_signup.setOnClickListener{
-
-
+        val intent = Intent (this@LoginActivity,RegisterAccount::class.java)
+        startActivity(intent)
     }
 
 

@@ -113,7 +113,6 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
-attr alignmentMode
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -276,8 +275,6 @@ attr colorSecondary
 attr colorSecondaryVariant
 attr colorSurface
 attr colorSwitchThumbNormal
-attr columnCount
-attr columnOrderPreserved
 attr commitIcon
 attr constraintSet
 attr constraintSetEnd
@@ -541,9 +538,6 @@ attr layout_anchorGravity
 attr layout_behavior
 attr layout_collapseMode
 attr layout_collapseParallaxMultiplier
-attr layout_column
-attr layout_columnSpan
-attr layout_columnWeight
 attr layout_constrainedHeight
 attr layout_constrainedWidth
 attr layout_constraintBaseline_creator
@@ -595,13 +589,9 @@ attr layout_goneMarginLeft
 attr layout_goneMarginRight
 attr layout_goneMarginStart
 attr layout_goneMarginTop
-attr layout_gravity
 attr layout_insetEdge
 attr layout_keyline
 attr layout_optimizationLevel
-attr layout_row
-attr layout_rowSpan
-attr layout_rowWeight
 attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
@@ -705,7 +695,6 @@ attr onNegativeCross
 attr onPositiveCross
 attr onShow
 attr onTouchUp
-attr orientation
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
@@ -782,8 +771,6 @@ attr reverseLayout
 attr rippleColor
 attr round
 attr roundPercent
-attr rowCount
-attr rowOrderPreserved
 attr saturation
 attr scrimAnimationDuration
 attr scrimBackground
@@ -980,7 +967,6 @@ attr triggerSlack
 attr ttcIndex
 attr uri
 attr useCompatPadding
-attr useDefaultMargins
 attr useMaterialThemeColors
 attr values
 attr verticalOffset
@@ -1332,7 +1318,6 @@ dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen def_drawer_elevation
 dimen default_dimension
-dimen default_gap
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1918,8 +1903,6 @@ id actions
 id activity_chooser_view_content
 id add
 id alertTitle
-id alignBounds
-id alignMargins
 id aligned
 id all
 id always
@@ -1945,6 +1928,7 @@ id btnSemuaPromo
 id buttonAddMaintenance
 id buttonAddMaintenanceAC
 id buttonAddRecord
+id buttonAddRegisterUser
 id buttonChangePassword
 id buttonPanel
 id buttonShowFilterAC
@@ -1953,6 +1937,7 @@ id buttonShowLogDataAC
 id buttonShowLogDataVentaza
 id buttonShowLogDataVentazaFilter
 id buttonSignIn
+id buttonSignUp
 id cache_measures
 id cancel_action
 id cancel_button
@@ -2026,6 +2011,9 @@ id easeOut
 id editTextNewPassword
 id editTextNoteMaintenanceAC
 id editTextNoteMaintenanceVentaza
+id editTextRegisterEmail
+id editTextRegisterPassword
+id editTextRegisterUserName
 id editTextTextRoomNumber
 id editTextTextRoomNumberACShowLog
 id editTextTextRoomNumberMaintenanceAC
@@ -2053,6 +2041,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frameBG
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2333,6 +2322,7 @@ id textView5
 id textView5AC
 id textViewLoadingStatus
 id textViewPassword
+id textViewRegisterAccount
 id textViewUser
 id text_gallery
 id text_input_end_icon
@@ -2571,6 +2561,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout register
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3563,8 +3554,6 @@ styleable FragmentContainerView android_name android_tag
 styleable FragmentNavigator android_name
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
-styleable GridLayout alignmentMode columnCount columnOrderPreserved orientation rowCount rowOrderPreserved useDefaultMargins
-styleable GridLayout_Layout android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom layout_column layout_columnSpan layout_columnWeight layout_gravity layout_row layout_rowSpan layout_rowWeight
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate
