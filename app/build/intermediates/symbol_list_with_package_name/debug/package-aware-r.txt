@@ -193,6 +193,7 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr captureMode
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -419,6 +420,7 @@ attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
+attr flash
 attr floatingActionButtonStyle
 attr flow_firstHorizontalBias
 attr flow_firstHorizontalStyle
@@ -486,6 +488,7 @@ attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
 attr imageButtonStyle
+attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -594,6 +597,7 @@ attr layout_keyline
 attr layout_optimizationLevel
 attr layout_scrollFlags
 attr layout_scrollInterpolator
+attr lensFacing
 attr liftOnScroll
 attr liftOnScrollTargetViewId
 attr limitBoundsTo
@@ -719,6 +723,7 @@ attr percentWidth
 attr percentX
 attr percentY
 attr perpendicularPath_percent
+attr pinchToZoomEnabled
 attr piv_animationDuration
 attr piv_animationType
 attr piv_autoVisibility
@@ -772,6 +777,7 @@ attr rippleColor
 attr round
 attr roundPercent
 attr saturation
+attr scaleType
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -1737,6 +1743,7 @@ drawable design_snackbar_background
 drawable engineering_icon
 drawable f_b_product_icon
 drawable f_b_s_icon
+drawable flash
 drawable front_office_icon
 drawable hk_icon
 drawable hr_icon
@@ -1799,6 +1806,8 @@ drawable promo5
 drawable promo6
 drawable sales_icon
 drawable side_nav_bar
+drawable switchs
+drawable takepicture
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1916,6 +1925,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id averageCardUsed
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1930,6 +1940,7 @@ id buttonAddMaintenanceAC
 id buttonAddRecord
 id buttonAddRegisterUser
 id buttonChangePassword
+id buttonChooseFromGallery
 id buttonPanel
 id buttonShowFilterAC
 id buttonShowFilterDataVentaza
@@ -1938,6 +1949,9 @@ id buttonShowLogDataVentaza
 id buttonShowLogDataVentazaFilter
 id buttonSignIn
 id buttonSignUp
+id buttonTakeAgainPictureWorkOrder
+id buttonTakePictureWorkOrder
+id buttonUseThisPicture
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1963,6 +1977,7 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id color
+id compatible
 id confirm_button
 id container
 id content
@@ -2032,9 +2047,15 @@ id expanded_menu
 id fab
 id fade
 id fill
+id fillCenter
+id fillEnd
+id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
+id fitCenter
+id fitEnd
+id fitStart
 id fitToContents
 id fixed
 id flip
@@ -2042,6 +2063,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frameBG
+id front
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2064,6 +2086,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageTakedWorkOrder
+id imbCheers
+id imbFlash
 id imgBanner
 id imgHeroes
 id indicator
@@ -2125,6 +2150,7 @@ id media_actions
 id message
 id middle
 id mini
+id mixed
 id mobile_navigation
 id month_grid
 id month_navigation_bar
@@ -2194,6 +2220,8 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id performance
+id pictureNameWorkOrder
 id pin
 id position
 id postLayout
@@ -2364,12 +2392,15 @@ id userExecuteAC
 id userExecuteMaintenanceVentaza
 id username
 id vertical
+id video
+id viewFinderCameraX
 id viewPagerBanner
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
 id withText
 id withinBounds
+id work_order
 id worm
 id wrap
 id wrap_content
@@ -2442,6 +2473,7 @@ layout activity_accounting
 layout activity_add_maintenance_ac
 layout activity_add_maintenance_ventaza
 layout activity_add_record_ventaza
+layout activity_camerax
 layout activity_change_password
 layout activity_employe_information
 layout activity_engineering
@@ -2459,6 +2491,7 @@ layout activity_main
 layout activity_menu_engineering_record
 layout activity_sales_marketing
 layout activity_santika_information
+layout activity_take_picture_work_order
 layout activity_ventaza_filter_show_data
 layout activity_ventaza_filter_show_log
 layout activity_ventaza_record
@@ -2633,6 +2666,7 @@ string about_hspb
 string action_settings
 string action_sign_in
 string action_sign_in_short
+string androidx_camera_default_config_provider
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2747,6 +2781,8 @@ string project_id
 string prompt_email
 string prompt_password
 string quickstart_message
+string rationale_ask
+string rationale_ask_again
 string santika_information
 string search_menu_title
 string second_fragment_label
@@ -2770,6 +2806,7 @@ string title_activity_santika_information
 string title_activity_ventaza_filter_show_data
 string title_activity_ventaza_filter_show_log
 string title_activity_work_order
+string title_settings_dialog
 string welcome
 string work_order_information
 style AlertDialog_AppCompat
@@ -3001,6 +3038,8 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style EasyPermissions
+style EasyPermissions_Transparent
 style EmptyTheme
 style MaterialAlertDialog_MaterialComponents
 style MaterialAlertDialog_MaterialComponents_Body_Text
@@ -3521,6 +3560,7 @@ styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMod
 styleable BottomNavigationView backgroundTint elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout android_elevation backgroundTint behavior_draggable behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed gestureInsetBottomIgnored shapeAppearance shapeAppearanceOverlay
 styleable ButtonBarLayout allowStacking
+styleable CameraView captureMode flash lensFacing pinchToZoomEnabled scaleType
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
@@ -3607,6 +3647,7 @@ styleable OnSwipe dragDirection dragScale dragThreshold limitBoundsTo maxAcceler
 styleable PageIndicatorView piv_animationDuration piv_animationType piv_autoVisibility piv_count piv_dynamicCount piv_interactiveAnimation piv_orientation piv_padding piv_radius piv_rtl_mode piv_scaleFactor piv_select piv_selectedColor piv_strokeWidth piv_unselectedColor piv_viewPager
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values

@@ -90,6 +90,8 @@ id/kotlin/hspbtool/databinding/ItemProductBinding.java
  id.kotlin.hspbtool.databinding.ItemProductBinding
 id/kotlin/hspbtool/customfonts/MyRegulerText.java
  customfonts.MyRegulerText
+id/kotlin/hspbtool/databinding/ActivityTakePictureWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.ActivityTakePictureWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityChangePasswordBinding.java
  id.kotlin.hspbtool.databinding.ActivityChangePasswordBinding
 id/kotlin/hspbtool/databinding/ContentVentazaFilterShowDataBinding.java
@@ -104,6 +106,8 @@ id/kotlin/hspbtool/databinding/ActivityAddMaintenanceVentazaBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddMaintenanceVentazaBinding
 id/kotlin/hspbtool/databinding/ActivityViewRecordAcBinding.java
  id.kotlin.hspbtool.databinding.ActivityViewRecordAcBinding
+id/kotlin/hspbtool/databinding/ActivityCameraxBinding.java
+ id.kotlin.hspbtool.databinding.ActivityCameraxBinding
 id/kotlin/hspbtool/customfonts/MyTextView.java
  customfonts.MyTextView
 id/kotlin/hspbtool/databinding/ListCardLogMaintenanceVentazaBinding.java

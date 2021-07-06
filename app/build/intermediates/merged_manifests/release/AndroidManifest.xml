@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.kotlin.hspbtool"
     android:installLocation="auto"
-    android:versionCode="4"
-    android:versionName="0.0004" >
+    android:versionCode="5"
+    android:versionName="0.0005" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -122,6 +122,7 @@
             android:name="id.kotlin.hspbtool.ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity android:name="id.kotlin.hspbtool.LoadingActivity" />
+        <activity android:name="id.kotlin.hspbtool.RegisterAccount" />
         <activity
             android:name="id.kotlin.hspbtool.ACFilterShowData"
             android:label="@string/title_activity_santika_information"

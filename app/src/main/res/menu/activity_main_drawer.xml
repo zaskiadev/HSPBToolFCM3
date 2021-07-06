@@ -17,6 +17,11 @@
             android:title="Engineering Data Record">
 
         </item>
+        <item
+            android:id="@+id/work_order"
+            android:title="Work Order">
+
+        </item>
 <!--            android:icon="@drawable/ic_menu_camera"-->
 
 <!--        <item-->

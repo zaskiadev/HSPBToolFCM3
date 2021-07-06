@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f3433f598fe8ad9cbbe82df9a62c073/jetified-viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/79332c9a26237983d2936ba626f2ab21/jetified-groupie-kotlin-android-extensions-2.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3d0ac9c2da2425bb01502dda0beddb0a/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
@@ -15,19 +15,25 @@ MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/fandy/.gradle/caches/t
 MERGED from [androidx.core:core-ktx:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/fccb71e0029b7b2d4233b8097a808369/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/44524bd54e61a21ceca56b28bc6feb2a/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f5fd5291a58d101ad2bf49c9ebe9a582/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/cbcc605c65e3f3ba3bcf5484a05e3388/jetified-camera-camera2-1.1.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3c31d0b0a8c31af13ff9bd1a817d926f/jetified-camera-view-1.0.0-alpha24/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0e0f092fa083cd00bd4e43f1733207cf/jetified-camera-lifecycle-1.1.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a872479735134309f9b6f3559ad443e7/jetified-camera-core-1.1.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b146b02bce409190c458d225e0f38b46/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:20:1-29:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/AndroidManifest.xml:18:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d3b4afd32f9da9d421e2a60cbafcccc6/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93d62dbc308a9343827d966354879098/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1f1e4ab8d201503c8156985e97078249/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a52f4fc1300416e5bce991277242fff5/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36ef2a5e4a4102668b5ac7821887145b/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b146b02bce409190c458d225e0f38b46/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:20:1-29:12
-MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/AndroidManifest.xml:18:1-27:12
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:2:1-19:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/273fee1b072dfe16d191efd8a504e852/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7878dafbcd99a813cf82c6db0d566910/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7153872252783597eecc935f87d4f0fd/jetified-groupie-2.1.0/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b9503afedd40c1a65c2c6ca57a411310/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0f06318e86e9fe55d5dc496ed2d22752/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [com.romandanylyk:pageindicatorview:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2e6782a4b5978535595f9fb85acee5f4/jetified-pageindicatorview-1.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c4cfb8c23ffffc1501d612c106b2d6ee/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/75dddf9131c3c11f007d17442edbadd2/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -39,6 +45,8 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/fandy/.g
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0d4224a9b597b2934803289440fbe3da/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f7d1bbc8b76f2bd24c463f0edbd9c31/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/34bea679a37fef8aad5b5e5466b68754/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a0bda8dfe202608f40acc4478fdb5ff/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3249d26a5193e7238fcd1052e0a93a5a/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/148912214ee689cf61405180a674930c/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/206317bbbeaa517684d70c4e3ae15467/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
@@ -49,18 +57,16 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/f
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ca533f76e76c6baf541ef4823e60b055/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/59a826f108a5a7ec513c747f76db09e1/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/bdc180185e21fb8032dc1fee4b08c8f8/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a0bda8dfe202608f40acc4478fdb5ff/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d4da65550a174e860527a15b6aedec63/fragment-1.2.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31f8475fb064113b2fbb37c4eb508044/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93293eecb605f128fddfc4f811240087/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b0df9b9f2fd2251db1e1e9d06664184/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/97713a5f065d8e056c43e19c7a3d7fdc/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/cdeb7d9d838d312a7e0ba65c605cb172/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0640cecf9ec9dc6c767cf7092228b62e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c6c52518db95407e89533bc225d02b8/navigation-runtime-2.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/386c32368d933cda58f114aad474d75e/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ca8ab993556074566b550df6cbe89448/navigation-common-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/386c32368d933cda58f114aad474d75e/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0640cecf9ec9dc6c767cf7092228b62e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93eb52088d437db1398020136e24597e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/21aa2d5eb79a2bf9d61d154580b979f2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6a2ff881f30d1447711090e13a4add/core-1.3.2/AndroidManifest.xml:17:1-26:12
@@ -87,10 +93,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/22a962907e7f662fd9358cf0fae45077/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36aab959c5665ea265dfb1d9263a57b3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/01645e5b9c0d0b806f0bd36dfefae245/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e542a613bce75ba99567aa0d45af041c/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-158:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8a356b45bb783c248908f89d219a21c/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-161:12
 	package
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
@@ -107,6 +113,10 @@ INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/A
 		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 	android:installLocation
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera.any
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:7:5-64
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:7:19-61
 uses-permission#android.permission.INTERNET
 ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3249d26a5193e7238fcd1052e0a93a5a/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
@@ -137,16 +147,32 @@ uses-permission#android.permission.Netw
 ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:10:5-63
 	android:name
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:10:22-60
+uses-permission#android.permission.CAMERA
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:11:5-64
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:13:22-78
 application
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:12:5-156:19
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:16:5-159:19
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:30:5-34:19
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:30:5-34:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a52f4fc1300416e5bce991277242fff5/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a52f4fc1300416e5bce991277242fff5/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36ef2a5e4a4102668b5ac7821887145b/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36ef2a5e4a4102668b5ac7821887145b/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
 MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7153872252783597eecc935f87d4f0fd/jetified-groupie-2.1.0/AndroidManifest.xml:11:5-12:19
 MERGED from [com.xwray:groupie:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7153872252783597eecc935f87d4f0fd/jetified-groupie-2.1.0/AndroidManifest.xml:11:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
@@ -180,279 +206,271 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/fand
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/fandy/.gradle/caches/transforms-2/files-2.1/5b6a2ff881f30d1447711090e13a4add/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:19:9-41
 	android:roundIcon
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:18:9-46
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:22:9-46
 	android:usesCleartextTraffic
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:19:9-44
-activity#id.kotlin.hspbtool.ProgressDialog
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:20:9-23:74
-	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:22:13-67
-	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:23:13-62
-	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:23:9-44
 activity#id.kotlin.hspbtool.VentazaFilterShowLog
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:24:9-27:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:26:9-29:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:26:13-75
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:28:13-75
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:27:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:29:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:25:13-49
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:27:13-49
 activity#id.kotlin.hspbtool.VentazaFilterShowData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:28:9-31:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:30:9-33:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:30:13-76
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:32:13-76
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:31:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:33:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:29:13-50
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:31:13-50
 activity#id.kotlin.hspbtool.LogRecordActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:32:9-55
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:34:9-55
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:32:19-52
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:34:19-52
 activity#id.kotlin.hspbtool.ChangePassword
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:33:9-36:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:35:9-38:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:35:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:37:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:36:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:38:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:34:13-43
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:36:13-43
 activity#id.kotlin.hspbtool.AddRecordActivityVentaza
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:37:9-62
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:39:9-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:37:19-59
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:39:19-59
 activity#id.kotlin.hspbtool.HRDActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:38:9-41:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:40:9-43:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:40:13-57
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:42:13-57
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:41:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:43:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:39:13-40
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:41:13-40
 activity#id.kotlin.hspbtool.HKActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:42:9-45:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:44:9-47:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:44:13-55
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:46:13-55
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:45:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:47:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:43:13-39
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:45:13-39
 activity#id.kotlin.hspbtool.AccountingActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:46:9-49:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:48:9-51:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:48:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:50:13-62
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:49:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:51:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:47:13-47
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:49:13-47
 activity#id.kotlin.hspbtool.EngineeringActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:50:9-53:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:52:9-55:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:52:13-63
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:54:13-63
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:53:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:55:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:51:13-48
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:53:13-48
 activity#id.kotlin.hspbtool.FBProductActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:54:9-57:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:56:9-59:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:56:13-63
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:58:13-63
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:57:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:59:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:55:13-46
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:57:13-46
 activity#id.kotlin.hspbtool.FBServiceActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:58:9-61:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:60:9-63:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:60:13-63
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:62:13-63
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:61:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:63:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:59:13-46
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:61:13-46
 activity#id.kotlin.hspbtool.FrontOfficeActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:62:9-65:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:64:9-67:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:64:13-64
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:66:13-64
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:65:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:67:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:63:13-48
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:65:13-48
 activity#id.kotlin.hspbtool.SalesMarketingActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:66:9-69:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:68:9-71:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:68:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:70:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:69:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:71:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:67:13-51
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:69:13-51
 activity#id.kotlin.hspbtool.WorkOrderActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:70:9-73:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:72:9-75:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:72:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:74:13-62
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:73:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:75:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:71:13-46
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:73:13-46
 activity#id.kotlin.hspbtool.EmployeInformationActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:74:9-77:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:76:9-79:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:76:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:78:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:77:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:79:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:75:13-55
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:77:13-55
 activity#id.kotlin.hspbtool.hotel_information_test_activity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:78:9-69
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:80:9-69
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:78:19-66
-activity#id.kotlin.hspbtool.HotelnformationActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:79:9-82:65
-	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:81:13-67
-	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:82:13-62
-	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:80:13-52
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:80:19-66
 activity#id.kotlin.hspbtool.VentazaRecordData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:83:9-86:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:82:9-85:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:85:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:84:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:86:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:85:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:84:13-46
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:83:13-46
 activity#id.kotlin.hspbtool.MenuEngineeringRecord
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:87:9-90:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:86:9-89:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:89:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:88:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:90:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:89:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:88:13-50
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:87:13-50
 activity#id.kotlin.hspbtool.ACRecordData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:91:9-94:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:90:9-93:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:93:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:92:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:94:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:93:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:92:13-41
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:91:13-41
 activity#id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:95:9-98:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:94:9-97:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:97:13-48
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:96:13-48
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:98:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:97:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:96:13-64
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:95:13-64
 activity#id.kotlin.hspbtool.ViewRecordBatteryActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:99:9-102:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:98:9-101:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:101:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:100:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:102:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:101:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:100:13-54
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:99:13-54
 activity#id.kotlin.hspbtool.SantikaInformationActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:103:9-106:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:102:9-105:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:105:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:104:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:106:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:105:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:104:13-55
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:103:13-55
 activity#id.kotlin.hspbtool.AddRecordActivityACMaintenance
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:107:9-110:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:106:9-109:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:109:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:108:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:110:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:109:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:108:13-59
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:107:13-59
 activity#id.kotlin.hspbtool.ui.login.LoginActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:111:9-113:60
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:110:9-112:60
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:113:13-57
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:112:13-57
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:112:13-51
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:111:13-51
 activity#id.kotlin.hspbtool.LoadingActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:115:9-116:47
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:114:9-115:47
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:116:13-44
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:115:13-44
+activity#id.kotlin.hspbtool.CameraXActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:116:9-117:47
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:117:13-44
+activity#id.kotlin.hspbtool.TakePictureWorkOrderActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:118:9-119:60
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:119:13-57
 activity#id.kotlin.hspbtool.RegisterAccount
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:117:9-118:47
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:120:9-121:47
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:118:13-44
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:121:13-44
 activity#id.kotlin.hspbtool.ACFilterShowData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:119:9-122:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:122:9-125:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:121:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:124:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:122:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:125:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:120:13-45
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:123:13-45
 activity#id.kotlin.hspbtool.ViewRecordACActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:123:9-126:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:126:9-129:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:125:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:128:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:126:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:129:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:124:13-49
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:127:13-49
 activity#id.kotlin.hspbtool.LogRecordActivityAC
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:127:9-130:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:130:9-133:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:129:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:132:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:130:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:133:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:128:13-48
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:131:13-48
 activity#id.kotlin.hspbtool.MainActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:137:9-139:48
-	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:139:13-45
-	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:138:13-41
-activity#id.kotlin.hspbtool.LoginActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:140:9-149:20
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:140:9-142:48
 	android:label
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:142:13-45
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:141:13-41
+activity#id.kotlin.hspbtool.LoginActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:143:9-152:20
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:145:13-45
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:143:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:146:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:141:13-42
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:144:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:144:13-148:29
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:147:13-151:29
 action#android.intent.action.MAIN
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:145:17-69
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:148:17-69
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:145:25-66
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:148:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:147:17-77
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:150:17-77
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:147:27-74
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:150:27-74
 service#id.kotlin.hspbtool.MyFirebaseMessagingService
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:151:9-155:19
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:154:9-158:19
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:151:18-60
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:154:18-60
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:152:13-154:29
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:155:13-157:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:153:17-78
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:156:17-78
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:153:25-75
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:156:25-75
 uses-sdk
 INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
@@ -479,6 +497,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/fandy/.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/44524bd54e61a21ceca56b28bc6feb2a/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f5fd5291a58d101ad2bf49c9ebe9a582/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/f5fd5291a58d101ad2bf49c9ebe9a582/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/cbcc605c65e3f3ba3bcf5484a05e3388/jetified-camera-camera2-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/cbcc605c65e3f3ba3bcf5484a05e3388/jetified-camera-camera2-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3c31d0b0a8c31af13ff9bd1a817d926f/jetified-camera-view-1.0.0-alpha24/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3c31d0b0a8c31af13ff9bd1a817d926f/jetified-camera-view-1.0.0-alpha24/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0e0f092fa083cd00bd4e43f1733207cf/jetified-camera-lifecycle-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0e0f092fa083cd00bd4e43f1733207cf/jetified-camera-lifecycle-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a872479735134309f9b6f3559ad443e7/jetified-camera-core-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha04] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a872479735134309f9b6f3559ad443e7/jetified-camera-core-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b146b02bce409190c458d225e0f38b46/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b146b02bce409190c458d225e0f38b46/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/AndroidManifest.xml:23:5-25:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d3b4afd32f9da9d421e2a60cbafcccc6/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d3b4afd32f9da9d421e2a60cbafcccc6/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93d62dbc308a9343827d966354879098/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -489,10 +523,8 @@ MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/ca
 MERGED from [com.google.android.material:material:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a52f4fc1300416e5bce991277242fff5/material-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36ef2a5e4a4102668b5ac7821887145b/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36ef2a5e4a4102668b5ac7821887145b/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b146b02bce409190c458d225e0f38b46/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:25:5-27:41
-MERGED from [com.amitshekhar.android:jackson-android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b146b02bce409190c458d225e0f38b46/jetified-jackson-android-networking-1.0.1/AndroidManifest.xml:25:5-27:41
-MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/AndroidManifest.xml:23:5-25:41
-MERGED from [com.amitshekhar.android:android-networking:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7c0e8fe72ce9c3fcd2cbeca803caf32e/jetified-android-networking-1.0.1/AndroidManifest.xml:23:5-25:41
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/273fee1b072dfe16d191efd8a504e852/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/273fee1b072dfe16d191efd8a504e852/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/7878dafbcd99a813cf82c6db0d566910/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
@@ -503,8 +535,6 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/fandy/.gradle/caches/t
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/b9503afedd40c1a65c2c6ca57a411310/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0f06318e86e9fe55d5dc496ed2d22752/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0f06318e86e9fe55d5dc496ed2d22752/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [com.romandanylyk:pageindicatorview:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2e6782a4b5978535595f9fb85acee5f4/jetified-pageindicatorview-1.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.romandanylyk:pageindicatorview:1.0.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2e6782a4b5978535595f9fb85acee5f4/jetified-pageindicatorview-1.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c4cfb8c23ffffc1501d612c106b2d6ee/cardview-1.0.0/AndroidManifest.xml:20:5-44
@@ -527,6 +557,10 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/fandy
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f7d1bbc8b76f2bd24c463f0edbd9c31/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/34bea679a37fef8aad5b5e5466b68754/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/34bea679a37fef8aad5b5e5466b68754/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a0bda8dfe202608f40acc4478fdb5ff/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a0bda8dfe202608f40acc4478fdb5ff/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3249d26a5193e7238fcd1052e0a93a5a/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3249d26a5193e7238fcd1052e0a93a5a/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/148912214ee689cf61405180a674930c/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
@@ -547,12 +581,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/f
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/59a826f108a5a7ec513c747f76db09e1/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a64b08e33a97626e9644936e8ac9fd7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/bdc180185e21fb8032dc1fee4b08c8f8/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/fandy/.gradle/caches/transforms-2/files-2.1/bdc180185e21fb8032dc1fee4b08c8f8/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a0bda8dfe202608f40acc4478fdb5ff/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0a0bda8dfe202608f40acc4478fdb5ff/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e36543f43cfd973c7171003cf2fa2a99/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d4da65550a174e860527a15b6aedec63/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] /Users/fandy/.gradle/caches/transforms-2/files-2.1/d4da65550a174e860527a15b6aedec63/fragment-1.2.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31f8475fb064113b2fbb37c4eb508044/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/31f8475fb064113b2fbb37c4eb508044/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93293eecb605f128fddfc4f811240087/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -563,14 +593,14 @@ MERGED from [androidx.media:media:1.0.0] /Users/fandy/.gradle/caches/transforms-
 MERGED from [androidx.media:media:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/97713a5f065d8e056c43e19c7a3d7fdc/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/cdeb7d9d838d312a7e0ba65c605cb172/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/cdeb7d9d838d312a7e0ba65c605cb172/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0640cecf9ec9dc6c767cf7092228b62e/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0640cecf9ec9dc6c767cf7092228b62e/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c6c52518db95407e89533bc225d02b8/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2c6c52518db95407e89533bc225d02b8/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/386c32368d933cda58f114aad474d75e/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/386c32368d933cda58f114aad474d75e/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ca8ab993556074566b550df6cbe89448/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/ca8ab993556074566b550df6cbe89448/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/386c32368d933cda58f114aad474d75e/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/386c32368d933cda58f114aad474d75e/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0640cecf9ec9dc6c767cf7092228b62e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/0640cecf9ec9dc6c767cf7092228b62e/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93eb52088d437db1398020136e24597e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/93eb52088d437db1398020136e24597e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/21aa2d5eb79a2bf9d61d154580b979f2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
@@ -623,8 +653,8 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/cach
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36aab959c5665ea265dfb1d9263a57b3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/01645e5b9c0d0b806f0bd36dfefae245/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/01645e5b9c0d0b806f0bd36dfefae245/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e542a613bce75ba99567aa0d45af041c/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/e542a613bce75ba99567aa0d45af041c/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8a356b45bb783c248908f89d219a21c/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8a356b45bb783c248908f89d219a21c/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -635,6 +665,20 @@ INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/A
 		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
+queries
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:24:5-28:15
+intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:25:9-27:18
+action#androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:26:13-86
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:26:21-83
+uses-library#androidx.camera.extensions.impl
+ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:31:9-33:40
+	android:required
+		ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:32:13-59
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
@@ -643,6 +687,16 @@ ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/tr
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/05c706ca21e56be0c9dd0ba9a0679384/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
 MERGED from [androidx.work:work-runtime:2.5.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/1737f728489a05ae89aa8126692de99a/work-runtime-2.5.0/AndroidManifest.xml:25:5-68

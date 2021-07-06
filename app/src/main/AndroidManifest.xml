@@ -4,10 +4,14 @@
     android:installLocation="auto"
     android:versionCode="2"
     android:versionName="0.0002">
-
+    <uses-feature android:name="android.hardware.camera.any" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.Netw" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -16,11 +20,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HSPBTool"
-        android:usesCleartextTraffic="true">
-        <activity
-            android:name=".ProgressDialog"
-            android:label="@string/title_activity_progress_dialog"
-            android:theme="@style/Theme.HSPBTool.NoActionBar"></activity>
+        android:usesCleartextTraffic="true"
+     android:requestLegacyExternalStorage="true">
+
         <activity
             android:name=".VentazaFilterShowLog"
             android:label="@string/title_activity_ventaza_filter_show_log"
@@ -76,10 +78,7 @@
             android:label="@string/title_activity_employe_information"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />
         <activity android:name=".hotel_information_test_activity" />
-        <activity
-            android:name=".HotelnformationActivity"
-            android:label="@string/title_activity_hotelnformation"
-            android:theme="@style/Theme.HSPBTool.NoActionBar" />
+
         <activity
             android:name=".VentazaRecordData"
             android:label="@string/title_activity_hotelnformation"
@@ -114,6 +113,10 @@
 
         <activity
             android:name=".LoadingActivity" />
+        <activity
+            android:name=".CameraXActivity" />
+        <activity
+            android:name=".TakePictureWorkOrderActivity" />
         <activity
             android:name=".RegisterAccount" />
         <activity

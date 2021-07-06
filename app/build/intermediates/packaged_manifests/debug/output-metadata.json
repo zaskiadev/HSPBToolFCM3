@@ -10,8 +10,8 @@
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 4,
-      "versionName": "0.0004",
+      "versionCode": 6,
+      "versionName": "0.0006",
       "outputFile": "AndroidManifest.xml"
     }
   ]

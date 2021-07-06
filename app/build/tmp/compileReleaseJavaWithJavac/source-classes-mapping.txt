@@ -8,18 +8,16 @@ id/kotlin/hspbtool/databinding/ActivityLoginBinding.java
  id.kotlin.hspbtool.databinding.ActivityLoginBinding
 id/kotlin/hspbtool/databinding/FragmentBannerBinding.java
  id.kotlin.hspbtool.databinding.FragmentBannerBinding
-id/kotlin/hspbtool/databinding/FragmentFirst2Binding.java
- id.kotlin.hspbtool.databinding.FragmentFirst2Binding
 id/kotlin/hspbtool/databinding/ContentScrollingBinding.java
  id.kotlin.hspbtool.databinding.ContentScrollingBinding
-id/kotlin/hspbtool/databinding/FragmentFirst3Binding.java
- id.kotlin.hspbtool.databinding.FragmentFirst3Binding
 id/kotlin/hspbtool/databinding/ActivityLoadingBinding.java
  id.kotlin.hspbtool.databinding.ActivityLoadingBinding
 id/kotlin/hspbtool/databinding/ListCardTimeCardBinding.java
  id.kotlin.hspbtool.databinding.ListCardTimeCardBinding
 id/kotlin/hspbtool/databinding/ActivityAddRecordVentazaBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddRecordVentazaBinding
+id/kotlin/hspbtool/databinding/RegisterBinding.java
+ id.kotlin.hspbtool.databinding.RegisterBinding
 id/kotlin/hspbtool/databinding/ActivityHRDBinding.java
  id.kotlin.hspbtool.databinding.ActivityHRDBinding
 id/kotlin/hspbtool/databinding/SpinnerItemBinding.java
@@ -62,8 +60,6 @@ id/kotlin/hspbtool/databinding/ActivityLogRecordMaintenanceAcBinding.java
  id.kotlin.hspbtool.databinding.ActivityLogRecordMaintenanceAcBinding
 id/kotlin/hspbtool/databinding/NavHeaderMainBinding.java
  id.kotlin.hspbtool.databinding.NavHeaderMainBinding
-id/kotlin/hspbtool/databinding/FragmentSecondBinding.java
- id.kotlin.hspbtool.databinding.FragmentSecondBinding
 id/kotlin/hspbtool/databinding/ActivityFBProductBinding.java
  id.kotlin.hspbtool.databinding.ActivityFBProductBinding
 id/kotlin/hspbtool/databinding/ActivitySalesMarketingBinding.java
@@ -94,10 +90,6 @@ id/kotlin/hspbtool/databinding/ItemProductBinding.java
  id.kotlin.hspbtool.databinding.ItemProductBinding
 id/kotlin/hspbtool/customfonts/MyRegulerText.java
  customfonts.MyRegulerText
-id/kotlin/hspbtool/databinding/FragmentFirstBinding.java
- id.kotlin.hspbtool.databinding.FragmentFirstBinding
-id/kotlin/hspbtool/databinding/FragmentSecond2Binding.java
- id.kotlin.hspbtool.databinding.FragmentSecond2Binding
 id/kotlin/hspbtool/databinding/ActivityChangePasswordBinding.java
  id.kotlin.hspbtool.databinding.ActivityChangePasswordBinding
 id/kotlin/hspbtool/databinding/ContentVentazaFilterShowDataBinding.java
@@ -108,8 +100,6 @@ id/kotlin/hspbtool/databinding/AppBarMainBinding.java
  id.kotlin.hspbtool.databinding.AppBarMainBinding
 id/kotlin/hspbtool/databinding/ActivityAcRecordBinding.java
  id.kotlin.hspbtool.databinding.ActivityAcRecordBinding
-id/kotlin/hspbtool/databinding/FragmentFirst4Binding.java
- id.kotlin.hspbtool.databinding.FragmentFirst4Binding
 id/kotlin/hspbtool/databinding/ActivityAddMaintenanceVentazaBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddMaintenanceVentazaBinding
 id/kotlin/hspbtool/databinding/ActivityViewRecordAcBinding.java

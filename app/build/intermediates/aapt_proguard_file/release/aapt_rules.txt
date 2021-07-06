@@ -43,6 +43,7 @@
 -keep class id.kotlin.hspbtool.MenuEngineeringRecord { <init>(); }
 -keep class id.kotlin.hspbtool.MyFirebaseMessagingService { <init>(); }
 -keep class id.kotlin.hspbtool.ProgressDialog { <init>(); }
+-keep class id.kotlin.hspbtool.RegisterAccount { <init>(); }
 -keep class id.kotlin.hspbtool.SalesMarketingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.SantikaInformationActivity { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaFilterShowData { <init>(); }

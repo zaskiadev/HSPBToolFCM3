@@ -14,8 +14,8 @@ android {
         applicationId "id.kotlin.hspbtool"
         minSdkVersion 24
         targetSdkVersion 29
-        versionCode 4
-        versionName "0.0004"
+        versionCode 6
+        versionName "0.0006"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -55,6 +55,7 @@ dependencies {
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.firebase:firebase-messaging:22.0.0'
+    implementation files('libs/ftp4j-1.7.2.jar')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -64,7 +65,19 @@ dependencies {
     implementation "androidx.recyclerview:recyclerview:1.1.0"
     // For control over item selection of both touch and mouse driven selection
    // implementation "androidx.recyclerview:recyclerview-selection:1.1.0
+    implementation 'pub.devrel:easypermissions:3.0.0'
 
+    // CameraX core library using the camera2 implementation
+    def camerax_version = "1.1.0-alpha04"
+// The following line is optional, as the core library is included indirectly by camera-camera2
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+// If you want to additionally use the CameraX Lifecycle library
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+// If you want to additionally use the CameraX View class
+    implementation "androidx.camera:camera-view:1.0.0-alpha24"
+// If you want to additionally use the CameraX Extensions library
+    implementation "androidx.camera:camera-extensions:1.0.0-alpha24"
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.romandanylyk:pageindicatorview:1.0.1'
     implementation 'com.xwray:groupie:2.1.0'
@@ -72,16 +85,14 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
-
     implementation "androidx.cardview:cardview:1.0.0"
     implementation "androidx.constraintlayout:constraintlayout:2.0.4"
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.amitshekhar.android:jackson-android-networking:1.0.1'
-
     implementation "androidx.work:work-runtime:2.5.0"
-
+    implementation "com.squareup.okhttp3:okhttp:4.7.2"
     
 
 

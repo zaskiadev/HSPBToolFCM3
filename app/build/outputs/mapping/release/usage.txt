@@ -8195,38 +8195,6 @@ androidx.fragment.ktx.R$string
 androidx.fragment.ktx.R$style
 androidx.fragment.ktx.R$styleable
 androidx.fragment.ktx.R
-androidx.gridlayout.R$attr
-androidx.gridlayout.R$color
-androidx.gridlayout.R$dimen
-androidx.gridlayout.R$drawable
-androidx.gridlayout.R$id
-androidx.gridlayout.R$integer
-androidx.gridlayout.R$layout
-androidx.gridlayout.R$string
-androidx.gridlayout.R$style
-androidx.gridlayout.R$styleable
-androidx.gridlayout.R
-androidx.gridlayout.widget.GridLayout$1
-androidx.gridlayout.widget.GridLayout$2
-androidx.gridlayout.widget.GridLayout$3
-androidx.gridlayout.widget.GridLayout$4
-androidx.gridlayout.widget.GridLayout$5
-androidx.gridlayout.widget.GridLayout$6
-androidx.gridlayout.widget.GridLayout$7$1
-androidx.gridlayout.widget.GridLayout$7
-androidx.gridlayout.widget.GridLayout$8
-androidx.gridlayout.widget.GridLayout$Alignment
-androidx.gridlayout.widget.GridLayout$Arc
-androidx.gridlayout.widget.GridLayout$Assoc
-androidx.gridlayout.widget.GridLayout$Axis$1
-androidx.gridlayout.widget.GridLayout$Axis
-androidx.gridlayout.widget.GridLayout$Bounds
-androidx.gridlayout.widget.GridLayout$Interval
-androidx.gridlayout.widget.GridLayout$LayoutParams
-androidx.gridlayout.widget.GridLayout$MutableInt
-androidx.gridlayout.widget.GridLayout$PackedMap
-androidx.gridlayout.widget.GridLayout$Spec
-androidx.gridlayout.widget.GridLayout
 androidx.inspection.work.runtime.ProguardDetection
 androidx.interpolator.R
 androidx.legacy.app.ActionBarDrawerToggle$Delegate
@@ -19683,6 +19651,224 @@ com.squareup.picasso.Utils:
     static final java.lang.String VERB_TRANSFORMED
     private void <init>()
     static void checkNotMain()
+com.sun.activation.registries.LineTokenizer
+com.sun.activation.registries.LogSupport
+com.sun.activation.registries.MailcapFile
+com.sun.activation.registries.MailcapParseException
+com.sun.activation.registries.MailcapTokenizer
+com.sun.activation.registries.MimeTypeEntry
+com.sun.activation.registries.MimeTypeFile
+com.sun.mail.auth.MD4
+com.sun.mail.auth.Ntlm
+com.sun.mail.handlers.handler_base
+com.sun.mail.handlers.message_rfc822
+com.sun.mail.handlers.multipart_mixed
+com.sun.mail.handlers.text_html
+com.sun.mail.handlers.text_plain$NoCloseOutputStream
+com.sun.mail.handlers.text_plain
+com.sun.mail.handlers.text_xml
+com.sun.mail.iap.AString
+com.sun.mail.iap.Argument
+com.sun.mail.iap.Atom
+com.sun.mail.iap.BadCommandException
+com.sun.mail.iap.ByteArray
+com.sun.mail.iap.CommandFailedException
+com.sun.mail.iap.ConnectionException
+com.sun.mail.iap.Literal
+com.sun.mail.iap.LiteralException
+com.sun.mail.iap.NString
+com.sun.mail.iap.ParsingException
+com.sun.mail.iap.Protocol
+com.sun.mail.iap.ProtocolException
+com.sun.mail.iap.Response
+com.sun.mail.iap.ResponseHandler
+com.sun.mail.iap.ResponseInputStream
+com.sun.mail.imap.ACL
+com.sun.mail.imap.AppendUID
+com.sun.mail.imap.CopyUID
+com.sun.mail.imap.DefaultFolder$1
+com.sun.mail.imap.DefaultFolder$2
+com.sun.mail.imap.DefaultFolder
+com.sun.mail.imap.IMAPBodyPart
+com.sun.mail.imap.IMAPFolder$10
+com.sun.mail.imap.IMAPFolder$11
+com.sun.mail.imap.IMAPFolder$12
+com.sun.mail.imap.IMAPFolder$13
+com.sun.mail.imap.IMAPFolder$14
+com.sun.mail.imap.IMAPFolder$15
+com.sun.mail.imap.IMAPFolder$16
+com.sun.mail.imap.IMAPFolder$17
+com.sun.mail.imap.IMAPFolder$18
+com.sun.mail.imap.IMAPFolder$19
+com.sun.mail.imap.IMAPFolder$1
+com.sun.mail.imap.IMAPFolder$20
+com.sun.mail.imap.IMAPFolder$2
+com.sun.mail.imap.IMAPFolder$3
+com.sun.mail.imap.IMAPFolder$4
+com.sun.mail.imap.IMAPFolder$5
+com.sun.mail.imap.IMAPFolder$6
+com.sun.mail.imap.IMAPFolder$7
+com.sun.mail.imap.IMAPFolder$8
+com.sun.mail.imap.IMAPFolder$9
+com.sun.mail.imap.IMAPFolder$FetchProfileItem
+com.sun.mail.imap.IMAPFolder$ProtocolCommand
+com.sun.mail.imap.IMAPFolder
+com.sun.mail.imap.IMAPInputStream
+com.sun.mail.imap.IMAPMessage$FetchProfileCondition
+com.sun.mail.imap.IMAPMessage
+com.sun.mail.imap.IMAPMultipartDataSource
+com.sun.mail.imap.IMAPNestedMessage
+com.sun.mail.imap.IMAPSSLStore
+com.sun.mail.imap.IMAPStore$1
+com.sun.mail.imap.IMAPStore$ConnectionPool
+com.sun.mail.imap.IMAPStore
+com.sun.mail.imap.IdleManager$1
+com.sun.mail.imap.IdleManager$2
+com.sun.mail.imap.IdleManager
+com.sun.mail.imap.LengthCounter
+com.sun.mail.imap.MessageCache
+com.sun.mail.imap.MessageLiteral
+com.sun.mail.imap.MessageVanishedEvent
+com.sun.mail.imap.ModifiedSinceTerm
+com.sun.mail.imap.OlderTerm
+com.sun.mail.imap.ReferralException
+com.sun.mail.imap.ResyncData
+com.sun.mail.imap.Rights$Right
+com.sun.mail.imap.Rights
+com.sun.mail.imap.SortTerm
+com.sun.mail.imap.Utility$1
+com.sun.mail.imap.Utility$Condition
+com.sun.mail.imap.Utility
+com.sun.mail.imap.YoungerTerm
+com.sun.mail.imap.protocol.BASE64MailboxDecoder
+com.sun.mail.imap.protocol.BASE64MailboxEncoder
+com.sun.mail.imap.protocol.BODY
+com.sun.mail.imap.protocol.BODYSTRUCTURE
+com.sun.mail.imap.protocol.ENVELOPE
+com.sun.mail.imap.protocol.FLAGS
+com.sun.mail.imap.protocol.FetchItem
+com.sun.mail.imap.protocol.FetchResponse
+com.sun.mail.imap.protocol.ID
+com.sun.mail.imap.protocol.IMAPAddress
+com.sun.mail.imap.protocol.IMAPProtocol
+com.sun.mail.imap.protocol.IMAPReferralException
+com.sun.mail.imap.protocol.IMAPResponse
+com.sun.mail.imap.protocol.INTERNALDATE
+com.sun.mail.imap.protocol.Item
+com.sun.mail.imap.protocol.ListInfo
+com.sun.mail.imap.protocol.MODSEQ
+com.sun.mail.imap.protocol.MailboxInfo
+com.sun.mail.imap.protocol.MessageSet
+com.sun.mail.imap.protocol.Namespaces$Namespace
+com.sun.mail.imap.protocol.Namespaces
+com.sun.mail.imap.protocol.RFC822DATA
+com.sun.mail.imap.protocol.RFC822SIZE
+com.sun.mail.imap.protocol.SaslAuthenticator
+com.sun.mail.imap.protocol.SearchSequence
+com.sun.mail.imap.protocol.Status
+com.sun.mail.imap.protocol.UID
+com.sun.mail.imap.protocol.UIDSet
+com.sun.mail.pop3.AppendStream
+com.sun.mail.pop3.DefaultFolder
+com.sun.mail.pop3.POP3Folder
+com.sun.mail.pop3.POP3Message
+com.sun.mail.pop3.POP3SSLStore
+com.sun.mail.pop3.POP3Store
+com.sun.mail.pop3.Protocol
+com.sun.mail.pop3.Response
+com.sun.mail.pop3.Status
+com.sun.mail.pop3.TempFile
+com.sun.mail.pop3.WritableSharedFile
+com.sun.mail.smtp.DigestMD5
+com.sun.mail.smtp.SMTPAddressFailedException
+com.sun.mail.smtp.SMTPAddressSucceededException
+com.sun.mail.smtp.SMTPMessage
+com.sun.mail.smtp.SMTPOutputStream
+com.sun.mail.smtp.SMTPSSLTransport
+com.sun.mail.smtp.SMTPSendFailedException
+com.sun.mail.smtp.SMTPSenderFailedException
+com.sun.mail.smtp.SMTPTransport$Authenticator
+com.sun.mail.smtp.SMTPTransport$BDATOutputStream
+com.sun.mail.smtp.SMTPTransport$ChunkedOutputStream
+com.sun.mail.smtp.SMTPTransport$DigestMD5Authenticator
+com.sun.mail.smtp.SMTPTransport$LoginAuthenticator
+com.sun.mail.smtp.SMTPTransport$NtlmAuthenticator
+com.sun.mail.smtp.SMTPTransport$OAuth2Authenticator
+com.sun.mail.smtp.SMTPTransport$PlainAuthenticator
+com.sun.mail.smtp.SMTPTransport
+com.sun.mail.smtp.SaslAuthenticator
+com.sun.mail.util.ASCIIUtility:
+    private void <init>()
+    public static byte[] getBytes(java.io.InputStream)
+    public static int parseInt(byte[],int,int)
+    public static long parseLong(byte[],int,int)
+    public static long parseLong(byte[],int,int,int)
+    public static java.lang.String toString(java.io.ByteArrayInputStream)
+    public static java.lang.String toString(byte[])
+com.sun.mail.util.BASE64DecoderStream:
+    public void <init>(java.io.InputStream,boolean)
+    public static byte[] decode(byte[])
+com.sun.mail.util.BASE64EncoderStream:
+    public void <init>(java.io.OutputStream)
+    public static byte[] encode(byte[])
+com.sun.mail.util.CRLFOutputStream
+com.sun.mail.util.DecodingException:
+    private static final long serialVersionUID
+com.sun.mail.util.FolderClosedIOException
+com.sun.mail.util.LineOutputStream
+com.sun.mail.util.LogOutputStream
+com.sun.mail.util.MailConnectException
+com.sun.mail.util.MailLogger:
+    public void <init>(java.lang.Class,java.lang.String,java.lang.String,boolean,java.io.PrintStream)
+    public void <init>(java.lang.Class,java.lang.String,javax.mail.Session)
+    public void <init>(java.lang.String,java.lang.String,javax.mail.Session)
+    public void <init>(java.lang.String,java.lang.String,boolean,java.io.PrintStream)
+    public void finer(java.lang.String)
+    public void finest(java.lang.String)
+    public com.sun.mail.util.MailLogger getLogger(java.lang.Class,java.lang.String)
+    public com.sun.mail.util.MailLogger getLogger(java.lang.String,java.lang.String)
+    public com.sun.mail.util.MailLogger getSubLogger(java.lang.String,java.lang.String)
+    public com.sun.mail.util.MailLogger getSubLogger(java.lang.String,java.lang.String,boolean)
+    public varargs void log(java.util.logging.Level,java.lang.String,java.lang.Object[])
+    public varargs void logf(java.util.logging.Level,java.lang.String,java.lang.Object[])
+com.sun.mail.util.MailSSLSocketFactory$1
+com.sun.mail.util.MailSSLSocketFactory$MailTrustManager
+com.sun.mail.util.MailSSLSocketFactory
+com.sun.mail.util.MessageRemovedIOException
+com.sun.mail.util.MimeUtil$1
+com.sun.mail.util.MimeUtil
+com.sun.mail.util.PropUtil:
+    private void <init>()
+    public static boolean getBooleanProperty(java.util.Properties,java.lang.String,boolean)
+    private static int getInt(java.lang.Object,int)
+    public static int getIntProperty(java.util.Properties,java.lang.String,int)
+    public static int getIntSessionProperty(javax.mail.Session,java.lang.String,int)
+com.sun.mail.util.QPEncoderStream:
+    public void <init>(java.io.OutputStream)
+    private void outputCRLF()
+com.sun.mail.util.ReadableMime
+com.sun.mail.util.SharedByteArrayOutputStream
+com.sun.mail.util.SocketConnectException
+com.sun.mail.util.SocketFetcher$1
+com.sun.mail.util.SocketFetcher
+com.sun.mail.util.TimeoutOutputStream$1
+com.sun.mail.util.TimeoutOutputStream
+com.sun.mail.util.TraceInputStream
+com.sun.mail.util.TraceOutputStream
+com.sun.mail.util.UUDecoderStream
+com.sun.mail.util.UUEncoderStream
+com.sun.mail.util.WriteTimeoutSocket
+com.sun.mail.util.logging.CollectorFormatter
+com.sun.mail.util.logging.CompactFormatter$Alternate
+com.sun.mail.util.logging.CompactFormatter
+com.sun.mail.util.logging.DurationFilter
+com.sun.mail.util.logging.LogManagerProperties$1
+com.sun.mail.util.logging.LogManagerProperties
+com.sun.mail.util.logging.MailHandler$DefaultAuthenticator
+com.sun.mail.util.logging.MailHandler$GetAndSetContext
+com.sun.mail.util.logging.MailHandler$TailNameFormatter
+com.sun.mail.util.logging.MailHandler
+com.sun.mail.util.logging.SeverityComparator
 com.xwray.groupie.BuildConfig
 com.xwray.groupie.ExpandableGroup
 com.xwray.groupie.ExpandableItem
@@ -19947,7 +20133,6 @@ id.kotlin.hspbtool.R$id:
     public static final int SecondFragment
     public static final int TOP_END
     public static final int TOP_START
-    public static final int UserLogin
     public static final int accelerate
     public static final int accessibility_action_clickable_span
     public static final int accessibility_custom_action_0
@@ -20013,8 +20198,6 @@ id.kotlin.hspbtool.R$id:
     public static final int activity_chooser_view_content
     public static final int add
     public static final int alertTitle
-    public static final int alignBounds
-    public static final int alignMargins
     public static final int aligned
     public static final int all
     public static final int always
@@ -20037,6 +20220,7 @@ id.kotlin.hspbtool.R$id:
     public static final int buttonAddMaintenance
     public static final int buttonAddMaintenanceAC
     public static final int buttonAddRecord
+    public static final int buttonAddRegisterUser
     public static final int buttonChangePassword
     public static final int buttonPanel
     public static final int buttonShowFilterAC
@@ -20045,8 +20229,7 @@ id.kotlin.hspbtool.R$id:
     public static final int buttonShowLogDataVentaza
     public static final int buttonShowLogDataVentazaFilter
     public static final int buttonSignIn
-    public static final int button_first
-    public static final int button_second
+    public static final int buttonSignUp
     public static final int cache_measures
     public static final int cancel_action
     public static final int cancel_button
@@ -20114,6 +20297,9 @@ id.kotlin.hspbtool.R$id:
     public static final int easeIn
     public static final int easeInOut
     public static final int easeOut
+    public static final int editTextRegisterEmail
+    public static final int editTextRegisterPassword
+    public static final int editTextRegisterUserName
     public static final int edit_query
     public static final int elastic
     public static final int end
@@ -20136,6 +20322,7 @@ id.kotlin.hspbtool.R$id:
     public static final int floating
     public static final int forever
     public static final int fragment_container_view_tag
+    public static final int frameBG
     public static final int ghost_view
     public static final int ghost_view_holder
     public static final int gone
@@ -20157,7 +20344,6 @@ id.kotlin.hspbtool.R$id:
     public static final int ignore
     public static final int ignoreRequest
     public static final int image
-    public static final int imageView
     public static final int imgHeroes
     public static final int info
     public static final int invisible
@@ -20381,7 +20567,6 @@ id.kotlin.hspbtool.R$id:
     public static final int textSpacerNoTitle
     public static final int textStart
     public static final int textTop
-    public static final int textView
     public static final int textView3
     public static final int textView3AC
     public static final int textView4
@@ -20389,6 +20574,7 @@ id.kotlin.hspbtool.R$id:
     public static final int textView5
     public static final int textView5AC
     public static final int textViewLoadingStatus
+    public static final int textViewRegisterAccount
     public static final int text_gallery
     public static final int text_input_end_icon
     public static final int text_input_error_icon
@@ -20399,8 +20585,6 @@ id.kotlin.hspbtool.R$id:
     public static final int textinput_placeholder
     public static final int textinput_prefix_text
     public static final int textinput_suffix_text
-    public static final int textview_first
-    public static final int textview_second
     public static final int thinWorm
     public static final int time
     public static final int title
@@ -20450,6 +20634,8 @@ id.kotlin.hspbtool.R$style
 id.kotlin.hspbtool.R$styleable
 id.kotlin.hspbtool.R$xml
 id.kotlin.hspbtool.R
+id.kotlin.hspbtool.RegisterAccount:
+    public void _$_clearFindViewByIdCache()
 id.kotlin.hspbtool.SalesMarketingActivity:
     public void _$_clearFindViewByIdCache()
 id.kotlin.hspbtool.SantikaInformationActivity:
@@ -20525,15 +20711,9 @@ id.kotlin.hspbtool.databinding.ContentScrollingBinding
 id.kotlin.hspbtool.databinding.ContentVentazaFilterShowDataBinding
 id.kotlin.hspbtool.databinding.ContentVentazaFilterShowLogBinding
 id.kotlin.hspbtool.databinding.FragmentBannerBinding
-id.kotlin.hspbtool.databinding.FragmentFirst2Binding
-id.kotlin.hspbtool.databinding.FragmentFirst3Binding
-id.kotlin.hspbtool.databinding.FragmentFirst4Binding
-id.kotlin.hspbtool.databinding.FragmentFirstBinding
 id.kotlin.hspbtool.databinding.FragmentGalleryBinding
 id.kotlin.hspbtool.databinding.FragmentHomeBinding
 id.kotlin.hspbtool.databinding.FragmentLoginBinding
-id.kotlin.hspbtool.databinding.FragmentSecond2Binding
-id.kotlin.hspbtool.databinding.FragmentSecondBinding
 id.kotlin.hspbtool.databinding.HotelInformationTestBinding
 id.kotlin.hspbtool.databinding.ItemCarouselBannerBinding
 id.kotlin.hspbtool.databinding.ItemHeroBinding
@@ -20547,6 +20727,7 @@ id.kotlin.hspbtool.databinding.ListCardLogMaintenanceVentazaBinding
 id.kotlin.hspbtool.databinding.ListCardTimeCardBinding
 id.kotlin.hspbtool.databinding.ListcardlogalldataBinding
 id.kotlin.hspbtool.databinding.NavHeaderMainBinding
+id.kotlin.hspbtool.databinding.RegisterBinding
 id.kotlin.hspbtool.databinding.SpinnerItemBinding
 id.kotlin.hspbtool.domain.BannerPromo:
     public final java.lang.String component1()
@@ -20643,11 +20824,682 @@ id.kotlin.hspbtool.ui.login.LoginResult:
     public final id.kotlin.hspbtool.ui.login.LoginResult copy(id.kotlin.hspbtool.ui.login.LoggedInUserView,java.lang.Integer)
     public static synthetic id.kotlin.hspbtool.ui.login.LoginResult copy$default(id.kotlin.hspbtool.ui.login.LoginResult,id.kotlin.hspbtool.ui.login.LoggedInUserView,java.lang.Integer,int,java.lang.Object)
 id.kotlin.hspbtool.ui.slideshow.SlideshowViewModel
+javax.activation.ActivationDataFlavor:
+    private java.lang.String humanPresentableName
+    private javax.activation.MimeType mimeObject
+    private java.lang.String mimeType
+    private java.lang.Class representationClass
+    public void <init>(java.lang.Class,java.lang.String)
+    public void <init>(java.lang.Class,java.lang.String,java.lang.String)
+    public void <init>(java.lang.String,java.lang.String)
+    public boolean equals(javax.activation.ActivationDataFlavor)
+    public java.lang.String getHumanPresentableName()
+    public java.lang.String getMimeType()
+    public java.lang.Class getRepresentationClass()
+    public boolean isMimeTypeEqual(java.lang.String)
+    protected java.lang.String normalizeMimeType(java.lang.String)
+    protected java.lang.String normalizeMimeTypeParameter(java.lang.String,java.lang.String)
+    public void setHumanPresentableName(java.lang.String)
+javax.activation.CommandInfo$Beans$1
+javax.activation.CommandInfo$Beans
+javax.activation.CommandInfo
+javax.activation.CommandMap:
+    private static javax.activation.CommandMap defaultCommandMap
+    private static java.util.Map map
+    static void <clinit>()
+    public void <init>()
+    public abstract javax.activation.DataContentHandler createDataContentHandler(java.lang.String)
+    public javax.activation.DataContentHandler createDataContentHandler(java.lang.String,javax.activation.DataSource)
+    public abstract javax.activation.CommandInfo[] getAllCommands(java.lang.String)
+    public javax.activation.CommandInfo[] getAllCommands(java.lang.String,javax.activation.DataSource)
+    public abstract javax.activation.CommandInfo getCommand(java.lang.String,java.lang.String)
+    public javax.activation.CommandInfo getCommand(java.lang.String,java.lang.String,javax.activation.DataSource)
+    public static synchronized javax.activation.CommandMap getDefaultCommandMap()
+    public java.lang.String[] getMimeTypes()
+    public abstract javax.activation.CommandInfo[] getPreferredCommands(java.lang.String)
+    public javax.activation.CommandInfo[] getPreferredCommands(java.lang.String,javax.activation.DataSource)
+    public static synchronized void setDefaultCommandMap(javax.activation.CommandMap)
+javax.activation.CommandObject
+javax.activation.DataContentHandler:
+    public abstract java.lang.Object getContent(javax.activation.DataSource)
+    public abstract java.lang.Object getTransferData(javax.activation.ActivationDataFlavor,javax.activation.DataSource)
+    public abstract javax.activation.ActivationDataFlavor[] getTransferDataFlavors()
+    public abstract void writeTo(java.lang.Object,java.lang.String,java.io.OutputStream)
+javax.activation.DataContentHandlerFactory:
+    public abstract javax.activation.DataContentHandler createDataContentHandler(java.lang.String)
+javax.activation.DataHandler$1
+javax.activation.DataHandler:
+    public void <init>(java.net.URL)
+    public void <init>(javax.activation.DataSource)
+    static synthetic java.lang.Object access$000(javax.activation.DataHandler)
+    static synthetic java.lang.String access$100(javax.activation.DataHandler)
+    public javax.activation.CommandInfo[] getAllCommands()
+    private synchronized java.lang.String getBaseType()
+    public java.lang.Object getBean(javax.activation.CommandInfo)
+    public javax.activation.CommandInfo getCommand(java.lang.String)
+    private synchronized javax.activation.CommandMap getCommandMap()
+    public java.lang.Object getContent()
+    public java.lang.String getContentType()
+    private synchronized javax.activation.DataContentHandler getDataContentHandler()
+    public javax.activation.DataSource getDataSource()
+    public java.io.InputStream getInputStream()
+    public java.lang.String getName()
+    public java.io.OutputStream getOutputStream()
+    public javax.activation.CommandInfo[] getPreferredCommands()
+    public java.lang.Object getTransferData(javax.activation.ActivationDataFlavor)
+    public synchronized javax.activation.ActivationDataFlavor[] getTransferDataFlavors()
+    public boolean isDataFlavorSupported(javax.activation.ActivationDataFlavor)
+    public synchronized void setCommandMap(javax.activation.CommandMap)
+    public static synchronized void setDataContentHandlerFactory(javax.activation.DataContentHandlerFactory)
+    public void writeTo(java.io.OutputStream)
+javax.activation.DataHandlerDataSource
+javax.activation.DataSource:
+    public abstract java.lang.String getContentType()
+    public abstract java.io.InputStream getInputStream()
+    public abstract java.lang.String getName()
+    public abstract java.io.OutputStream getOutputStream()
+javax.activation.DataSourceDataContentHandler
+javax.activation.FileDataSource
+javax.activation.FileTypeMap
+javax.activation.MailcapCommandMap$1
+javax.activation.MailcapCommandMap
+javax.activation.MimeType
+javax.activation.MimeTypeParameterList
+javax.activation.MimeTypeParseException
+javax.activation.MimetypesFileTypeMap$1
+javax.activation.MimetypesFileTypeMap
+javax.activation.ObjectDataContentHandler
+javax.activation.SecuritySupport$1
+javax.activation.SecuritySupport$2
+javax.activation.SecuritySupport$3
+javax.activation.SecuritySupport$4
+javax.activation.SecuritySupport$5
+javax.activation.SecuritySupport
+javax.activation.URLDataSource
+javax.activation.UnsupportedDataTypeException
 javax.inject.Inject
 javax.inject.Named
 javax.inject.Qualifier
 javax.inject.Scope
 javax.inject.Singleton
+javax.mail.Address:
+    private static final long serialVersionUID
+    public abstract boolean equals(java.lang.Object)
+    public abstract java.lang.String getType()
+javax.mail.AuthenticationFailedException:
+    private static final long serialVersionUID
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Exception)
+javax.mail.Authenticator:
+    protected final java.lang.String getDefaultUserName()
+    protected final int getRequestingPort()
+    protected final java.lang.String getRequestingPrompt()
+    protected final java.lang.String getRequestingProtocol()
+    protected final java.net.InetAddress getRequestingSite()
+javax.mail.BodyPart:
+    protected javax.mail.Multipart parent
+    public void <init>()
+    public javax.mail.Multipart getParent()
+    void setParent(javax.mail.Multipart)
+javax.mail.EncodingAware
+javax.mail.EventQueue$TerminatorEvent:
+    private static final long serialVersionUID
+javax.mail.EventQueue:
+    private static java.util.WeakHashMap appq
+    static synchronized javax.mail.EventQueue getApplicationEventQueue(java.util.concurrent.Executor)
+javax.mail.FetchProfile$Item
+javax.mail.FetchProfile
+javax.mail.Flags:
+    private static final int ANSWERED_BIT
+    private static final int DELETED_BIT
+    private static final int DRAFT_BIT
+    private static final int FLAGGED_BIT
+    private static final int RECENT_BIT
+    private static final int SEEN_BIT
+    private static final int USER_BIT
+    private static final long serialVersionUID
+    public void <init>(java.lang.String)
+    public void <init>(javax.mail.Flags)
+    public void add(java.lang.String)
+    public void add(javax.mail.Flags$Flag)
+    public void add(javax.mail.Flags)
+    public void clearSystemFlags()
+    public void clearUserFlags()
+    public boolean contains(java.lang.String)
+    public boolean contains(javax.mail.Flags$Flag)
+    public boolean contains(javax.mail.Flags)
+    public javax.mail.Flags$Flag[] getSystemFlags()
+    public java.lang.String[] getUserFlags()
+    public void remove(java.lang.String)
+    public void remove(javax.mail.Flags$Flag)
+    public void remove(javax.mail.Flags)
+    public boolean retainAll(javax.mail.Flags)
+javax.mail.Folder:
+    public static final int HOLDS_FOLDERS
+    public static final int HOLDS_MESSAGES
+    public static final int READ_ONLY
+    public static final int READ_WRITE
+    private volatile java.util.Vector connectionListeners
+    private volatile java.util.Vector folderListeners
+    private volatile java.util.Vector messageChangedListeners
+    private volatile java.util.Vector messageCountListeners
+    protected int mode
+    private final javax.mail.EventQueue q
+    protected javax.mail.Store store
+    protected void <init>(javax.mail.Store)
+    public synchronized void addConnectionListener(javax.mail.event.ConnectionListener)
+    public synchronized void addFolderListener(javax.mail.event.FolderListener)
+    public synchronized void addMessageChangedListener(javax.mail.event.MessageChangedListener)
+    public synchronized void addMessageCountListener(javax.mail.event.MessageCountListener)
+    public abstract void appendMessages(javax.mail.Message[])
+    public void close()
+    public abstract void close(boolean)
+    public void copyMessages(javax.mail.Message[],javax.mail.Folder)
+    public abstract boolean create(int)
+    public abstract boolean delete(boolean)
+    public abstract boolean exists()
+    public abstract javax.mail.Message[] expunge()
+    public void fetch(javax.mail.Message[],javax.mail.FetchProfile)
+    protected void finalize()
+    public synchronized int getDeletedMessageCount()
+    public abstract javax.mail.Folder getFolder(java.lang.String)
+    public abstract java.lang.String getFullName()
+    public abstract javax.mail.Message getMessage(int)
+    public abstract int getMessageCount()
+    public synchronized javax.mail.Message[] getMessages()
+    public synchronized javax.mail.Message[] getMessages(int,int)
+    public synchronized javax.mail.Message[] getMessages(int[])
+    public synchronized int getMode()
+    public abstract java.lang.String getName()
+    public synchronized int getNewMessageCount()
+    public abstract javax.mail.Folder getParent()
+    public abstract javax.mail.Flags getPermanentFlags()
+    public abstract char getSeparator()
+    public javax.mail.Store getStore()
+    public abstract int getType()
+    public javax.mail.URLName getURLName()
+    public synchronized int getUnreadMessageCount()
+    public abstract boolean hasNewMessages()
+    public abstract boolean isOpen()
+    public boolean isSubscribed()
+    public javax.mail.Folder[] list()
+    public abstract javax.mail.Folder[] list(java.lang.String)
+    public javax.mail.Folder[] listSubscribed()
+    public javax.mail.Folder[] listSubscribed(java.lang.String)
+    protected void notifyConnectionListeners(int)
+    protected void notifyFolderListeners(int)
+    protected void notifyFolderRenamedListeners(javax.mail.Folder)
+    protected void notifyMessageAddedListeners(javax.mail.Message[])
+    protected void notifyMessageChangedListeners(int,javax.mail.Message)
+    protected void notifyMessageRemovedListeners(boolean,javax.mail.Message[])
+    public abstract void open(int)
+    private void queueEvent(javax.mail.event.MailEvent,java.util.Vector)
+    public synchronized void removeConnectionListener(javax.mail.event.ConnectionListener)
+    public synchronized void removeFolderListener(javax.mail.event.FolderListener)
+    public synchronized void removeMessageChangedListener(javax.mail.event.MessageChangedListener)
+    public synchronized void removeMessageCountListener(javax.mail.event.MessageCountListener)
+    public abstract boolean renameTo(javax.mail.Folder)
+    public javax.mail.Message[] search(javax.mail.search.SearchTerm)
+    public javax.mail.Message[] search(javax.mail.search.SearchTerm,javax.mail.Message[])
+    public synchronized void setFlags(int,int,javax.mail.Flags,boolean)
+    public synchronized void setFlags(int[],javax.mail.Flags,boolean)
+    public synchronized void setFlags(javax.mail.Message[],javax.mail.Flags,boolean)
+    public void setSubscribed(boolean)
+    public java.lang.String toString()
+javax.mail.FolderClosedException
+javax.mail.FolderNotFoundException
+javax.mail.Header:
+    public java.lang.String getValue()
+javax.mail.IllegalWriteException
+javax.mail.MailSessionDefinition
+javax.mail.MailSessionDefinitions
+javax.mail.Message$RecipientType:
+    private static final long serialVersionUID
+    protected java.lang.Object readResolve()
+javax.mail.Message:
+    protected void <init>(javax.mail.Folder,int)
+    public abstract void addFrom(javax.mail.Address[])
+    public void addRecipient(javax.mail.Message$RecipientType,javax.mail.Address)
+    public abstract void addRecipients(javax.mail.Message$RecipientType,javax.mail.Address[])
+    public abstract javax.mail.Flags getFlags()
+    public javax.mail.Folder getFolder()
+    public abstract javax.mail.Address[] getFrom()
+    public int getMessageNumber()
+    public abstract java.util.Date getReceivedDate()
+    public javax.mail.Address[] getReplyTo()
+    public abstract java.util.Date getSentDate()
+    public javax.mail.Session getSession()
+    public abstract java.lang.String getSubject()
+    public boolean isExpunged()
+    public boolean isSet(javax.mail.Flags$Flag)
+    public boolean match(javax.mail.search.SearchTerm)
+    public abstract javax.mail.Message reply(boolean)
+    public abstract void saveChanges()
+    protected void setExpunged(boolean)
+    public void setFlag(javax.mail.Flags$Flag,boolean)
+    public abstract void setFlags(javax.mail.Flags,boolean)
+    public abstract void setFrom()
+    public abstract void setFrom(javax.mail.Address)
+    protected void setMessageNumber(int)
+    public void setRecipient(javax.mail.Message$RecipientType,javax.mail.Address)
+    public abstract void setRecipients(javax.mail.Message$RecipientType,javax.mail.Address[])
+    public void setReplyTo(javax.mail.Address[])
+    public abstract void setSentDate(java.util.Date)
+    public abstract void setSubject(java.lang.String)
+javax.mail.MessageAware
+javax.mail.MessageContext
+javax.mail.MessageRemovedException
+javax.mail.MessagingException:
+    private static final long serialVersionUID
+    public synchronized java.lang.Exception getNextException()
+    public synchronized boolean setNextException(java.lang.Exception)
+javax.mail.MethodNotSupportedException
+javax.mail.Multipart:
+    public synchronized void addBodyPart(javax.mail.BodyPart)
+    public synchronized void addBodyPart(javax.mail.BodyPart,int)
+    public synchronized javax.mail.BodyPart getBodyPart(int)
+    public synchronized int getCount()
+    public synchronized javax.mail.Part getParent()
+    public synchronized void removeBodyPart(int)
+    public synchronized boolean removeBodyPart(javax.mail.BodyPart)
+    protected synchronized void setMultipartDataSource(javax.mail.MultipartDataSource)
+    public abstract void writeTo(java.io.OutputStream)
+javax.mail.MultipartDataSource
+javax.mail.NoSuchProviderException:
+    private static final long serialVersionUID
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Exception)
+javax.mail.Part:
+    public static final java.lang.String ATTACHMENT
+    public static final java.lang.String INLINE
+    public abstract void addHeader(java.lang.String,java.lang.String)
+    public abstract java.util.Enumeration getAllHeaders()
+    public abstract java.lang.Object getContent()
+    public abstract java.lang.String getContentType()
+    public abstract javax.activation.DataHandler getDataHandler()
+    public abstract java.lang.String getDescription()
+    public abstract java.lang.String getDisposition()
+    public abstract java.lang.String getFileName()
+    public abstract java.lang.String[] getHeader(java.lang.String)
+    public abstract java.io.InputStream getInputStream()
+    public abstract int getLineCount()
+    public abstract java.util.Enumeration getMatchingHeaders(java.lang.String[])
+    public abstract java.util.Enumeration getNonMatchingHeaders(java.lang.String[])
+    public abstract int getSize()
+    public abstract boolean isMimeType(java.lang.String)
+    public abstract void setContent(javax.mail.Multipart)
+    public abstract void setDataHandler(javax.activation.DataHandler)
+    public abstract void setDescription(java.lang.String)
+    public abstract void setDisposition(java.lang.String)
+    public abstract void setFileName(java.lang.String)
+    public abstract void setHeader(java.lang.String,java.lang.String)
+    public abstract void setText(java.lang.String)
+    public abstract void writeTo(java.io.OutputStream)
+javax.mail.Provider:
+    public java.lang.String getVendor()
+    public java.lang.String getVersion()
+javax.mail.Quota$Resource
+javax.mail.Quota
+javax.mail.QuotaAwareStore
+javax.mail.ReadOnlyFolderException
+javax.mail.SendFailedException
+javax.mail.Service:
+    protected boolean debug
+    protected void <init>(javax.mail.Session,javax.mail.URLName)
+    public void addConnectionListener(javax.mail.event.ConnectionListener)
+    public void connect(java.lang.String,java.lang.String)
+    javax.mail.EventQueue getEventQueue()
+    javax.mail.Session getSession()
+    public void removeConnectionListener(javax.mail.event.ConnectionListener)
+javax.mail.Session:
+    public synchronized boolean getDebug()
+    public static javax.mail.Session getDefaultInstance(java.util.Properties)
+    javax.mail.EventQueue getEventQueue()
+    public javax.mail.Folder getFolder(javax.mail.URLName)
+    public static javax.mail.Session getInstance(java.util.Properties)
+    public static javax.mail.Session getInstance(java.util.Properties,javax.mail.Authenticator)
+    public synchronized javax.mail.Provider[] getProviders()
+    public javax.mail.Store getStore()
+    public javax.mail.Store getStore(java.lang.String)
+    public javax.mail.Store getStore(javax.mail.Provider)
+    private javax.mail.Store getStore(javax.mail.Provider,javax.mail.URLName)
+    public javax.mail.Store getStore(javax.mail.URLName)
+    public javax.mail.Transport getTransport()
+    public javax.mail.Transport getTransport(javax.mail.Address)
+    public javax.mail.Transport getTransport(javax.mail.Provider)
+    public synchronized void setDebugOut(java.io.PrintStream)
+    public synchronized void setProtocolForAddress(java.lang.String,java.lang.String)
+    public synchronized void setProvider(javax.mail.Provider)
+javax.mail.Store
+javax.mail.StoreClosedException
+javax.mail.Transport:
+    private volatile java.util.Vector transportListeners
+    public void <init>(javax.mail.Session,javax.mail.URLName)
+    public synchronized void addTransportListener(javax.mail.event.TransportListener)
+    protected void notifyTransportListeners(int,javax.mail.Address[],javax.mail.Address[],javax.mail.Address[],javax.mail.Message)
+    public synchronized void removeTransportListener(javax.mail.event.TransportListener)
+    public static void send(javax.mail.Message)
+    public static void send(javax.mail.Message,java.lang.String,java.lang.String)
+    public static void send(javax.mail.Message,javax.mail.Address[])
+    public static void send(javax.mail.Message,javax.mail.Address[],java.lang.String,java.lang.String)
+    private static void send0(javax.mail.Message,javax.mail.Address[],java.lang.String,java.lang.String)
+javax.mail.UIDFolder$FetchProfileItem
+javax.mail.UIDFolder
+javax.mail.URLName:
+    static final int caseDiff
+    public void <init>(java.lang.String)
+    public void <init>(java.net.URL)
+    public java.lang.String getRef()
+    public java.net.URL getURL()
+    protected void parseString(java.lang.String)
+javax.mail.Version
+javax.mail.event.ConnectionAdapter
+javax.mail.event.ConnectionEvent:
+    public static final int CLOSED
+    public static final int DISCONNECTED
+    public static final int OPENED
+    private static final long serialVersionUID
+    public int getType()
+javax.mail.event.FolderAdapter
+javax.mail.event.FolderEvent
+javax.mail.event.FolderListener
+javax.mail.event.MailEvent:
+    private static final long serialVersionUID
+javax.mail.event.MessageChangedEvent
+javax.mail.event.MessageChangedListener
+javax.mail.event.MessageCountAdapter
+javax.mail.event.MessageCountEvent
+javax.mail.event.MessageCountListener
+javax.mail.event.StoreEvent
+javax.mail.event.StoreListener
+javax.mail.event.TransportAdapter
+javax.mail.event.TransportEvent
+javax.mail.event.TransportListener
+javax.mail.internet.AddressException:
+    private static final long serialVersionUID
+    public void <init>()
+    public int getPos()
+    public java.lang.String getRef()
+javax.mail.internet.AsciiOutputStream
+javax.mail.internet.ContentDisposition
+javax.mail.internet.ContentType
+javax.mail.internet.HeaderTokenizer$Token
+javax.mail.internet.HeaderTokenizer
+javax.mail.internet.InternetAddress:
+    private static final long serialVersionUID
+    private static final java.lang.String specialsNoDot
+    private static final java.lang.String specialsNoDotNoAt
+    public void <init>(java.lang.String,java.lang.String)
+    public void <init>(java.lang.String,java.lang.String,java.lang.String)
+    public void <init>(java.lang.String,boolean)
+    static javax.mail.internet.InternetAddress _getLocalAddress(javax.mail.Session)
+    public javax.mail.internet.InternetAddress[] getGroup(boolean)
+    public static javax.mail.internet.InternetAddress getLocalAddress(javax.mail.Session)
+    private static java.lang.String getLocalHostName()
+    public java.lang.String getType()
+    private static boolean isInetAddressLiteral(java.lang.String)
+    public void setPersonal(java.lang.String)
+    public void setPersonal(java.lang.String,java.lang.String)
+    public static java.lang.String toString(javax.mail.Address[])
+    public static java.lang.String toUnicodeString(javax.mail.Address[])
+    public void validate()
+javax.mail.internet.InternetHeaders$InternetHeader:
+    public void <init>(java.lang.String)
+javax.mail.internet.InternetHeaders$MatchEnum
+javax.mail.internet.InternetHeaders$MatchHeaderEnum
+javax.mail.internet.InternetHeaders$MatchStringEnum
+javax.mail.internet.InternetHeaders:
+    public void <init>(java.io.InputStream)
+    public void <init>(java.io.InputStream,boolean)
+    public void addHeaderLine(java.lang.String)
+    public java.util.Enumeration getAllHeaderLines()
+    public java.util.Enumeration getAllHeaders()
+    public java.util.Enumeration getMatchingHeaderLines(java.lang.String[])
+    public java.util.Enumeration getMatchingHeaders(java.lang.String[])
+    public java.util.Enumeration getNonMatchingHeaderLines(java.lang.String[])
+    public java.util.Enumeration getNonMatchingHeaders(java.lang.String[])
+    private static final boolean isEmpty(java.lang.String)
+    public void load(java.io.InputStream)
+    public void load(java.io.InputStream,boolean)
+javax.mail.internet.MailDateFormat$AbstractDateParser:
+    static final int INVALID_CHAR
+    static final int MAX_YEAR_DIGITS
+javax.mail.internet.MailDateFormat:
+    private static final int LEAP_SECOND
+    private static final java.lang.String PATTERN
+    private static final int UNKNOWN_DAY_NAME
+    private static final long serialVersionUID
+    private void readObject(java.io.ObjectInputStream)
+    private void superApplyPattern(java.lang.String)
+    private java.lang.Object writeReplace()
+javax.mail.internet.MimeBodyPart$EncodedFileDataSource
+javax.mail.internet.MimeBodyPart$MimePartDataHandler
+javax.mail.internet.MimeBodyPart:
+    protected java.lang.Object cachedContent
+    protected byte[] content
+    protected java.io.InputStream contentStream
+    protected javax.activation.DataHandler dh
+    protected javax.mail.internet.InternetHeaders headers
+    public void <init>()
+    public void <init>(java.io.InputStream)
+    public void <init>(javax.mail.internet.InternetHeaders,byte[])
+    public void addHeader(java.lang.String,java.lang.String)
+    public void addHeaderLine(java.lang.String)
+    public void attachFile(java.io.File)
+    public void attachFile(java.io.File,java.lang.String,java.lang.String)
+    public void attachFile(java.lang.String)
+    public void attachFile(java.lang.String,java.lang.String,java.lang.String)
+    public java.util.Enumeration getAllHeaderLines()
+    public java.util.Enumeration getAllHeaders()
+    public java.lang.Object getContent()
+    public java.lang.String getContentID()
+    public java.lang.String[] getContentLanguage()
+    static java.lang.String[] getContentLanguage(javax.mail.internet.MimePart)
+    public java.lang.String getContentMD5()
+    protected java.io.InputStream getContentStream()
+    public java.lang.String getContentType()
+    public javax.activation.DataHandler getDataHandler()
+    public java.lang.String getDescription()
+    static java.lang.String getDescription(javax.mail.internet.MimePart)
+    public java.lang.String getDisposition()
+    static java.lang.String getDisposition(javax.mail.internet.MimePart)
+    public java.lang.String getEncoding()
+    static java.lang.String getEncoding(javax.mail.internet.MimePart)
+    public java.lang.String getFileName()
+    static java.lang.String getFileName(javax.mail.internet.MimePart)
+    public java.lang.String getHeader(java.lang.String,java.lang.String)
+    public java.lang.String[] getHeader(java.lang.String)
+    public java.io.InputStream getInputStream()
+    public int getLineCount()
+    public java.util.Enumeration getMatchingHeaderLines(java.lang.String[])
+    public java.util.Enumeration getMatchingHeaders(java.lang.String[])
+    public java.util.Enumeration getNonMatchingHeaderLines(java.lang.String[])
+    public java.util.Enumeration getNonMatchingHeaders(java.lang.String[])
+    public java.io.InputStream getRawInputStream()
+    public int getSize()
+    public boolean isMimeType(java.lang.String)
+    static boolean isMimeType(javax.mail.internet.MimePart,java.lang.String)
+    public void removeHeader(java.lang.String)
+    static java.lang.String restrictEncoding(javax.mail.internet.MimePart,java.lang.String)
+    public void saveFile(java.io.File)
+    public void saveFile(java.lang.String)
+    public void setContent(java.lang.Object,java.lang.String)
+    public void setContent(javax.mail.Multipart)
+    public void setContentID(java.lang.String)
+    static void setContentLanguage(javax.mail.internet.MimePart,java.lang.String[])
+    public void setContentLanguage(java.lang.String[])
+    public void setContentMD5(java.lang.String)
+    public void setDataHandler(javax.activation.DataHandler)
+    public void setDescription(java.lang.String)
+    public void setDescription(java.lang.String,java.lang.String)
+    static void setDescription(javax.mail.internet.MimePart,java.lang.String,java.lang.String)
+    public void setDisposition(java.lang.String)
+    static void setDisposition(javax.mail.internet.MimePart,java.lang.String)
+    static void setEncoding(javax.mail.internet.MimePart,java.lang.String)
+    public void setFileName(java.lang.String)
+    static void setFileName(javax.mail.internet.MimePart,java.lang.String)
+    public void setHeader(java.lang.String,java.lang.String)
+    public void setText(java.lang.String)
+    public void setText(java.lang.String,java.lang.String)
+    public void setText(java.lang.String,java.lang.String,java.lang.String)
+    protected void updateHeaders()
+    static void updateHeaders(javax.mail.internet.MimePart)
+    public void writeTo(java.io.OutputStream)
+    static void writeTo(javax.mail.internet.MimePart,java.io.OutputStream,java.lang.String[])
+javax.mail.internet.MimeMessage$RecipientType:
+    private static final long serialVersionUID
+    protected java.lang.Object readResolve()
+javax.mail.internet.MimeMessage:
+    protected byte[] content
+    protected java.io.InputStream contentStream
+    protected void <init>(javax.mail.Folder,int)
+    protected void <init>(javax.mail.Folder,java.io.InputStream,int)
+    protected void <init>(javax.mail.Folder,javax.mail.internet.InternetHeaders,byte[],int)
+    public void <init>(javax.mail.Session,java.io.InputStream)
+    public void <init>(javax.mail.internet.MimeMessage)
+    private void addAddressHeader(java.lang.String,javax.mail.Address[])
+    public void addFrom(javax.mail.Address[])
+    public void addHeader(java.lang.String,java.lang.String)
+    public void addHeaderLine(java.lang.String)
+    public void addRecipients(javax.mail.Message$RecipientType,java.lang.String)
+    public void addRecipients(javax.mail.Message$RecipientType,javax.mail.Address[])
+    protected javax.mail.internet.InternetHeaders createInternetHeaders(java.io.InputStream)
+    protected javax.mail.internet.MimeMessage createMimeMessage(javax.mail.Session)
+    private javax.mail.Address[] eliminateDuplicates(java.util.List,javax.mail.Address[])
+    public java.util.Enumeration getAllHeaderLines()
+    public java.util.Enumeration getAllHeaders()
+    public java.lang.Object getContent()
+    public java.lang.String getContentID()
+    public java.lang.String[] getContentLanguage()
+    public java.lang.String getContentMD5()
+    protected java.io.InputStream getContentStream()
+    public java.lang.String getContentType()
+    public synchronized javax.activation.DataHandler getDataHandler()
+    public java.lang.String getDescription()
+    public java.lang.String getDisposition()
+    public java.lang.String getEncoding()
+    public java.lang.String getFileName()
+    public synchronized javax.mail.Flags getFlags()
+    public javax.mail.Address[] getFrom()
+    public java.lang.String[] getHeader(java.lang.String)
+    public java.io.InputStream getInputStream()
+    public int getLineCount()
+    public java.util.Enumeration getMatchingHeaderLines(java.lang.String[])
+    public java.util.Enumeration getMatchingHeaders(java.lang.String[])
+    public java.lang.String getMessageID()
+    public java.util.Enumeration getNonMatchingHeaderLines(java.lang.String[])
+    public java.util.Enumeration getNonMatchingHeaders(java.lang.String[])
+    public java.io.InputStream getRawInputStream()
+    public java.util.Date getReceivedDate()
+    public javax.mail.Address[] getReplyTo()
+    public javax.mail.Address getSender()
+    public java.util.Date getSentDate()
+    public int getSize()
+    public java.lang.String getSubject()
+    public boolean isMimeType(java.lang.String)
+    public synchronized boolean isSet(javax.mail.Flags$Flag)
+    protected void parse(java.io.InputStream)
+    public javax.mail.Message reply(boolean)
+    public javax.mail.Message reply(boolean,boolean)
+    public void saveChanges()
+    public void setContentID(java.lang.String)
+    public void setContentLanguage(java.lang.String[])
+    public void setContentMD5(java.lang.String)
+    public void setDescription(java.lang.String)
+    public void setDescription(java.lang.String,java.lang.String)
+    public void setDisposition(java.lang.String)
+    public void setFileName(java.lang.String)
+    public synchronized void setFlags(javax.mail.Flags,boolean)
+    public void setFrom()
+    public void setFrom(java.lang.String)
+    public void setRecipients(javax.mail.Message$RecipientType,java.lang.String)
+    public void setReplyTo(javax.mail.Address[])
+    public void setSender(javax.mail.Address)
+    public void setText(java.lang.String,java.lang.String,java.lang.String)
+    protected synchronized void updateHeaders()
+    protected void updateMessageID()
+    public void writeTo(java.io.OutputStream)
+    public void writeTo(java.io.OutputStream,java.lang.String[])
+javax.mail.internet.MimeMultipart
+javax.mail.internet.MimePart:
+    public abstract void addHeaderLine(java.lang.String)
+    public abstract java.util.Enumeration getAllHeaderLines()
+    public abstract java.lang.String getContentID()
+    public abstract java.lang.String[] getContentLanguage()
+    public abstract java.lang.String getContentMD5()
+    public abstract java.lang.String getEncoding()
+    public abstract java.lang.String getHeader(java.lang.String,java.lang.String)
+    public abstract java.util.Enumeration getMatchingHeaderLines(java.lang.String[])
+    public abstract java.util.Enumeration getNonMatchingHeaderLines(java.lang.String[])
+    public abstract void setContentLanguage(java.lang.String[])
+    public abstract void setContentMD5(java.lang.String)
+    public abstract void setText(java.lang.String)
+    public abstract void setText(java.lang.String,java.lang.String)
+    public abstract void setText(java.lang.String,java.lang.String,java.lang.String)
+javax.mail.internet.MimePartDataSource
+javax.mail.internet.MimeUtility:
+    public static final int ALL
+    static final int ALL_ASCII
+    static final int MOSTLY_ASCII
+    static final int MOSTLY_NONASCII
+    static int checkAscii(java.io.InputStream,int,boolean)
+    static int checkAscii(byte[])
+    public static java.io.InputStream decode(java.io.InputStream,java.lang.String)
+    public static java.io.OutputStream encode(java.io.OutputStream,java.lang.String)
+    public static java.io.OutputStream encode(java.io.OutputStream,java.lang.String,java.lang.String)
+    public static java.lang.String encodeText(java.lang.String)
+    public static java.lang.String getEncoding(javax.activation.DataHandler)
+    public static java.lang.String getEncoding(javax.activation.DataSource)
+    private static boolean nonAsciiCharset(javax.mail.internet.ContentType)
+javax.mail.internet.NewsAddress:
+    private static final long serialVersionUID
+    public java.lang.String getHost()
+    public java.lang.String getNewsgroup()
+    public java.lang.String getType()
+    public void setHost(java.lang.String)
+    public void setNewsgroup(java.lang.String)
+javax.mail.internet.ParameterList$1
+javax.mail.internet.ParameterList$LiteralValue
+javax.mail.internet.ParameterList$MultiValue
+javax.mail.internet.ParameterList$ParamEnum
+javax.mail.internet.ParameterList$ToStringBuffer
+javax.mail.internet.ParameterList$Value
+javax.mail.internet.ParameterList
+javax.mail.internet.ParseException:
+    private static final long serialVersionUID
+    public void <init>()
+javax.mail.internet.PreencodedMimeBodyPart
+javax.mail.internet.SharedInputStream
+javax.mail.internet.UniqueValue
+javax.mail.search.AddressStringTerm
+javax.mail.search.AddressTerm
+javax.mail.search.AndTerm
+javax.mail.search.BodyTerm
+javax.mail.search.ComparisonTerm
+javax.mail.search.DateTerm
+javax.mail.search.FlagTerm
+javax.mail.search.FromStringTerm
+javax.mail.search.FromTerm
+javax.mail.search.HeaderTerm
+javax.mail.search.IntegerComparisonTerm
+javax.mail.search.MessageIDTerm
+javax.mail.search.MessageNumberTerm
+javax.mail.search.NotTerm
+javax.mail.search.OrTerm
+javax.mail.search.ReceivedDateTerm
+javax.mail.search.RecipientStringTerm
+javax.mail.search.RecipientTerm
+javax.mail.search.SearchException
+javax.mail.search.SearchTerm
+javax.mail.search.SentDateTerm
+javax.mail.search.SizeTerm
+javax.mail.search.StringTerm
+javax.mail.search.SubjectTerm
+javax.mail.util.ByteArrayDataSource$DSByteArrayOutputStream
+javax.mail.util.ByteArrayDataSource
+javax.mail.util.SharedByteArrayInputStream
+javax.mail.util.SharedFileInputStream$SharedFile
+javax.mail.util.SharedFileInputStream
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference
 kotlin.CharCodeJVMKt
@@ -33679,6 +34531,7 @@ com.google.android.material.R$style:
     public static com.google.firebase.messaging.reporting.MessagingClientEvent eventToProto(com.google.firebase.messaging.reporting.MessagingClientEvent$Event,android.content.Intent)
     public static androidx.collection.ArrayMap extractDeveloperDefinedPayload(android.os.Bundle)
     public static android.app.Activity getActivity(android.content.Context)
+    public static boolean getBooleanSessionProperty(javax.mail.Session,java.lang.String,boolean)
     public static java.lang.String getCollapseKey(android.os.Bundle)
     public static int getColor(android.content.Context,int,java.lang.String)
     public static int getColor(android.view.View,int,int)
@@ -33701,6 +34554,7 @@ com.google.android.material.R$style:
     public static int getPosition(com.rd.draw.data.Indicator,float,float)
     public static android.util.Pair getProgress(com.rd.draw.data.Indicator,int,float,boolean)
     public static long getProjectNumber(android.os.Bundle)
+    public static java.lang.Object getProp(java.util.Properties,java.lang.String)
     public static java.util.Set getRoots(java.util.Set)
     public static com.google.android.material.resources.TextAppearance getTextAppearance(android.content.Context,android.content.res.TypedArray,int)
     public static int getTtl(android.os.Bundle)
@@ -33737,6 +34591,7 @@ com.google.android.material.R$style:
     public static boolean shouldUploadFirelogAnalytics(android.content.Intent)
     public static boolean shouldUploadScionMetrics(android.os.Bundle)
     public static java.util.Set toGraph(java.util.List)
+    public static java.lang.String toString(byte[],int,int)
     public static void write(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter)
 com.google.android.material.R$styleable:
     public static final int[] ActionBar
@@ -37144,6 +37999,45 @@ com.squareup.picasso.Utils:
     public static boolean isMain()
     public static boolean isWebPFile(okio.BufferedSource)
     public static void log(java.lang.String,java.lang.String,java.lang.String)
+com.sun.mail.util.ASCIIUtility
+com.sun.mail.util.BASE64EncoderStream
+com.sun.mail.util.BEncoderStream:
+    private synchronized void close$com$sun$mail$util$BASE64EncoderStream()
+    private void constructor$com$sun$mail$util$BASE64EncoderStream(java.io.OutputStream,int)
+    private final void encode$com$sun$mail$util$BASE64EncoderStream()
+    public static int encodedLength(byte[])
+    private synchronized void flush$com$sun$mail$util$BASE64EncoderStream()
+    private synchronized void write$com$sun$mail$util$BASE64EncoderStream(int)
+    private void write$com$sun$mail$util$BASE64EncoderStream(byte[])
+    private synchronized void write$com$sun$mail$util$BASE64EncoderStream(byte[],int,int)
+com.sun.mail.util.LineInputStream:
+    public static int MAX_INCR
+    public static void <clinit>()
+    public void <init>(java.io.InputStream,boolean)
+com.sun.mail.util.MailLogger:
+    public void config(java.lang.String)
+    public void fine(java.lang.String)
+    public final void ifDebugOut(java.lang.String)
+    public final boolean isLoggerImplFrame(java.lang.String)
+    public final java.lang.String packageOf(java.lang.Class)
+com.sun.mail.util.PropUtil
+com.sun.mail.util.QDecoderStream:
+    public int spaces
+    private int available$com$sun$mail$util$QPDecoderStream()
+    private void constructor$com$sun$mail$util$QPDecoderStream(java.io.InputStream)
+    private boolean markSupported$com$sun$mail$util$QPDecoderStream()
+    private int read$com$sun$mail$util$QPDecoderStream()
+    private int read$com$sun$mail$util$QPDecoderStream(byte[],int,int)
+    private long skip$com$sun$mail$util$QPDecoderStream(long)
+com.sun.mail.util.QEncoderStream:
+    public static java.lang.String TEXT_SPECIALS
+    public static java.lang.String WORD_SPECIALS
+    public static void <clinit>()
+    public static int encodedLength(byte[],boolean)
+com.sun.mail.util.QPDecoderStream
+com.sun.mail.util.QPEncoderStream:
+    public boolean gotCR
+    public boolean gotSpace
 com.xwray.groupie.GroupAdapter$1
 com.xwray.groupie.GroupAdapter$3
 com.xwray.groupie.GroupAdapter:
@@ -37265,6 +38159,7 @@ id.kotlin.hspbtool.ApiEndPoint:
     public static final synthetic java.lang.String access$getRead_record_battery$cp()
     public static final synthetic java.lang.String access$getRead_record_keytag$cp()
     public static final synthetic java.lang.String access$getRead_record_tap_time_card$cp()
+    public static final synthetic java.lang.String access$getRegister_account$cp()
     public static final java.lang.String getChange_password()
     public static final java.lang.String getCreate_keytag_record()
     public static final java.lang.String getCreate_maintenance_ac_room()
@@ -37279,6 +38174,7 @@ id.kotlin.hspbtool.ApiEndPoint:
     public static final java.lang.String getRead_record_battery()
     public static final java.lang.String getRead_record_keytag()
     public static final java.lang.String getRead_record_tap_time_card()
+    public static final java.lang.String getRegister_account()
 id.kotlin.hspbtool.BannerFragment$Companion
 id.kotlin.hspbtool.BannerFragment:
     public static final id.kotlin.hspbtool.BannerFragment Companion
@@ -37324,8 +38220,10 @@ id.kotlin.hspbtool.LogRecordActivityAC:
 id.kotlin.hspbtool.LoginActivity:
     public final void getDataTimeCard()
     public static void lambda$1Ih7lQtMuvMhooD6Dcz71cU7nhU(id.kotlin.hspbtool.LoginActivity,kotlin.jvm.internal.Ref$ObjectRef,android.widget.ProgressBar,android.view.View)
+    public static void lambda$NEnwkAx_3MYl7fqkTa0R-lpOOYI(id.kotlin.hspbtool.LoginActivity,android.view.View)
     public final void notificationBuilder(java.lang.String,java.lang.String)
     public static final void onCreate$lambda-0(id.kotlin.hspbtool.LoginActivity,kotlin.jvm.internal.Ref$ObjectRef,android.widget.ProgressBar,android.view.View)
+    public static final void onCreate$lambda-1(id.kotlin.hspbtool.LoginActivity,android.view.View)
 id.kotlin.hspbtool.MainActivity$inlined$sam$i$androidx_navigation_ui_AppBarConfiguration_OnNavigateUpListener$0:
     public final synthetic kotlin.jvm.functions.Function0 function
 id.kotlin.hspbtool.MainActivity$onCreate$$inlined$AppBarConfiguration$default$1:
@@ -37349,6 +38247,13 @@ id.kotlin.hspbtool.MyWorker:
     public static final java.lang.String TAG
     public static void <clinit>()
 id.kotlin.hspbtool.R$id
+id.kotlin.hspbtool.RegisterAccount$sendEmail$session$1:
+    public javax.mail.PasswordAuthentication getPasswordAuthentication()
+id.kotlin.hspbtool.RegisterAccount:
+    public static void lambda$2rE8Jk3xOj8rQQr8Dq2hlJv_CRU(android.widget.EditText,android.widget.EditText,android.widget.EditText,id.kotlin.hspbtool.RegisterAccount,android.view.View)
+    public static final void onCreate$lambda-0(android.widget.EditText,android.widget.EditText,android.widget.EditText,id.kotlin.hspbtool.RegisterAccount,android.view.View)
+    public final void putIfMissing(java.util.Properties,java.lang.String,java.lang.String)
+    public final void sendEmail(java.lang.String)
 id.kotlin.hspbtool.SantikaInformationActivity:
     public static void lambda$DCdZmvsvvrxPafE2pfTpL-Sq9rk(android.view.View)
     public static final void onCreate$lambda-0(android.view.View)
@@ -37524,6 +38429,199 @@ id.kotlin.hspbtool.ui.login.LoginViewModel:
     public final androidx.lifecycle.LiveData getLoginResult()
     public final boolean isPasswordValid(java.lang.String)
     public final boolean isUserNameValid(java.lang.String)
+javax.activation.ActivationDataFlavor
+javax.activation.CommandMap
+javax.activation.DataContentHandler
+javax.activation.DataContentHandlerFactory
+javax.activation.DataHandler
+javax.activation.DataSource
+javax.mail.AuthenticationFailedException
+javax.mail.Authenticator:
+    public int requestingPort
+    public java.lang.String requestingPrompt
+    public java.lang.String requestingProtocol
+    public java.net.InetAddress requestingSite
+    public java.lang.String requestingUserName
+    public javax.mail.PasswordAuthentication getPasswordAuthentication()
+    public final synchronized javax.mail.PasswordAuthentication requestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)
+javax.mail.EventQueue$QueueElement
+javax.mail.EventQueue$TerminatorEvent
+javax.mail.EventQueue
+javax.mail.Flags$Flag
+javax.mail.Flags
+javax.mail.Folder
+javax.mail.Header:
+    public java.lang.String value
+    public java.lang.String getName()
+javax.mail.Message:
+    public boolean expunged
+    public javax.mail.Folder folder
+    public int msgnum
+    public void <init>()
+    public javax.mail.Address[] getAllRecipients()
+    public abstract javax.mail.Address[] getRecipients(javax.mail.Message$RecipientType)
+javax.mail.MessagingException:
+    public final java.lang.String superToString()
+javax.mail.Multipart:
+    public javax.mail.Part parent
+    public java.util.Vector parts
+    public synchronized java.lang.String getContentType()
+    public synchronized void setParent(javax.mail.Part)
+javax.mail.Part
+javax.mail.PasswordAuthentication
+javax.mail.Provider:
+    public java.lang.String getClassName()
+    public java.lang.String getProtocol()
+    public javax.mail.Provider$Type getType()
+javax.mail.Service:
+    public final java.util.Vector connectionListeners
+    public final javax.mail.EventQueue q
+    public javax.mail.Session session
+    public synchronized void connect(java.lang.String,int,java.lang.String,java.lang.String)
+    public void connect(java.lang.String,java.lang.String,java.lang.String)
+    public synchronized boolean isConnected()
+    public void notifyConnectionListeners(int)
+    public boolean protocolConnect()
+    public void queueEvent(javax.mail.event.MailEvent,java.util.Vector)
+    public synchronized void setConnected(boolean)
+    public void setURLName(javax.mail.URLName)
+javax.mail.Session$1:
+    public java.lang.String run()
+javax.mail.Session$4:
+    public java.lang.ClassLoader run()
+javax.mail.Session$5:
+    public java.io.InputStream run()
+javax.mail.Session$6:
+    public java.net.URL[] run()
+javax.mail.Session$7:
+    public java.net.URL[] run()
+javax.mail.Session$8:
+    public java.io.InputStream run()
+javax.mail.Session:
+    public java.io.PrintStream out
+    public final javax.mail.EventQueue q
+    public static void access$000(javax.mail.Session,java.io.InputStream)
+    public static synthetic java.util.Properties access$100(javax.mail.Session)
+    public static java.lang.ClassLoader getContextClassLoader()
+    public synchronized java.io.PrintStream getDebugOut()
+    public static synchronized javax.mail.Session getDefaultInstance(java.util.Properties,javax.mail.Authenticator)
+    public javax.mail.PasswordAuthentication getPasswordAuthentication(javax.mail.URLName)
+    public java.util.Properties getProperties()
+    public java.lang.String getProperty(java.lang.String)
+    public synchronized javax.mail.Provider getProvider(java.lang.String)
+    public static java.net.URL[] getResources(java.lang.ClassLoader,java.lang.String)
+    public final javax.mail.Service getService(javax.mail.Provider,javax.mail.URLName,java.lang.Class)
+    public static java.net.URL[] getSystemResources(java.lang.String)
+    public final javax.mail.Transport getTransport(javax.mail.Provider,javax.mail.URLName)
+    public javax.mail.Transport getTransport(javax.mail.URLName)
+    public final void loadAddressMap(java.lang.Class)
+    public final void loadProviders(java.lang.Class)
+    public final void loadProvidersFromStream(java.io.InputStream)
+    public javax.mail.PasswordAuthentication requestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)
+    public synchronized void setDebug(boolean)
+    public void setPasswordAuthentication(javax.mail.URLName,javax.mail.PasswordAuthentication)
+javax.mail.Transport:
+    public abstract void sendMessage(javax.mail.Message,javax.mail.Address[])
+javax.mail.URLName:
+    public static java.lang.String _encode(java.lang.String)
+    public java.lang.String getFile()
+    public java.lang.String getHost()
+    public int getPort()
+    public java.lang.String getProtocol()
+    public static int indexOfAny(java.lang.String,java.lang.String)
+    public static int indexOfAny(java.lang.String,java.lang.String,int)
+javax.mail.event.ConnectionEvent
+javax.mail.event.ConnectionListener
+javax.mail.event.MailEvent
+javax.mail.internet.InternetAddress:
+    public static final boolean useCanonicalHostName
+    public java.lang.String getAddress()
+    public java.lang.String getPersonal()
+    public static int indexOfAny(java.lang.String,java.lang.String)
+    public final boolean isSimple()
+    public static int lengthOfFirstSegment(java.lang.String)
+    public static javax.mail.internet.InternetAddress[] parse(java.lang.String)
+    public static javax.mail.internet.InternetAddress[] parse(java.lang.String,boolean)
+    public static javax.mail.internet.InternetAddress[] parseHeader(java.lang.String,boolean)
+    public void setAddress(java.lang.String)
+    public static java.lang.String toString(javax.mail.Address[],int)
+    public java.lang.String toUnicodeString()
+    public static java.lang.String toUnicodeString(javax.mail.Address[],int)
+javax.mail.internet.InternetHeaders$InternetHeader:
+    public java.lang.String getValue()
+javax.mail.internet.InternetHeaders:
+    public static final boolean ignoreWhitespaceLines
+    public void addHeader(java.lang.String,java.lang.String)
+    public java.lang.String getHeader(java.lang.String,java.lang.String)
+    public java.lang.String[] getHeader(java.lang.String)
+    public void removeHeader(java.lang.String)
+    public void setHeader(java.lang.String,java.lang.String)
+javax.mail.internet.MailDateFormat$AbstractDateParser:
+    public final int getAsciiDigit()
+    public final int parseDayName()
+    public final int parseMonthName(boolean)
+    public final boolean skipAlternativeTriple(char,char,char,char,char,char)
+    public final boolean skipNewline()
+javax.mail.internet.MailDateFormat$Rfc2822LenientParser:
+    public final synthetic javax.mail.internet.MailDateFormat this$0
+javax.mail.internet.MailDateFormat$Rfc2822StrictParser:
+    public boolean isMonthNameCaseSensitive()
+    public int parseMonth()
+javax.mail.internet.MailDateFormat:
+    public static synthetic com.sun.mail.util.MailLogger access$000()
+    public javax.mail.internet.MailDateFormat clone()
+    public final java.util.Date toDate(int,int,int,int,int,int,int,int)
+javax.mail.internet.MimeBodyPart:
+    public static final boolean allowutf8
+    public static final boolean cacheMultipart
+    public static final boolean decodeFileName
+    public static final boolean encodeFileName
+    public static final boolean ignoreMultipartEncoding
+    public static final boolean setContentTypeFileName
+    public static final boolean setDefaultTextCharset
+    public static void invalidateContentHeaders(javax.mail.internet.MimePart)
+    public static void setText(javax.mail.internet.MimePart,java.lang.String,java.lang.String,java.lang.String)
+javax.mail.internet.MimeMessage:
+    public static final javax.mail.Flags answeredFlag
+    public java.lang.Object cachedContent
+    public javax.activation.DataHandler dh
+    public javax.mail.Flags flags
+    public boolean modified
+    public boolean saved
+    public final javax.mail.Address[] getAddressHeader(java.lang.String)
+    public javax.mail.Address[] getAllRecipients()
+    public java.lang.String getHeader(java.lang.String,java.lang.String)
+    public javax.mail.Address[] getRecipients(javax.mail.Message$RecipientType)
+    public final void initStrict()
+    public final void setAddressHeader(java.lang.String,javax.mail.Address[])
+    public void setContent(java.lang.Object,java.lang.String)
+    public void setContent(javax.mail.Multipart)
+    public synchronized void setDataHandler(javax.activation.DataHandler)
+    public void setFrom(javax.mail.Address)
+    public void setSentDate(java.util.Date)
+    public void setSubject(java.lang.String)
+    public void setSubject(java.lang.String,java.lang.String)
+    public void setText(java.lang.String,java.lang.String)
+javax.mail.internet.MimePart
+javax.mail.internet.MimeUtility:
+    public static final synthetic boolean $assertionsDisabled
+    public static final boolean encodeEolStrict
+    public static final boolean ignoreUnknownEncoding
+    public static final java.util.Map nonAsciiCharsetMap
+    public static java.lang.String encodeText(java.lang.String,java.lang.String,java.lang.String)
+    public static java.lang.String encodeWord(java.lang.String)
+    public static java.lang.String encodeWord(java.lang.String,java.lang.String,java.lang.String)
+    public static int indexOfAny(java.lang.String,java.lang.String)
+    public static int indexOfAny(java.lang.String,java.lang.String,int)
+    public static java.lang.String mimeCharset(java.lang.String)
+    public static final boolean nonascii(int)
+    public static java.lang.String quote(java.lang.String,java.lang.String)
+    public static java.lang.String unfold(java.lang.String)
+javax.mail.internet.NewsAddress:
+    public void <init>(java.lang.String)
+    public void <init>(java.lang.String,java.lang.String)
+    public static javax.mail.internet.NewsAddress[] parse(java.lang.String)
+    public static java.lang.String toString(javax.mail.Address[])
 kotlin.KotlinVersion$Companion
 kotlin.KotlinVersion:
     public static final kotlin.KotlinVersion$Companion Companion

@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
 
         appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.nav_home, R.id.nav_hotel_information, R.id.nav_engineering_data_record
+                R.id.nav_home, R.id.nav_hotel_information, R.id.nav_engineering_data_record, R.id.work_order
                 ), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
@@ -69,6 +69,10 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.nav_engineering_data_record -> {
                     val intent = Intent(this@MainActivity, MenuEngineeringRecord::class.java)
+                    startActivity(intent)
+                }
+                R.id.work_order-> {
+                    val intent = Intent(this@MainActivity, WorkOrderActivity::class.java)
                     startActivity(intent)
                 }
             }
