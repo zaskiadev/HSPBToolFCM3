@@ -117,8 +117,10 @@ class CameraXActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks
                     sharedPrefEditor.putString("chooseFoto","Photo")
                     sharedPrefEditor.apply()
 
-                    val intent = Intent(this@CameraXActivity, TakePictureWorkOrderActivity::class.java)
-                    startActivity(intent)
+
+
+                    //val intent = Intent(this@CameraXActivity, TakePictureWorkOrderActivity::class.java)
+                    //startActivity(intent)
                     this@CameraXActivity.finish()
 
                 }

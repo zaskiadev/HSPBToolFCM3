@@ -80,6 +80,32 @@
         <item>Maintenance Ventaza</item>
     </string-array>
 
+    <string-array name="work_order_type">
+        <item>Maintenance</item>
+        <item>Repair</item>
+        <item>Create</item>
+        <item>Project</item>
+    </string-array>
+
+    <string-array name="work_order_priority">
+        <item>Urgent</item>
+        <item>Normal</item>
+    </string-array>
+
+
+    <string-array name="work_order_departement">
+        <item>Accounting</item>
+        <item>Housekeeping</item>
+        <item>Housekeeping</item>
+        <item>Front Office</item>
+        <item>F&amp;B Product</item>
+        <item>F&amp;B Service</item>
+        <item>Human Resource</item>
+        <item>Engineering</item>
+        <item>Sales</item>
+    </string-array>
+
+
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 
 

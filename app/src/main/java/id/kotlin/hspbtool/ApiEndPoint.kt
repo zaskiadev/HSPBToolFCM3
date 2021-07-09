@@ -23,6 +23,10 @@ class ApiEndPoint {
         val notification_change_battery=SERVER+"notification_change_battery.php"
         val notification_ac_maintenance=SERVER+"notification_ac_maintenance.php"
         val register_account=SERVER+"register_account.php"
+        val get_code_wo=SERVER+"get_code_wo.php"
+        val get_code_wo_detail=SERVER+"get_code_wo_detail.php"
+        val get_code_maintenance=SERVER+"get_code_maintenance.php"
+        val get_data_item_work_order =SERVER+"get_data_item_work_order.php"
     }
 
 }

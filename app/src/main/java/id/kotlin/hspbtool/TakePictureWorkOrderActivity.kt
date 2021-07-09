@@ -26,7 +26,7 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import android.widget.Toast
 
-typealias LumaListener = (luma: Double) -> Unit
+
 
 class TakePictureWorkOrderActivity : AppCompatActivity(){
 

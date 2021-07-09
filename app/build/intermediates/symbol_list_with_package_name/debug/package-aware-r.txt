@@ -73,6 +73,9 @@ array show_log_ventaza
 array ventaza_choose
 array ventaza_filter_by
 array ventaza_filter_choose
+array work_order_departement
+array work_order_priority
+array work_order_type
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1942,6 +1945,7 @@ id buttonAddRegisterUser
 id buttonChangePassword
 id buttonChooseFromGallery
 id buttonPanel
+id buttonSearchItemWorkOrder
 id buttonShowFilterAC
 id buttonShowFilterDataVentaza
 id buttonShowLogDataAC
@@ -1950,12 +1954,12 @@ id buttonShowLogDataVentazaFilter
 id buttonSignIn
 id buttonSignUp
 id buttonTakeAgainPictureWorkOrder
-id buttonTakePictureWorkOrder
 id buttonUseThisPicture
 id cache_measures
 id cancel_action
 id cancel_button
 id cardList
+id cardListItemWorkOrder
 id center
 id center_horizontal
 id center_vertical
@@ -2023,7 +2027,9 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextLocationWorkOrder
 id editTextNewPassword
+id editTextNoteDetailWorkOrder
 id editTextNoteMaintenanceAC
 id editTextNoteMaintenanceVentaza
 id editTextRegisterEmail
@@ -2034,6 +2040,7 @@ id editTextTextRoomNumberACShowLog
 id editTextTextRoomNumberMaintenanceAC
 id editTextTextRoomNumberMaintenanceVentaza
 id editTextTextRoomNumberShowLog
+id editTextWorkOrderItemName
 id edit_query
 id elastic
 id end
@@ -2103,6 +2110,10 @@ id isTuningFilterAC
 id isVacumDrainAC
 id italic
 id item_touch_helper_previous_elevation
+id item_work_order_code_barang
+id item_work_order_departement
+id item_work_order_location
+id item_work_order_nama_barang
 id jumpToEnd
 id jumpToStart
 id labelGroup
@@ -2116,6 +2127,9 @@ id left
 id leftToRight
 id line1
 id line3
+id lineWorkOrderDepartement
+id lineWorkOrderPriority
+id lineWorkOrderType
 id linear
 id listMode
 id list_item
@@ -2123,6 +2137,7 @@ id loading
 id login
 id mRecyclerView
 id mRecyclerViewAC
+id mRecyclerViewItemWorkOrder
 id mRecyclerViewLog
 id mRecyclerViewLogAC
 id maintenanceTypeVentaza
@@ -2221,7 +2236,6 @@ id pathRelative
 id peekHeight
 id percent
 id performance
-id pictureNameWorkOrder
 id pin
 id position
 id postLayout
@@ -2296,10 +2310,13 @@ id snapMargins
 id spacer
 id spinnerACFilterBy
 id spinnerChooseLog
+id spinnerDepartement
 id spinnerFilterBatteryOrTimeCard
 id spinnerFilterBy
 id spinnerLogBatteryOrTimeCard
+id spinnerPriority
 id spinnerVentaza
+id spinnerWorkOrderType
 id spline
 id split_action_bar
 id spread
@@ -2382,6 +2399,13 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtHeroName
+id txtNamaBarang
+id txtWorkOrderDepartement
+id txtWorkOrderDetail
+id txtWorkOrderLocation
+id txtWorkOrderPriority
+id txtWorkOrderTitle
+id txtWorkOrderType
 id unchecked
 id uniform
 id unlabeled
@@ -2495,6 +2519,7 @@ layout activity_take_picture_work_order
 layout activity_ventaza_filter_show_data
 layout activity_ventaza_filter_show_log
 layout activity_ventaza_record
+layout activity_view_data_item_work_order
 layout activity_view_record_ac
 layout activity_view_record_battery
 layout activity_work_order
@@ -2533,6 +2558,7 @@ layout item_product_category
 layout list
 layout list_card_ac
 layout list_card_battery
+layout list_card_data_item_work_order
 layout list_card_log_maintenance_ventaza
 layout list_card_time_card
 layout listcardlogalldata
@@ -2599,6 +2625,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout spinner_item
+layout spinner_item_work_order
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

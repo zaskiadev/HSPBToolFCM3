@@ -1,5 +1,11 @@
 id/kotlin/hspbtool/customfonts/MyEditText.java
  customfonts.MyEditText
+id/kotlin/hspbtool/customfonts/MyTextView.java
+ customfonts.MyTextView
+id/kotlin/hspbtool/BuildConfig.java
+ id.kotlin.hspbtool.BuildConfig
+id/kotlin/hspbtool/customfonts/MyRegulerText.java
+ customfonts.MyRegulerText
 id/kotlin/hspbtool/databinding/ItemCarouselBannerBinding.java
  id.kotlin.hspbtool.databinding.ItemCarouselBannerBinding
 id/kotlin/hspbtool/databinding/ActivityViewRecordBatteryBinding.java
@@ -88,8 +94,8 @@ id/kotlin/hspbtool/databinding/ActivityFBServiceBinding.java
  id.kotlin.hspbtool.databinding.ActivityFBServiceBinding
 id/kotlin/hspbtool/databinding/ItemProductBinding.java
  id.kotlin.hspbtool.databinding.ItemProductBinding
-id/kotlin/hspbtool/customfonts/MyRegulerText.java
- customfonts.MyRegulerText
+id/kotlin/hspbtool/databinding/ListCardDataItemWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.ListCardDataItemWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityTakePictureWorkOrderBinding.java
  id.kotlin.hspbtool.databinding.ActivityTakePictureWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityChangePasswordBinding.java
@@ -106,15 +112,15 @@ id/kotlin/hspbtool/databinding/ActivityAddMaintenanceVentazaBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddMaintenanceVentazaBinding
 id/kotlin/hspbtool/databinding/ActivityViewRecordAcBinding.java
  id.kotlin.hspbtool.databinding.ActivityViewRecordAcBinding
+id/kotlin/hspbtool/databinding/SpinnerItemWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.SpinnerItemWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityCameraxBinding.java
  id.kotlin.hspbtool.databinding.ActivityCameraxBinding
-id/kotlin/hspbtool/customfonts/MyTextView.java
- customfonts.MyTextView
 id/kotlin/hspbtool/databinding/ListCardLogMaintenanceVentazaBinding.java
  id.kotlin.hspbtool.databinding.ListCardLogMaintenanceVentazaBinding
-id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowLogBinding.java
- id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowLogBinding
-id/kotlin/hspbtool/BuildConfig.java
- id.kotlin.hspbtool.BuildConfig
 id/kotlin/hspbtool/databinding/ContentMainBinding.java
  id.kotlin.hspbtool.databinding.ContentMainBinding
+id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowLogBinding.java
+ id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowLogBinding
+id/kotlin/hspbtool/databinding/ActivityViewDataItemWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.ActivityViewDataItemWorkOrderBinding
