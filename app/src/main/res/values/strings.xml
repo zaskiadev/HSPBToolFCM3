@@ -73,6 +73,13 @@
         <item>Show Only Urgent To Execute</item>
     </string-array>
 
+    <string-array name="work_order_filter_by">
+        <item>Show Only Not Finished Work Order</item>
+        <item>Show All Work Order</item>
+        <item>Show Work Order With Range Date</item>
+
+    </string-array>
+
     <string-array name="show_log_ventaza">
         <item>Change Battery</item>
         <item>Tap Time Card</item>

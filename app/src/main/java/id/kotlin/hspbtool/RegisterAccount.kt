@@ -4,9 +4,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.StrictMode
 import android.os.StrictMode.ThreadPolicy
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
@@ -14,6 +12,7 @@ import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
 import kotlinx.android.synthetic.main.activity_add_record_ventaza.*
 import kotlinx.android.synthetic.main.activity_change_password.*
+import kotlinx.android.synthetic.main.activity_work_order.*
 import org.json.JSONObject
 import java.util.*
 import javax.mail.*
@@ -27,20 +26,57 @@ class RegisterAccount : AppCompatActivity() {
         setContentView(R.layout.register)
         //setSupportActionBar(findViewById(R.id.toolbar))
 
-
+        val spinnerDeptRegister=findViewById(R.id.spinnerDepartementSignUp) as Spinner
         val button_click = findViewById(R.id.buttonAddRegisterUser) as Button
         val editTextUser = findViewById(R.id.editTextRegisterUserName) as EditText
         val editTextPassword = findViewById(R.id.editTextRegisterPassword) as EditText
         val editTextEmail = findViewById(R.id.editTextRegisterEmail) as EditText
-
-
+        val arrayDepartement=resources.getStringArray(R.array.work_order_departement)
+        spinnerDeptRegister.adapter=
+            ArrayAdapter(this,R.layout.spinner_item,arrayDepartement)
         button_click.setOnClickListener {
 
+            var codeDepartement:String=""
+            var departement=spinnerDeptRegister.selectedItem.toString()
+
+            if(departement=="Accounting")
+            {
+                codeDepartement="D0001"
+            }
+            else if(departement=="Housekeeping")
+            {
+                codeDepartement="D0002"
+            }
+            else if(departement=="Front Office")
+            {
+                codeDepartement="D0003"
+            }
+            else if(departement=="F&B Product")
+            {
+                codeDepartement="D0004"
+            }
+            else if(departement=="F&B Service")
+            {
+                codeDepartement="D0005"
+            }
+            else if(departement=="Human Resources")
+            {
+                codeDepartement="D0006"
+            }
+            else if(departement=="Engineering")
+            {
+                codeDepartement="D0007"
+            }
+            else if(departement=="Sales")
+            {
+                codeDepartement="D0008"
+            }
 
             AndroidNetworking.post(ApiEndPoint.register_account)
                     .addBodyParameter("user_name", editTextUser.text.toString())
                     .addBodyParameter("password", editTextPassword.text.toString())
                 .addBodyParameter("email", editTextEmail.text.toString())
+                .addBodyParameter("deptCode", codeDepartement)
                     .setPriority(Priority.MEDIUM)
                     .build()
                     .getAsJSONObject(object : JSONObjectRequestListener {

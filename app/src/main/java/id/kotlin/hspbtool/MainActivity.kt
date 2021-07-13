@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
                 R.id.work_order-> {
-                    val intent = Intent(this@MainActivity, WorkOrderActivity::class.java)
+                    val intent = Intent(this@MainActivity, MenuWorkOrder::class.java)
                     startActivity(intent)
                 }
             }

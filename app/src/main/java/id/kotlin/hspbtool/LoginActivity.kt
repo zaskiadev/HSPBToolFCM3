@@ -9,6 +9,7 @@ import android.content.SharedPreferences
 import android.media.RingtoneManager
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ProgressBar
@@ -46,26 +47,36 @@ override fun onCreate(savedInstanceState: Bundle?) {
                 .getAsJSONObject(object : JSONObjectRequestListener {
 
                     override fun onResponse(response: JSONObject?) {
+                        val jsonArray = response?.optJSONArray("result")
 
-                        if(response?.getString("message")?.contains("successfully")!!){
+                        if (jsonArray?.length() == 0) {
+                            //loading.dismiss()
+                            Toast.makeText(applicationContext,"Login failed, please try again", Toast.LENGTH_LONG).show()
+                        }
+                        for (i in 0 until jsonArray?.length()!!) {
+
+
+                            val jsonObject = jsonArray?.optJSONObject(i)
+                            // Log.e("getWO",jsonObject.getString("code_wo"))
                             Toast.makeText(applicationContext,"Login Success", Toast.LENGTH_LONG).show()
                             val userName= textViewUser.text.toString()
                             sharedPrefEditor.putString("UserName",userName)
                             sharedPrefEditor.apply()
-                            pbLogin.visibility=View.VISIBLE
-                            getDataTimeCard()
-                            pbLogin.visibility=View.INVISIBLE
 
+                            val sharedPref=getSharedPreferences("deptCodeLogin", Context.MODE_PRIVATE)
+                            val sharedPrefEditor= sharedPref.edit()
+                            sharedPrefEditor.putString("deptCodeLogin",jsonObject.getString("dept_code"))
+                            sharedPrefEditor.apply()
+                            Log.e("Dept Code Login",jsonObject.getString("dept_code"))
 
-                            val intent = Intent (this@LoginActivity,MainActivity::class.java)
-                            startActivity(intent)
-                            //this@.finish()
                         }
-                        else
-                        {
-                            Toast.makeText(applicationContext,"Login failed, please try again", Toast.LENGTH_LONG).show()
-                        }
+                        pbLogin.visibility=View.VISIBLE
+                        getDataTimeCard()
+                        pbLogin.visibility=View.INVISIBLE
 
+
+                        val intent = Intent (this@LoginActivity,MainActivity::class.java)
+                        startActivity(intent)
                     }
 
                     override fun onError(anError: ANError?) {

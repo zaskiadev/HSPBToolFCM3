@@ -129,6 +129,10 @@
             android:name="id.kotlin.hspbtool.ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity android:name="id.kotlin.hspbtool.LoadingActivity" />
+        <activity android:name="id.kotlin.hspbtool.MenuWorkOrder" />
+        <activity android:name="id.kotlin.hspbtool.ViewRecordWorkOrderActivity" />
+        <activity android:name="id.kotlin.hspbtool.WorkOrderFilterShowData" />
+        <activity android:name="id.kotlin.hspbtool.WorkOrderViewDetailActivity" />
         <activity android:name="id.kotlin.hspbtool.CameraXActivity" />
         <activity android:name="id.kotlin.hspbtool.TakePictureWorkOrderActivity" />
         <activity android:name="id.kotlin.hspbtool.RegisterAccount" />

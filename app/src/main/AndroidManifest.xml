@@ -114,6 +114,14 @@
         <activity
             android:name=".LoadingActivity" />
         <activity
+            android:name=".MenuWorkOrder" />
+        <activity
+            android:name=".ViewRecordWorkOrderActivity" />
+        <activity
+            android:name=".WorkOrderFilterShowData" />
+        <activity
+            android:name=".WorkOrderViewDetailActivity" />
+        <activity
             android:name=".CameraXActivity" />
         <activity
             android:name=".TakePictureWorkOrderActivity" />

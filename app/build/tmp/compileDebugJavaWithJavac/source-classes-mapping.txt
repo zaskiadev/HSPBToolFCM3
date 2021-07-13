@@ -1,11 +1,5 @@
 id/kotlin/hspbtool/customfonts/MyEditText.java
  customfonts.MyEditText
-id/kotlin/hspbtool/customfonts/MyTextView.java
- customfonts.MyTextView
-id/kotlin/hspbtool/BuildConfig.java
- id.kotlin.hspbtool.BuildConfig
-id/kotlin/hspbtool/customfonts/MyRegulerText.java
- customfonts.MyRegulerText
 id/kotlin/hspbtool/databinding/ItemCarouselBannerBinding.java
  id.kotlin.hspbtool.databinding.ItemCarouselBannerBinding
 id/kotlin/hspbtool/databinding/ActivityViewRecordBatteryBinding.java
@@ -28,16 +22,22 @@ id/kotlin/hspbtool/databinding/ActivityHRDBinding.java
  id.kotlin.hspbtool.databinding.ActivityHRDBinding
 id/kotlin/hspbtool/databinding/SpinnerItemBinding.java
  id.kotlin.hspbtool.databinding.SpinnerItemBinding
+id/kotlin/hspbtool/databinding/CostumDialogWarningCantDoWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.CostumDialogWarningCantDoWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityEmployeInformationBinding.java
  id.kotlin.hspbtool.databinding.ActivityEmployeInformationBinding
 id/kotlin/hspbtool/databinding/ItemHeroSecondBinding.java
  id.kotlin.hspbtool.databinding.ItemHeroSecondBinding
+id/kotlin/hspbtool/databinding/ActivityWorkOrderFilterShowDataBinding.java
+ id.kotlin.hspbtool.databinding.ActivityWorkOrderFilterShowDataBinding
 id/kotlin/hspbtool/databinding/ContentChangePasswordBinding.java
  id.kotlin.hspbtool.databinding.ContentChangePasswordBinding
 id/kotlin/hspbtool/databinding/ActivityAccountingBinding.java
  id.kotlin.hspbtool.databinding.ActivityAccountingBinding
 id/kotlin/hspbtool/databinding/ListBinding.java
  id.kotlin.hspbtool.databinding.ListBinding
+id/kotlin/hspbtool/databinding/CostumDialogDoWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.CostumDialogDoWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityAddMaintenanceAcBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddMaintenanceAcBinding
 id/kotlin/hspbtool/databinding/ListCardAcBinding.java
@@ -72,6 +72,8 @@ id/kotlin/hspbtool/databinding/ActivitySalesMarketingBinding.java
  id.kotlin.hspbtool.databinding.ActivitySalesMarketingBinding
 id/kotlin/hspbtool/databinding/ItemHeroBinding.java
  id.kotlin.hspbtool.databinding.ItemHeroBinding
+id/kotlin/hspbtool/databinding/ActivityViewRecordWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.ActivityViewRecordWorkOrderBinding
 id/kotlin/hspbtool/databinding/ItemProductCategoryBinding.java
  id.kotlin.hspbtool.databinding.ItemProductCategoryBinding
 id/kotlin/hspbtool/databinding/ActivityMenuEngineeringRecordBinding.java
@@ -96,8 +98,12 @@ id/kotlin/hspbtool/databinding/ItemProductBinding.java
  id.kotlin.hspbtool.databinding.ItemProductBinding
 id/kotlin/hspbtool/databinding/ListCardDataItemWorkOrderBinding.java
  id.kotlin.hspbtool.databinding.ListCardDataItemWorkOrderBinding
+id/kotlin/hspbtool/customfonts/MyRegulerText.java
+ customfonts.MyRegulerText
 id/kotlin/hspbtool/databinding/ActivityTakePictureWorkOrderBinding.java
  id.kotlin.hspbtool.databinding.ActivityTakePictureWorkOrderBinding
+id/kotlin/hspbtool/databinding/ListCardWorkOrderListBinding.java
+ id.kotlin.hspbtool.databinding.ListCardWorkOrderListBinding
 id/kotlin/hspbtool/databinding/ActivityChangePasswordBinding.java
  id.kotlin.hspbtool.databinding.ActivityChangePasswordBinding
 id/kotlin/hspbtool/databinding/ContentVentazaFilterShowDataBinding.java
@@ -108,6 +114,8 @@ id/kotlin/hspbtool/databinding/AppBarMainBinding.java
  id.kotlin.hspbtool.databinding.AppBarMainBinding
 id/kotlin/hspbtool/databinding/ActivityAcRecordBinding.java
  id.kotlin.hspbtool.databinding.ActivityAcRecordBinding
+id/kotlin/hspbtool/databinding/ActivityWorkOrderDetailViewBinding.java
+ id.kotlin.hspbtool.databinding.ActivityWorkOrderDetailViewBinding
 id/kotlin/hspbtool/databinding/ActivityAddMaintenanceVentazaBinding.java
  id.kotlin.hspbtool.databinding.ActivityAddMaintenanceVentazaBinding
 id/kotlin/hspbtool/databinding/ActivityViewRecordAcBinding.java
@@ -116,11 +124,17 @@ id/kotlin/hspbtool/databinding/SpinnerItemWorkOrderBinding.java
  id.kotlin.hspbtool.databinding.SpinnerItemWorkOrderBinding
 id/kotlin/hspbtool/databinding/ActivityCameraxBinding.java
  id.kotlin.hspbtool.databinding.ActivityCameraxBinding
+id/kotlin/hspbtool/customfonts/MyTextView.java
+ customfonts.MyTextView
+id/kotlin/hspbtool/databinding/ActivityMenuWorkOrderBinding.java
+ id.kotlin.hspbtool.databinding.ActivityMenuWorkOrderBinding
 id/kotlin/hspbtool/databinding/ListCardLogMaintenanceVentazaBinding.java
  id.kotlin.hspbtool.databinding.ListCardLogMaintenanceVentazaBinding
-id/kotlin/hspbtool/databinding/ContentMainBinding.java
- id.kotlin.hspbtool.databinding.ContentMainBinding
-id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowLogBinding.java
- id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowLogBinding
 id/kotlin/hspbtool/databinding/ActivityViewDataItemWorkOrderBinding.java
  id.kotlin.hspbtool.databinding.ActivityViewDataItemWorkOrderBinding
+id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowLogBinding.java
+ id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowLogBinding
+id/kotlin/hspbtool/BuildConfig.java
+ id.kotlin.hspbtool.BuildConfig
+id/kotlin/hspbtool/databinding/ContentMainBinding.java
+ id.kotlin.hspbtool.databinding.ContentMainBinding

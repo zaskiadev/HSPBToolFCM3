@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".WorkOrderViewDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Order "
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="65dp"
+            android:id="@+id/txtWorkOrderTitle"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Order Code : "
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtWorkOrderTitle"
+            android:id="@+id/txtWorkOrderCode"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/EditTextWorkOrderCodeWD"
+            android:layout_width="183dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/txtWorkOrderTitle"
+            android:layout_toRightOf="@+id/txtWorkOrderCode"
+            android:layout_marginLeft="20dp"
+            android:text="WO CODE"
+            android:layout_marginTop="35dp"
+            android:textSize="20dp"/>
+            />
+        <View
+            android:layout_width="365dp"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtWorkOrderCode"
+            android:id="@+id/lineWorkOrderCode"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WO Code Detail : "
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtWorkOrderCode"
+            android:id="@+id/txtWorkOrderCodeDetail"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/EditTextWorkOrderCodeDetailWD"
+            android:layout_width="183dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/txtWorkOrderCode"
+            android:layout_toRightOf="@+id/txtWorkOrderCode"
+            android:layout_marginLeft="20dp"
+            android:text="WO CODE DETAIL"
+            android:layout_marginTop="35dp"
+            android:textSize="20dp"/>
+        />
+        <View
+            android:layout_width="365dp"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/EditTextWorkOrderCodeDetailWD"
+            android:id="@+id/lineWorkOrderCodeDetail"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Order Type : "
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+            android:layout_below="@+id/lineWorkOrderCodeDetail"
+        android:id="@+id/txtWorkOrderType"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/EditTextWorkOrderTypeWD"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/lineWorkOrderCodeDetail"
+        android:layout_toRightOf="@+id/txtWorkOrderType"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="35dp"
+        android:text="WO Detail"
+        android:textSize="20dp"/>/>
+
+        <View
+            android:layout_width="365dp"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtWorkOrderType"
+            android:id="@+id/lineWorkOrderType"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority : "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lineWorkOrderType"
+        android:textSize="20dp"
+        android:id="@+id/txtWorkOrderPriority"/>
+
+    <TextView
+        android:id="@+id/editTextPriorityWD"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtWorkOrderType"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/txtWorkOrderPriority"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Priority"/>
+
+        <View
+            android:layout_width="365dp"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtWorkOrderPriority"
+            android:id="@+id/lineWorkOrderPriority"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departement : "
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/lineWorkOrderPriority"
+            android:textSize="20dp"
+            android:id="@+id/txtWorkOrderDepartement"/>
+
+        <TextView
+            android:id="@+id/editTextDepartementWD"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/lineWorkOrderPriority"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/txtWorkOrderDepartement"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="Departement"/>
+
+        <View
+            android:layout_width="365dp"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtWorkOrderDepartement"
+            android:id="@+id/lineWorkOrderDepartement"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Item Name : "
+            android:layout_below="@+id/lineWorkOrderDepartement"
+            android:id="@+id/txtNamaBarang"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextWorkOrderItemNameWD"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/txtNamaBarang"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:maxLength="5000"
+            android:maxLines="4"
+            android:scrollHorizontally="false"
+            android:enabled="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Location : "
+            android:layout_below="@+id/editTextWorkOrderItemNameWD"
+            android:id="@+id/txtWorkOrderLocation"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/editTextLocationWorkOrderWD"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/txtWorkOrderLocation"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="5000"
+            android:maxLines="4"
+            android:scrollHorizontally="false"
+            android:enabled="false"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Detail Work Order : "
+        android:layout_below="@+id/editTextLocationWorkOrderWD"
+        android:id="@+id/txtWorkOrderDetail"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+           />
+
+
+        <EditText
+            android:id="@+id/editTextNoteDetailWorkOrderWD"
+            android:layout_width="365dp"
+            android:layout_height="115dp"
+            android:layout_below="@id/txtWorkOrderDetail"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="5000"
+            android:maxLines="4"
+            android:scrollHorizontally="false"
+            android:enabled="false"/>
+        <ImageView
+            android:id="@+id/imageTakedWorkOrderWD"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/editTextNoteDetailWorkOrderWD"/>
+
+        <Button
+            android:id="@+id/buttonDoWorkOrder"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTakedWorkOrderWD"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/btnformate"
+            android:clickable="true"
+            android:enabled="true"
+            android:padding="14dp"
+            android:text="Do Work Order"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

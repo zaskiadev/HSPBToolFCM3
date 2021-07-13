@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkOrderFilterShowData"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter View Work Order Data"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_below="@id/textView3"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter By : "
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"/>
+    <Spinner
+        android:layout_below="@+id/textView4"
+        android:id="@+id/spinnerWorkOrderFilterBy"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Date Start (Y-M-D): "
+        android:layout_below="@id/spinnerWorkOrderFilterBy"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewStartDate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/spinnerWorkOrderFilterBy"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/textViewStartDate"
+        android:text="End Date (Y-M-D): " />
+
+    <EditText
+        android:id="@+id/startDateFilterWorkOrder"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewStartDate"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:visibility="visible" />
+
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewStartDate"
+        android:layout_toRightOf="@id/startDateFilterWorkOrder"
+    android:id="@+id/endDateFilterWorkOrder"
+    android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_below="@+id/startDateFilterWorkOrder"
+        android:id="@+id/buttonShowFilterWorkOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btnformate"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Show Data"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+</RelativeLayout>

@@ -10,7 +10,7 @@ class ApiEndPoint {
         val read_record_keytag = SERVER+"read_record_keytag.php"
         val read_record_ac=SERVER+"read_record_ac.php"
        // val update_record_battery = SERVER+"update_record_battery.php"
-        val login = SERVER+"login.php"
+        val login = SERVER+"login_2.php"
         val read_log_ventaza = SERVER+"read_log_ventaza.php"
         val read_log_ac = SERVER+"read_log_ac.php"
         val create_tap_record= SERVER+"create_record_tap_time_card.php"
@@ -27,6 +27,15 @@ class ApiEndPoint {
         val get_code_wo_detail=SERVER+"get_code_wo_detail.php"
         val get_code_maintenance=SERVER+"get_code_maintenance.php"
         val get_data_item_work_order =SERVER+"get_data_item_work_order.php"
+        val add_work_order = SERVER+"add_work_order.php"
+        val add_work_order_detail = SERVER+"add_work_order_detail.php"
+        val add_work_order_maintenance = SERVER+"add_work_order_maintenance.php"
+        val add_work_order_data = SERVER+"add_work_order_data.php"
+        val get_code_barang=SERVER+"get_code_barang.php"
+        val add_work_order_data_and_item=SERVER+"add_work_order_data_with_item.php"
+        val view_work_order=SERVER+"view_work_order.php"
+        val view_work_order_detail=SERVER+"view_work_order_detail.php"
+        val update_work_order_data=SERVER+"update_work_order_data.php"
     }
 
 }
