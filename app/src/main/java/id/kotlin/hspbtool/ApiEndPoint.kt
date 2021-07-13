@@ -27,6 +27,12 @@ class ApiEndPoint {
         val get_code_wo_detail=SERVER+"get_code_wo_detail.php"
         val get_code_maintenance=SERVER+"get_code_maintenance.php"
         val get_data_item_work_order =SERVER+"get_data_item_work_order.php"
+        val add_work_order = SERVER+"add_work_order.php"
+        val add_work_order_detail = SERVER+"add_work_order_detail.php"
+        val add_work_order_maintenance = SERVER+"add_work_order_maintenance.php"
+        val add_work_order_data = SERVER+"add_work_order_data.php"
+        val get_code_barang=SERVER+"get_code_barang.php"
+        val add_work_order_data_and_item=SERVER+"add_work_order_data_with_item.php"
     }
 
 }

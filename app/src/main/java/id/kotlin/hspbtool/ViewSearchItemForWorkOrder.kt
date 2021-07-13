@@ -24,7 +24,7 @@ class ViewSearchItemForWorkOrder : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         setContentView(R.layout.activity_view_data_item_work_order)
 
-//        setSupportActionBar(findViewById(R.id.toolbar))
+// setSupportActionBar(findViewById(R.id.toolbar))
 
         super.onCreate(savedInstanceState)
 
@@ -35,9 +35,9 @@ class ViewSearchItemForWorkOrder : AppCompatActivity() {
         val item_name_work_order_spf: String =
             sharedPref.getString("itemName", "").toString()
 
-        val buttonChooseThisItem : Button = findViewById(R.id.buttonChooseThisItem)
 
-          //  findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = "Data Item Work Order"
+
+       findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = "Data Item Work Order"
 
             val dataView: ArrayList<DataItemWorkOrderView> = ArrayList()
 
@@ -157,15 +157,7 @@ class ViewSearchItemForWorkOrder : AppCompatActivity() {
             //tampilkan data dalam recycler view
             //mRecyclerView.adapter = adapter;
 
-        buttonChooseThisItem.setOnClickListener {
-            Toast.makeText(applicationContext,"", Toast.LENGTH_LONG).show()
-            var sharedPref:SharedPreferences
-            sharedPref=getSharedPreferences("intentFrom",Context.MODE_PRIVATE)
-            var sharedPrefEditor=sharedPref.edit()
-            sharedPrefEditor.putString("intentFrom","itemSelectWorkOrder")
-            sharedPrefEditor.apply()
 
-        }
 
     }
 
