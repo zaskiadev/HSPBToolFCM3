@@ -26,6 +26,7 @@
 -keep class id.kotlin.hspbtool.AddRecordActivityACMaintenance { <init>(); }
 -keep class id.kotlin.hspbtool.AddRecordActivityVentaza { <init>(); }
 -keep class id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance { <init>(); }
+-keep class id.kotlin.hspbtool.CameraXActivity { <init>(); }
 -keep class id.kotlin.hspbtool.ChangePassword { <init>(); }
 -keep class id.kotlin.hspbtool.EmployeInformationActivity { <init>(); }
 -keep class id.kotlin.hspbtool.EngineeringActivity { <init>(); }
@@ -34,26 +35,31 @@
 -keep class id.kotlin.hspbtool.FrontOfficeActivity { <init>(); }
 -keep class id.kotlin.hspbtool.HKActivity { <init>(); }
 -keep class id.kotlin.hspbtool.HRDActivity { <init>(); }
--keep class id.kotlin.hspbtool.HotelnformationActivity { <init>(); }
 -keep class id.kotlin.hspbtool.LoadingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.LogRecordActivity { <init>(); }
 -keep class id.kotlin.hspbtool.LogRecordActivityAC { <init>(); }
 -keep class id.kotlin.hspbtool.LoginActivity { <init>(); }
 -keep class id.kotlin.hspbtool.MainActivity { <init>(); }
 -keep class id.kotlin.hspbtool.MenuEngineeringRecord { <init>(); }
+-keep class id.kotlin.hspbtool.MenuWorkOrder { <init>(); }
 -keep class id.kotlin.hspbtool.MyFirebaseMessagingService { <init>(); }
--keep class id.kotlin.hspbtool.ProgressDialog { <init>(); }
 -keep class id.kotlin.hspbtool.RegisterAccount { <init>(); }
 -keep class id.kotlin.hspbtool.SalesMarketingActivity { <init>(); }
 -keep class id.kotlin.hspbtool.SantikaInformationActivity { <init>(); }
+-keep class id.kotlin.hspbtool.TakePictureWorkOrderActivity { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaFilterShowData { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaFilterShowLog { <init>(); }
 -keep class id.kotlin.hspbtool.VentazaRecordData { <init>(); }
 -keep class id.kotlin.hspbtool.ViewRecordACActivity { <init>(); }
 -keep class id.kotlin.hspbtool.ViewRecordBatteryActivity { <init>(); }
+-keep class id.kotlin.hspbtool.ViewRecordWorkOrderActivity { <init>(); }
+-keep class id.kotlin.hspbtool.ViewSearchItemForWorkOrder { <init>(); }
 -keep class id.kotlin.hspbtool.WorkOrderActivity { <init>(); }
+-keep class id.kotlin.hspbtool.WorkOrderFilterShowData { <init>(); }
+-keep class id.kotlin.hspbtool.WorkOrderViewDetailActivity { <init>(); }
 -keep class id.kotlin.hspbtool.hotel_information_test_activity { <init>(); }
 -keep class id.kotlin.hspbtool.ui.login.LoginActivity { <init>(); }
+-keep class pub.devrel.easypermissions.AppSettingsDialogHolderActivity { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
@@ -91,6 +97,8 @@
 -keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.camera.view.PreviewView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
 
