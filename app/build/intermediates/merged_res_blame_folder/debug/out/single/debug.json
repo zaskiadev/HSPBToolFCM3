@@ -212,6 +212,10 @@
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/ac.png"
     },
     {
+        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/layout_activity_promo_detail.xml.flat",
+        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/layout/activity_promo_detail.xml"
+    },
+    {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -538,6 +542,10 @@
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/menu_menu_front_office.xml.flat",
         "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/menu/menu_front_office.xml"
+    },
+    {
+        "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/drawable_logged_out.xml.flat",
+        "source": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/res/drawable/logged_out.xml"
     },
     {
         "merged": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/res/merged/debug/font_roboto.xml.flat",

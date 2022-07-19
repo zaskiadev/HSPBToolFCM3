@@ -84,6 +84,9 @@
             android:label="@string/title_activity_hotelnformation"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />
         <activity
+            android:name=".ViewDetailPromoActivity"/>
+
+        <activity
             android:name=".MenuEngineeringRecord"
             android:label="@string/title_activity_hotelnformation"
             android:theme="@style/Theme.HSPBTool.NoActionBar" />

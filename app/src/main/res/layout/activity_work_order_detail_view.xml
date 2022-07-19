@@ -39,7 +39,7 @@
             android:text="WO CODE"
             android:layout_marginTop="35dp"
             android:textSize="20dp"/>
-            />
+        />
         <View
             android:layout_width="365dp"
             android:layout_height="2dp"
@@ -77,25 +77,25 @@
             android:layout_below="@+id/EditTextWorkOrderCodeDetailWD"
             android:id="@+id/lineWorkOrderCodeDetail"/>
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Work Order Type : "
-        android:layout_marginTop="35dp"
-        android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Order Type : "
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
             android:layout_below="@+id/lineWorkOrderCodeDetail"
-        android:id="@+id/txtWorkOrderType"
-        android:textSize="20dp"/>
+            android:id="@+id/txtWorkOrderType"
+            android:textSize="20dp"/>
 
-    <TextView
-        android:id="@+id/EditTextWorkOrderTypeWD"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_below="@id/lineWorkOrderCodeDetail"
-        android:layout_toRightOf="@+id/txtWorkOrderType"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="35dp"
-        android:text="WO Detail"
-        android:textSize="20dp"/>/>
+        <TextView
+            android:id="@+id/EditTextWorkOrderTypeWD"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/lineWorkOrderCodeDetail"
+            android:layout_toRightOf="@+id/txtWorkOrderType"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="35dp"
+            android:text="WO Detail"
+            android:textSize="20dp"/>/>
 
         <View
             android:layout_width="365dp"
@@ -105,26 +105,26 @@
             android:layout_below="@+id/txtWorkOrderType"
             android:id="@+id/lineWorkOrderType"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Priority : "
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_below="@+id/lineWorkOrderType"
-        android:textSize="20dp"
-        android:id="@+id/txtWorkOrderPriority"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority : "
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/lineWorkOrderType"
+            android:textSize="20dp"
+            android:id="@+id/txtWorkOrderPriority"/>
 
-    <TextView
-        android:id="@+id/editTextPriorityWD"
-        android:layout_width="wrap_content"
-        android:layout_below="@+id/txtWorkOrderType"
-        android:layout_height="30dp"
-        android:layout_toRightOf="@+id/txtWorkOrderPriority"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="15dp"
-        android:textSize="20dp"
-        android:text="Priority"/>
+        <TextView
+            android:id="@+id/editTextPriorityWD"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/txtWorkOrderType"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/txtWorkOrderPriority"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="Priority"/>
 
         <View
             android:layout_width="365dp"
@@ -209,15 +209,15 @@
             android:scrollHorizontally="false"
             android:enabled="false"/>
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Detail Work Order : "
-        android:layout_below="@+id/editTextLocationWorkOrderWD"
-        android:id="@+id/txtWorkOrderDetail"
-        android:layout_marginTop="13dp"
-        android:layout_marginLeft="20dp"
-           />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Detail Work Order : "
+            android:layout_below="@+id/editTextLocationWorkOrderWD"
+            android:id="@+id/txtWorkOrderDetail"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="20dp"
+            />
 
 
         <EditText

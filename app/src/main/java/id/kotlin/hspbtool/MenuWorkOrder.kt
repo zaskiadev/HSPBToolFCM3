@@ -17,7 +17,7 @@ import com.xwray.groupie.kotlinandroidextensions.ViewHolder
 import kotlinx.android.synthetic.main.activity_menu_engineering_record.*
 import kotlinx.android.synthetic.main.hotel_information_test.rvVentazaRecord
 
-class MenuWorkOrder : AppCompatActivity(), HeroListener, BannerListener, ProductListener {
+class MenuWorkOrder : AppCompatActivity(), ProductListener {
 
     // declare adapter from groupadapter
     private var groupAdapter = GroupAdapter<ViewHolder>()
@@ -78,14 +78,5 @@ class MenuWorkOrder : AppCompatActivity(), HeroListener, BannerListener, Product
         //Toast.makeText(this, "clicked ${product.name}", Toast.LENGTH_SHORT).show()
     }
 
-    override fun onSeeAllPromoClick() {
-        Toast.makeText(this, "see all promo", Toast.LENGTH_SHORT).show()
-    }
 
-    override fun onBannerClick(promo: BannerPromo) {
-    }
-
-    override fun onHeroClick(hero: Hero) {
-        Toast.makeText(this, "hero clicked ${hero.name}", Toast.LENGTH_SHORT).show()
-    }
 }

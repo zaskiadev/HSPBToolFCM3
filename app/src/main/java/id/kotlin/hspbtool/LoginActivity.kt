@@ -25,6 +25,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.fragment_gallery.*
 import org.json.JSONObject
 
+
 class LoginActivity: AppCompatActivity()
 {
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,33 +54,44 @@ override fun onCreate(savedInstanceState: Bundle?) {
                             //loading.dismiss()
                             Toast.makeText(applicationContext,"Login failed, please try again", Toast.LENGTH_LONG).show()
                         }
-                        for (i in 0 until jsonArray?.length()!!) {
+                        else {
+                            for (i in 0 until jsonArray?.length()!!) {
 
 
-                            val jsonObject = jsonArray?.optJSONObject(i)
-                            // Log.e("getWO",jsonObject.getString("code_wo"))
-                            Toast.makeText(applicationContext,"Login Success", Toast.LENGTH_LONG).show()
-                            val userName= textViewUser.text.toString()
-                            sharedPrefEditor.putString("UserName",userName)
-                            sharedPrefEditor.apply()
+                                val jsonObject = jsonArray?.optJSONObject(i)
+                                // Log.e("getWO",jsonObject.getString("code_wo"))
+                                Toast.makeText(
+                                    applicationContext,
+                                    "Login Success",
+                                    Toast.LENGTH_LONG
+                                ).show()
+                                val userName = textViewUser.text.toString()
+                                sharedPrefEditor.putString("UserName", userName)
+                                sharedPrefEditor.apply()
 
-                            val sharedPref=getSharedPreferences("deptCodeLogin", Context.MODE_PRIVATE)
-                            val sharedPrefEditor= sharedPref.edit()
-                            sharedPrefEditor.putString("deptCodeLogin",jsonObject.getString("dept_code"))
-                            sharedPrefEditor.apply()
-                            Log.e("Dept Code Login",jsonObject.getString("dept_code"))
+                                val sharedPref =
+                                    getSharedPreferences("deptCodeLogin", Context.MODE_PRIVATE)
+                                val sharedPrefEditor = sharedPref.edit()
+                                sharedPrefEditor.putString(
+                                    "deptCodeLogin",
+                                    jsonObject.getString("dept_code")
+                                )
+                                sharedPrefEditor.apply()
+                                Log.e("Dept Code Login", jsonObject.getString("dept_code"))
 
+                            }
+                            pbLogin.visibility = View.VISIBLE
+                            getDataTimeCard()
+                            pbLogin.visibility = View.INVISIBLE
+
+
+                            val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                            startActivity(intent)
                         }
-                        pbLogin.visibility=View.VISIBLE
-                        getDataTimeCard()
-                        pbLogin.visibility=View.INVISIBLE
-
-
-                        val intent = Intent (this@LoginActivity,MainActivity::class.java)
-                        startActivity(intent)
                     }
 
                     override fun onError(anError: ANError?) {
+
                         Toast.makeText(applicationContext,"Koneksi Error", Toast.LENGTH_LONG).show()
                     }
 

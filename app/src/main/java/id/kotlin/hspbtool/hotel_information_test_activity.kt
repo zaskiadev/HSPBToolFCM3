@@ -1,11 +1,18 @@
 package id.kotlin.hspbtool
 
 //import androidx.appcompat.widget.Toolbar
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.widget.Toast
+import com.androidnetworking.AndroidNetworking
+import com.androidnetworking.common.Priority
+import com.androidnetworking.error.ANError
+import com.androidnetworking.interfaces.JSONObjectRequestListener
 import id.kotlin.hspbtool.domain.BannerPromo
 import id.kotlin.hspbtool.domain.Hero
 import id.kotlin.hspbtool.domain.Product
@@ -17,7 +24,15 @@ import id.kotlin.hspbtool.item.ProductListener
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.Section
 import com.xwray.groupie.kotlinandroidextensions.ViewHolder
+import id.kotlin.hspbtool.adapter.AdaptarCardListViewLogRecordMaintenanceVentaza
+import id.kotlin.hspbtool.domain.LogRecordMaintenanceVentaza
+import kotlinx.android.synthetic.main.activity_log_record.*
 import kotlinx.android.synthetic.main.hotel_information_test.rvVentazaRecord
+import org.json.JSONObject
+import java.io.Console
+import java.lang.Exception
+import java.text.SimpleDateFormat
+import java.util.*
 
 class hotel_information_test_activity : AppCompatActivity(), HeroListener, BannerListener, ProductListener {
 
@@ -28,26 +43,104 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
         super.onCreate(savedInstanceState)
         setContentView(R.layout.hotel_information_test)
 
-        val promos = listOf(
-                BannerPromo(name = "Promo 1",
-                        image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo1.jpg "),
-                BannerPromo(
-                        name = "Promo 2",
-                        image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo2.jpg"
-                ),
-                BannerPromo(name = "Promo 3",
-                        image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo3.jpg"),
-                BannerPromo(
-                        name = "Promo 4",
-                        image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo4.jpg"
-                ),
-                BannerPromo(name = "Promo 5",
-                        image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo5.jpg"),
-                BannerPromo(
-                        name = "Promo 6",
-                        image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo6.jpg"
-                )
-        )
+        val test:MutableList<BannerPromo> = mutableListOf()
+        val bannerCarouselItem = BannerCarouselItem(test, supportFragmentManager, this, this@hotel_information_test_activity)
+        groupAdapter.add(bannerCarouselItem)
+
+        AndroidNetworking.post(ApiEndPoint.list_banner)
+           // .addBodyParameter("filter_by", textSpinnerSelected)
+            //.addBodyParameter("room_number", editTextTextRoomNumberShowLog.text.toString())
+            .setPriority(Priority.IMMEDIATE)
+            .build()
+            .getAsJSONObject(object : JSONObjectRequestListener {
+
+                override fun onResponse(response: JSONObject?) {
+
+
+
+                    val jsonArray = response?.optJSONArray("result")
+
+                    if (jsonArray?.length() == 0) {
+                        //loading.dismiss()
+
+                    }
+                    var index=0
+                    for (i in 0 until jsonArray?.length()!!) {
+
+                        var user: String?;
+                        user = "";
+                        val jsonObject = jsonArray?.optJSONObject(i)
+
+                        try {
+                            if (jsonObject.getString("user") != "") {
+                                user = jsonObject.getString("user")
+                            }
+
+                        } catch (e: Exception) {
+
+                        }
+
+                    var namaPromo : String
+                    var ImagePromo : String
+                    namaPromo=jsonObject.getString("nama_promo").replace("_"," ")
+
+                        ImagePromo="http://103.84.233.186:8742/hspb_tool/image_promo/"+jsonObject.getString("nama_promo")+
+                                "_"+
+                                jsonObject.getInt("bulan")+"_"+jsonObject.getInt("tahun")+".jpg"
+
+
+                        //Log.e("Image Promo : ",ImagePromo)
+                        //Log.e("Nama Promo : ", namaPromo)
+                        test.add(index,BannerPromo(namaPromo,ImagePromo))
+                        //index++
+
+
+
+
+                        if (jsonArray?.length() - 1 == i) {
+
+                        }
+
+
+                    }
+
+                Log.e("Jumlah test di JSON : ",""+test.size)
+                }
+
+                override fun onError(anError: ANError?) {
+
+                    // Log.d("ONERROR",anError?.errorDetail?.toString())
+                    Toast.makeText(applicationContext,"Koneksi Error",Toast.LENGTH_LONG).show()
+
+
+                }
+            })
+
+        /*val promos = listOf(
+            BannerPromo(name = "Promo 1",
+                image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo1.jpg "),
+            BannerPromo(
+                name = "Promo 2",
+                image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo2.jpg"
+            ),
+            BannerPromo(name = "Promo 3",
+                image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo3.jpg"),
+            BannerPromo(
+                name = "Promo 4",
+                image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo4.jpg"
+            ),
+            BannerPromo(name = "Promo 5",
+                image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo5.jpg"),
+            BannerPromo(
+                name = "Promo 6",
+                image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo6.jpg"
+            )
+        )*/
+        Log.e("Jumlah Test di luar: ",""+test.size)
+        //test.add(0,
+        //BannerPromo(name="",image="")
+          //  )
+
 
         val products = listOf(
                 Product(name = "Sales And Marketing",
@@ -75,9 +168,9 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
             adapter = groupAdapter
         }
 
+
+
         // declare banner carousel
-        val bannerCarouselItem = BannerCarouselItem(promos, supportFragmentManager, this)
-        groupAdapter.add(bannerCarouselItem)
 
         Section().apply {
             add(makeProductCategory(products))
@@ -134,9 +227,6 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
                 val intent = Intent (this@hotel_information_test_activity,AccountingActivity::class.java)
                 startActivity(intent)
             }
-
-
-
         }
 
         //Toast.makeText(this, "clicked ${product.name}", Toast.LENGTH_SHORT).show()
@@ -146,7 +236,104 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
         Toast.makeText(this, "see all promo", Toast.LENGTH_SHORT).show()
     }
 
-    override fun onBannerClick(promo: BannerPromo) {
+    override fun onBannerClick(banners: List<BannerPromo>,positionBanner:Int) {
+
+        Log.d("Position : ",positionBanner.toString())
+        Log.d("Jumlah List Banner Promo : ",""+banners?.size)
+
+        var sharedPref : SharedPreferences
+        sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+        var sharedPrefEditor= sharedPref.edit()
+
+        sharedPrefEditor.putString("PromoNumber",banners?.get(positionBanner).name)
+        sharedPrefEditor.apply()
+
+
+        sharedPref=getSharedPreferences("imagePromoDetail", Context.MODE_PRIVATE)
+        sharedPrefEditor= sharedPref.edit()
+
+        sharedPrefEditor.putString("imagePromoDetail",banners?.get(positionBanner).image)
+        sharedPrefEditor.apply()
+        val intent2 = Intent (this@hotel_information_test_activity,ViewDetailPromoActivity::class.java)
+        startActivity(intent2)
+
+        /*when(promo.name) {
+            "Promo 1" -> {
+                Toast.makeText(applicationContext, "Promo 1", Toast.LENGTH_SHORT).show()
+
+                val intent =
+                    Intent(this@hotel_information_test_activity, ViewDetailPromoActivity::class.java)
+
+                var sharedPref : SharedPreferences
+                sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+                var sharedPrefEditor= sharedPref.edit()
+
+                sharedPrefEditor.putString("PromoNumber","Promo 1")
+                sharedPrefEditor.apply()
+
+
+                startActivity(intent)
+            }
+            "Promo 2" -> {
+                val intent =
+                    Intent(this@hotel_information_test_activity, ViewDetailPromoActivity::class.java)
+                var sharedPref : SharedPreferences
+                sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+                var sharedPrefEditor= sharedPref.edit()
+
+                sharedPrefEditor.putString("PromoNumber","Promo 2")
+                sharedPrefEditor.apply()
+
+                startActivity(intent)
+            }
+            "Promo 3" -> {
+                val intent =
+                    Intent(this@hotel_information_test_activity, ViewDetailPromoActivity::class.java)
+                var sharedPref : SharedPreferences
+                sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+                var sharedPrefEditor= sharedPref.edit()
+
+                sharedPrefEditor.putString("PromoNumber","Promo 3")
+                sharedPrefEditor.apply()
+                startActivity(intent)
+            }
+            "Promo 4" -> {
+                val intent =
+                    Intent(this@hotel_information_test_activity, ViewDetailPromoActivity::class.java)
+                var sharedPref : SharedPreferences
+                sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+                var sharedPrefEditor= sharedPref.edit()
+
+                sharedPrefEditor.putString("PromoNumber","Promo 4")
+                sharedPrefEditor.apply()
+
+                startActivity(intent)
+            }
+            "Promo 5" -> {
+                val intent =
+                    Intent(this@hotel_information_test_activity, ViewDetailPromoActivity::class.java)
+                var sharedPref : SharedPreferences
+                sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+                var sharedPrefEditor= sharedPref.edit()
+
+                sharedPrefEditor.putString("PromoNumber","Promo 5")
+                sharedPrefEditor.apply()
+
+                startActivity(intent)
+            }
+            "Promo 6" -> {
+                val intent = Intent(this@hotel_information_test_activity, ViewDetailPromoActivity::class.java)
+
+                var sharedPref : SharedPreferences
+                sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
+                var sharedPrefEditor= sharedPref.edit()
+
+                sharedPrefEditor.putString("PromoNumber","Promo 6")
+                sharedPrefEditor.apply()
+                startActivity(intent)
+            }
+
+        }*/
     }
 
     override fun onHeroClick(hero: Hero) {

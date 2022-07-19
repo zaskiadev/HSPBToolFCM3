@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/fandy/.gradle/caches/transforms-2/files-2.1/2f3433f598fe8ad9cbbe82df9a62c073/jetified-viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/79332c9a26237983d2936ba626f2ab21/jetified-groupie-kotlin-android-extensions-2.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/fandy/.gradle/caches/transforms-2/files-2.1/3d0ac9c2da2425bb01502dda0beddb0a/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
@@ -94,9 +94,9 @@ MERGED from [androidx.print:print:1.0.0] /Users/fandy/.gradle/caches/transforms-
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/36aab959c5665ea265dfb1d9263a57b3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/fandy/.gradle/caches/transforms-2/files-2.1/01645e5b9c0d0b806f0bd36dfefae245/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /Users/fandy/.gradle/caches/transforms-2/files-2.1/a8a356b45bb783c248908f89d219a21c/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
-INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-171:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
+INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:2:1-174:12
 	package
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml
@@ -160,7 +160,7 @@ ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/Andr
 	android:name
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:13:22-78
 application
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:16:5-169:19
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:16:5-172:19
 MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:30:5-34:19
 MERGED from [androidx.camera:camera-extensions:1.0.0-alpha24] /Users/fandy/.gradle/caches/transforms-2/files-2.1/effb1a295988ba8cab2027d545e8d0c1/jetified-camera-extensions-1.0.0-alpha24/AndroidManifest.xml:30:5-34:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/fandy/.gradle/caches/transforms-2/files-2.1/14bb8b68b5faa2f4b3918d7cb3b7b5b7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
@@ -345,154 +345,158 @@ ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/Andr
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:85:13-62
 	android:name
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:83:13-46
+activity#id.kotlin.hspbtool.ViewDetailPromoActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:86:9-87:54
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:87:13-52
 activity#id.kotlin.hspbtool.MenuEngineeringRecord
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:86:9-89:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:89:9-92:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:88:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:91:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:89:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:92:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:87:13-50
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:90:13-50
 activity#id.kotlin.hspbtool.ACRecordData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:90:9-93:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:93:9-96:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:92:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:95:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:93:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:96:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:91:13-41
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:94:13-41
 activity#id.kotlin.hspbtool.AddRecordActivityVentazaMaintenance
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:94:9-97:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:97:9-100:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:96:13-48
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:99:13-48
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:97:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:100:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:95:13-64
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:98:13-64
 activity#id.kotlin.hspbtool.ViewRecordBatteryActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:98:9-101:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:101:9-104:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:100:13-67
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:103:13-67
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:101:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:104:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:99:13-54
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:102:13-54
 activity#id.kotlin.hspbtool.SantikaInformationActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:102:9-105:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:105:9-108:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:104:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:107:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:105:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:108:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:103:13-55
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:106:13-55
 activity#id.kotlin.hspbtool.AddRecordActivityACMaintenance
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:106:9-109:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:109:9-112:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:108:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:111:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:109:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:112:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:107:13-59
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:110:13-59
 activity#id.kotlin.hspbtool.ui.login.LoginActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:110:9-112:60
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:113:9-115:60
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:112:13-57
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:115:13-57
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:111:13-51
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:114:13-51
 activity#id.kotlin.hspbtool.LoadingActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:114:9-115:47
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:117:9-118:47
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:115:13-44
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:118:13-44
 activity#id.kotlin.hspbtool.MenuWorkOrder
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:116:9-117:45
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:119:9-120:45
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:117:13-42
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:120:13-42
 activity#id.kotlin.hspbtool.ViewRecordWorkOrderActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:118:9-119:59
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:121:9-122:59
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:119:13-56
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:122:13-56
 activity#id.kotlin.hspbtool.WorkOrderFilterShowData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:120:9-121:55
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:123:9-124:55
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:121:13-52
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:124:13-52
 activity#id.kotlin.hspbtool.WorkOrderViewDetailActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:122:9-123:59
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:125:9-126:59
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:123:13-56
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:126:13-56
 activity#id.kotlin.hspbtool.CameraXActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:124:9-125:47
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:127:9-128:47
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:125:13-44
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:128:13-44
 activity#id.kotlin.hspbtool.TakePictureWorkOrderActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:126:9-127:60
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:129:9-130:60
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:127:13-57
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:130:13-57
 activity#id.kotlin.hspbtool.RegisterAccount
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:128:9-129:47
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:131:9-132:47
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:129:13-44
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:132:13-44
 activity#id.kotlin.hspbtool.ViewSearchItemForWorkOrder
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:130:9-131:58
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:133:9-134:58
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:131:13-55
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:134:13-55
 activity#id.kotlin.hspbtool.ACFilterShowData
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:132:9-135:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:135:9-138:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:134:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:137:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:135:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:138:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:133:13-45
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:136:13-45
 activity#id.kotlin.hspbtool.ViewRecordACActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:136:9-139:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:139:9-142:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:138:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:141:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:139:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:142:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:137:13-49
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:140:13-49
 activity#id.kotlin.hspbtool.LogRecordActivityAC
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:140:9-143:65
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:143:9-146:65
 	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:142:13-71
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:145:13-71
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:143:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:146:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:141:13-48
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:144:13-48
 activity#id.kotlin.hspbtool.MainActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:150:9-152:48
-	android:label
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:152:13-45
-	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:151:13-41
-activity#id.kotlin.hspbtool.LoginActivity
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:153:9-162:20
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:153:9-155:48
 	android:label
 		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:155:13-45
+	android:name
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:154:13-41
+activity#id.kotlin.hspbtool.LoginActivity
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:156:9-165:20
+	android:label
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:158:13-45
 	android:theme
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:156:13-62
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:159:13-62
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:154:13-42
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:157:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:157:13-161:29
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:160:13-164:29
 action#android.intent.action.MAIN
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:158:17-69
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:161:17-69
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:158:25-66
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:161:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:160:17-77
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:163:17-77
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:160:27-74
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:163:27-74
 service#id.kotlin.hspbtool.MyFirebaseMessagingService
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:164:9-168:19
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:167:9-171:19
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:164:18-60
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:167:18-60
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:165:13-167:29
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:168:13-170:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:166:17-78
+ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:169:17-78
 	android:name
-		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:166:25-75
+		ADDED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml:169:25-75
 uses-sdk
 INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/src/main/AndroidManifest.xml

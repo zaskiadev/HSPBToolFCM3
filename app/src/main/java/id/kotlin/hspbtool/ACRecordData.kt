@@ -15,7 +15,7 @@ import com.xwray.groupie.Section
 import com.xwray.groupie.kotlinandroidextensions.ViewHolder
 import kotlinx.android.synthetic.main.hotel_information_test.rvVentazaRecord
 
-class ACRecordData : AppCompatActivity(), HeroListener, BannerListener, ProductListener {
+class ACRecordData : AppCompatActivity(), ProductListener {
 
     // declare adapter from groupadapter
     private var groupAdapter = GroupAdapter<ViewHolder>()
@@ -81,14 +81,5 @@ class ACRecordData : AppCompatActivity(), HeroListener, BannerListener, ProductL
         //Toast.makeText(this, "clicked ${product.name}", Toast.LENGTH_SHORT).show()
     }
 
-    override fun onSeeAllPromoClick() {
-        //Toast.makeText(this, "see all promo", Toast.LENGTH_SHORT).show()
-    }
 
-    override fun onBannerClick(promo: BannerPromo) {
-    }
-
-    override fun onHeroClick(hero: Hero) {
-       // Toast.makeText(this, "hero clicked ${hero.name}", Toast.LENGTH_SHORT).show()
-    }
 }

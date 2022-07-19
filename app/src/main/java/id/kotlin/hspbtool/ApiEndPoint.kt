@@ -36,6 +36,7 @@ class ApiEndPoint {
         val view_work_order=SERVER+"view_work_order.php"
         val view_work_order_detail=SERVER+"view_work_order_detail.php"
         val update_work_order_data=SERVER+"update_work_order_data.php"
+        val list_banner= SERVER+"list_data_promo.php"
     }
 
 }

@@ -1767,6 +1767,7 @@ drawable ic_stat_ic_notification
 drawable image_hand
 drawable lockkers
 drawable log_icon
+drawable logged_out
 drawable login
 drawable mail
 drawable material_cursor_drawable
@@ -2110,6 +2111,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imagePromoDetail
 id imageTakedWorkOrder
 id imageTakedWorkOrderWD
 id imbCheers
@@ -2391,6 +2393,7 @@ id textView5
 id textView5AC
 id textViewLoadingStatus
 id textViewPassword
+id textViewPromoDetail
 id textViewRegisterAccount
 id textViewStartDate
 id textViewUser
@@ -2552,6 +2555,7 @@ layout activity_login
 layout activity_main
 layout activity_menu_engineering_record
 layout activity_menu_work_order
+layout activity_promo_detail
 layout activity_sales_marketing
 layout activity_santika_information
 layout activity_take_picture_work_order

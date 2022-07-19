@@ -114,7 +114,7 @@ class WorkOrderViewDetailActivity : AppCompatActivity() {
 
 
                                 val jsonObject = jsonArray?.optJSONObject(i)
-
+///Users/fandy/Library/Android/sdk
 
                                 var textLocation = ""
 

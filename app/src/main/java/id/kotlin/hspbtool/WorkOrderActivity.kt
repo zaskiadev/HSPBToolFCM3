@@ -284,10 +284,10 @@ class WorkOrderActivity : AppCompatActivity() {
         sharedPrefEditor.putString("location",null)
         sharedPrefEditor.apply()
 
-        sharedPref=getSharedPreferences("departement",Context.MODE_PRIVATE)
+       /* sharedPref=getSharedPreferences("departement",Context.MODE_PRIVATE)
         sharedPrefEditor=sharedPref.edit()
         sharedPrefEditor.putString("departement",null)
-        sharedPrefEditor.apply()
+        sharedPrefEditor.apply()*/
 
         sharedPref=getSharedPreferences("chooseFoto",Context.MODE_PRIVATE)
         sharedPrefEditor=sharedPref.edit()
@@ -733,7 +733,7 @@ class WorkOrderActivity : AppCompatActivity() {
     fun addWorkOrder()
     {
 
-
+        codeDepartement=spinnerDepartement.selectedItem.toString()
         if(codeDepartement!="")
         {
 
@@ -757,7 +757,7 @@ class WorkOrderActivity : AppCompatActivity() {
             {
                 codeDepartement="D0005"
             }
-            else if(departement!!.replace("Departement = ","")=="Human Resources")
+            else if(departement!!.replace("Departement = ","")=="Human Resource")
             {
                 codeDepartement="D0006"
             }
@@ -909,7 +909,7 @@ class WorkOrderActivity : AppCompatActivity() {
             {
                 codeDepartement="D0005"
             }
-            else if(codeDepartement=="Human Resources")
+            else if(codeDepartement=="Human Resource")
             {
                 codeDepartement="D0006"
             }
