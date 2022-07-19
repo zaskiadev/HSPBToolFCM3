@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -44,9 +45,6 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
         setContentView(R.layout.hotel_information_test)
 
         val test:MutableList<BannerPromo> = mutableListOf()
-        val bannerCarouselItem = BannerCarouselItem(test, supportFragmentManager, this, this@hotel_information_test_activity)
-        groupAdapter.add(bannerCarouselItem)
-
         AndroidNetworking.post(ApiEndPoint.list_banner)
            // .addBodyParameter("filter_by", textSpinnerSelected)
             //.addBodyParameter("room_number", editTextTextRoomNumberShowLog.text.toString())
@@ -172,10 +170,18 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
 
         // declare banner carousel
 
-        Section().apply {
-            add(makeProductCategory(products))
-            groupAdapter.add(this)
-        }
+        //var bannerCarouselItem = BannerCarouselItem(test, supportFragmentManager, this, this@hotel_information_test_activity)
+        //groupAdapter.add(bannerCarouselItem)
+
+        Handler().postDelayed({
+          val  bannerCarouselItem = BannerCarouselItem(test, supportFragmentManager, this, this@hotel_information_test_activity)
+            groupAdapter.add(bannerCarouselItem)
+            Log.e("Jumlah di delay : ",""+test.size)
+            Section().apply {
+                add(makeProductCategory(products))
+                groupAdapter.add(this)
+            }
+        }, 3000)
     }
 
     private fun makeProductCategory(products: List<Product>): ProductCategoryItem {
