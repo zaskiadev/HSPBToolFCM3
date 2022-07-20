@@ -21,8 +21,10 @@ import android.util.Log
 import android.view.Window
 import android.widget.*
 import com.squareup.picasso.Picasso
+import id.kotlin.hspbtool.adapter.AdapterCardListViewListPromo
 import id.kotlin.hspbtool.adapter.AdapterCardListViewTapTimeCard
 import id.kotlin.hspbtool.domain.BannerPromo
+import id.kotlin.hspbtool.domain.ListPromoView
 import id.kotlin.hspbtool.domain.ShowDataVentaza
 import java.lang.Exception
 
@@ -30,154 +32,91 @@ import java.lang.Exception
 class ViewDetailPromoActivity : AppCompatActivity() {
 
 
-    var buttonDoWorkOrder: Button?=null
-    var EditTextWorkOrderCodeWD: TextView?=null
-    var editTextCodeWorkOrderDetail: TextView?=null
-    var editTextNoteDetailWorkOrderWD: EditText?=null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         setContentView(R.layout.activity_promo_detail)
-//        setSupportActionBar(findViewById(R.id.toolbar))
 
         super.onCreate(savedInstanceState)
+        val dataView: ArrayList<ListPromoView> = ArrayList()
+        val mRecyclerView2: RecyclerView = findViewById(R.id.mRecyclerView)
+
+        mRecyclerView2.setHasFixedSize(true)
+        mRecyclerView2.layoutManager = LinearLayoutManager(this)
+
         var sharedPref: SharedPreferences
-        var imagePromoDetail= findViewById(R.id.imagePromoDetail) as ImageView
-        var textViewPromoDetail= findViewById(R.id.textViewPromoDetail) as TextView
+        sharedPref = getSharedPreferences("SpinerVentazaChooseShowData", Context.MODE_PRIVATE)
 
 
-        sharedPref = getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
-        val promoDetailNumber: String =
-            sharedPref.getString("PromoNumber", "Kosong").toString()
+        val VentazaChooseShowData: String =
+            sharedPref.getString("SpinerVentazaChooseShowData", "Belum Login").toString()
 
-        sharedPref = getSharedPreferences("imagePromoDetail", Context.MODE_PRIVATE)
-        val promoDetailImage: String =
-            sharedPref.getString("imagePromoDetail", "Kosong").toString()
 
-        Log.e("Promo Number Dari View Detail Activity : ",promoDetailNumber)
 
-        var sharedPrefEditor= sharedPref.edit()
-        if (promoDetailNumber!="Kosong")
-        {
-            Picasso.get().load(promoDetailImage).into(imagePromoDetail)
-            textViewPromoDetail.setText(promoDetailNumber)
-            sharedPref=getSharedPreferences("PromoNumber",Context.MODE_PRIVATE)
-            sharedPref.edit().clear().apply()
-            sharedPref=getSharedPreferences("imagePromoDetail",Context.MODE_PRIVATE)
-            sharedPref.edit().clear().apply()
-        }
 
-    /*    AndroidNetworking.post(ApiEndPoint.view_work_order_detail)
-            .addBodyParameter("wo_codes", Wo_code_from_list)
-            .setPriority(Priority.MEDIUM)
+
+        // val test:MutableList<BannerPromo> = mutableListOf()
+        AndroidNetworking.post(ApiEndPoint.list_banner)
+            // .addBodyParameter("filter_by", textSpinnerSelected)
+            //.addBodyParameter("room_number", editTextTextRoomNumberShowLog.text.toString())
+            .setPriority(Priority.IMMEDIATE)
             .build()
             .getAsJSONObject(object : JSONObjectRequestListener {
 
                 override fun onResponse(response: JSONObject?) {
 
 
-                    val jsonArray = response?.optJSONArray("hasilnya")
 
-                    Log.e("jumlah array",""+jsonArray?.length()!!)
-                    // Log.e("Jumlah Array di Wo Detail:",jsonArray?.length().toString())
+                    val jsonArray = response?.optJSONArray("result")
 
+                    if (jsonArray?.length() == 0) {
+                        //loading.dismiss()
 
-                    for (i in 1 until jsonArray?.length()!!) {
-
-                        Log.e("Masuk sini ya", ""+i)
-
-                        try {
+                    }
+                    var index=0
+                    for (i in 0 until jsonArray?.length()!!) {
 
 
-                            val jsonObject = jsonArray?.optJSONObject(i)
-///Users/fandy/Library/Android/sdk
+                        val jsonObject = jsonArray?.optJSONObject(i)
 
-                            var textLocation = ""
+                        dataView.add(
+                            ListPromoView(
+                                jsonObject.getString("nama_promo").replace("_"," "),
+                                "http://103.84.233.186:8742/hspb_tool/image_promo/"+jsonObject.getString("nama_promo")+
+                                        "_"+
+                                        jsonObject.getInt("bulan")+"_"+jsonObject.getInt("tahun")+".jpg",
+                                jsonObject.getString("deskripsi_promo")
 
+                                )
 
-
-                            textLocation="http://103.84.233.186:8742/hspb_tool/image_work_order/"+jsonObject.getString("image_location").toString()
-
-                            if(jsonObject.getString("image_location").toString()!="null")
-                            {
-                                Picasso.get().load(textLocation).into(imageWOD)
-                            }
-
-
-                            EditTextWorkOrderCodeWDText = jsonObject.getString("code_wo")
-                            EditTextWorkOrderTypeWDText = jsonObject.getString("jenis")
-                            editTextPriorityWDText = jsonObject.getString("skala")
-                            editTextDepartementWDText = jsonObject.getString("dept_name")
-                            editTextWorkOrderItemNameWDText =
-                                jsonObject.getString("nama_barang")
-                            editTextLocationWorkOrderWDText = jsonObject.getString("location")
-                            txtWorkOrderDetailText = jsonObject.getString("wo_minta")
+                        )
 
 
+                        if (jsonArray?.length() - 1 == i) {
+                            val adapter = AdapterCardListViewListPromo(dataView)
+                            adapter.notifyDataSetChanged()
+
+                            //tampilkan data dalam recycler view
+                            mRecyclerView2.adapter = adapter
                         }
-                        catch(e:ANError)
-                        {
-                            Log.e("Error WOD",e?.errorDetail?.toString())
-                        }
-                        EditTextWorkOrderCodeWD!!.setText(EditTextWorkOrderCodeWDText)
-                        EditTextWorkOrderTypeWD.setText(EditTextWorkOrderTypeWDText)
-                        editTextPriorityWD.setText(editTextPriorityWDText)
-                        editTextDepartementWD.setText(editTextDepartementWDText)
-                        editTextWorkOrderItemNameWD.setText(editTextWorkOrderItemNameWDText)
-                        editTextLocationWorkOrderWD.setText(editTextLocationWorkOrderWDText)
-                        editTextNoteDetailWorkOrderWD!!.setText(txtWorkOrderDetailText)
+
+
                     }
 
-
-
                 }
+
                 override fun onError(anError: ANError?) {
 
-                    Log.e("Error WOD",anError?.errorDetail?.toString())
+                    // Log.d("ONERROR",anError?.errorDetail?.toString())
+                    Toast.makeText(applicationContext,"Koneksi Error",Toast.LENGTH_LONG).show()
 
                 }
-
-            }
-
-
-            )
-*/
-
+            })
 
     }
 
 
 
-    /*fun updateStatusWorkOrder(note:String)
-    {
-        var code_wo= EditTextWorkOrderCodeWD!!.text.toString()
-        var code_wo_detail=editTextCodeWorkOrderDetail!!.text.toString()
-        var noteSent=""
-        noteSent="- "+note+" - "+editTextNoteDetailWorkOrderWD!!.text.toString()
-        AndroidNetworking.post(ApiEndPoint.update_work_order_data)
-            .addBodyParameter("code_wo", code_wo)
-            .addBodyParameter("code_wo_detail", code_wo_detail)
-            .addBodyParameter("note",noteSent)
-            .setPriority(Priority.MEDIUM)
-            .build()
-            .getAsJSONObject(object : JSONObjectRequestListener {
 
-                override fun onResponse(response: JSONObject?) {
-
-                    if (response?.getString("message")?.contains("successfully")!!) {
-                        Toast.makeText(applicationContext, "Data recorded successfully", Toast.LENGTH_SHORT).show()
-
-                        this@WorkOrderViewDetailActivity.finish()
-                    }
-
-                }
-
-                override fun onError(anError: ANError?) {
-                    Toast.makeText(applicationContext, "Koneksi Error", Toast.LENGTH_LONG).show()
-                }
-
-
-            })
-
-    }*/
 
 
 

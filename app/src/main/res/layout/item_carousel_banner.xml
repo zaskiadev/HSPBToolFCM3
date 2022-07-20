@@ -11,16 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="227dp"
         />
-    <Button
-        android:id="@+id/btnSemuaPromo"
-        android:layout_width="wrap_content"
-        android:layout_marginTop="180dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="16dp"
-        android:text="See Detail"
-        android:textSize="12sp"
-        />
+
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -39,7 +30,16 @@
             attrs:piv_padding="12dp"
             attrs:piv_radius="8dp"/>
 
-
+    <Button
+        android:id="@+id/btnSemuaPromo"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="See List"
+        android:textSize="12sp"
+        />
 
 
 

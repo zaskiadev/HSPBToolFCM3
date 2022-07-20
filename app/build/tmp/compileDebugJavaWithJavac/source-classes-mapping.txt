@@ -104,6 +104,8 @@ id/kotlin/hspbtool/customfonts/MyRegulerText.java
  customfonts.MyRegulerText
 id/kotlin/hspbtool/databinding/ActivityTakePictureWorkOrderBinding.java
  id.kotlin.hspbtool.databinding.ActivityTakePictureWorkOrderBinding
+id/kotlin/hspbtool/databinding/ListCardListPromoBinding.java
+ id.kotlin.hspbtool.databinding.ListCardListPromoBinding
 id/kotlin/hspbtool/databinding/ListCardWorkOrderListBinding.java
  id.kotlin.hspbtool.databinding.ListCardWorkOrderListBinding
 id/kotlin/hspbtool/databinding/ActivityChangePasswordBinding.java

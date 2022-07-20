@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.3 /app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/fandy/.gradle/caches/transforms-2/files-2.1/273fee1b072dfe16d191efd8a504e852/appcompat-1.2.0/res/values-zh-rTW/values-zh-rTW.xml",

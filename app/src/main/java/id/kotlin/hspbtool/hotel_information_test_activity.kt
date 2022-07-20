@@ -39,6 +39,9 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
 
     // declare adapter from groupadapter
     private var groupAdapter = GroupAdapter<ViewHolder>()
+   var dataImage : String =""
+
+
     //val rvMain: RecyclerView = findViewById(R.id.rvMain)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -86,7 +89,7 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
                                 "_"+
                                 jsonObject.getInt("bulan")+"_"+jsonObject.getInt("tahun")+".jpg"
 
-
+                        dataImage=dataImage+"@"+ImagePromo
                         //Log.e("Image Promo : ",ImagePromo)
                         //Log.e("Nama Promo : ", namaPromo)
                         test.add(index,BannerPromo(namaPromo,ImagePromo))
@@ -134,7 +137,7 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
                 image = "http://103.84.233.186:8742/hspb_tool/image_promo/promo6.jpg"
             )
         )*/
-        Log.e("Jumlah Test di luar: ",""+test.size)
+      //  Log.e("Jumlah Test di luar: ",""+test.size)
         //test.add(0,
         //BannerPromo(name="",image="")
           //  )
@@ -239,26 +242,22 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
     }
 
     override fun onSeeAllPromoClick() {
+        Log.e("Button di Klik ","Eh Kepencet")
         Toast.makeText(this, "see all promo", Toast.LENGTH_SHORT).show()
     }
 
     override fun onBannerClick(banners: List<BannerPromo>,positionBanner:Int) {
 
-        Log.e("Position : ",positionBanner.toString())
-        Log.e("Jumlah List Banner Promo : ",""+banners?.size)
+     //   Log.e("Position : ",""+positionBanner)
+       // Log.e("Jumlah List Banner Promo : ",""+banners?.size)
 
         var sharedPref : SharedPreferences
-        sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
-        var sharedPrefEditor= sharedPref.edit()
-
-        sharedPrefEditor.putString("PromoNumber",banners?.get(positionBanner).name)
-        sharedPrefEditor.apply()
-
+        sharedPref=getSharedPreferences("Promo", Context.MODE_PRIVATE)
 
         sharedPref=getSharedPreferences("imagePromoDetail", Context.MODE_PRIVATE)
-        sharedPrefEditor= sharedPref.edit()
+        var sharedPrefEditor= sharedPref.edit()
 
-        sharedPrefEditor.putString("imagePromoDetail",banners?.get(positionBanner).image)
+        sharedPrefEditor.putString("imagePromoDetail",dataImage)
         sharedPrefEditor.apply()
         val intent2 = Intent (this@hotel_information_test_activity,ViewDetailPromoActivity::class.java)
         startActivity(intent2)

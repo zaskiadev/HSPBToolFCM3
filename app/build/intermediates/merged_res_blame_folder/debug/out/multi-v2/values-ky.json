@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
+            "outputFile": "/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.3 /app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/Users/fandy/.gradle/caches/transforms-2/files-2.1/c39c7914c5c12b9eabaef111c2a13860/jetified-firebase-messaging-22.0.0/res/values-ky/values.xml",

@@ -62,7 +62,7 @@ class BannerCarouselItem(private val banners: MutableList<BannerPromo>,
 
             listener.onBannerClick(banners,position)
 
-
+            Log.e("Position in viewPagerBanner",""+position)
 
         }
 
@@ -70,7 +70,7 @@ class BannerCarouselItem(private val banners: MutableList<BannerPromo>,
 
             listener.onBannerClick(banners,position)
             //ini ketika di klik buttonnya
-
+            Log.e("Position in btnSemuaPromo",""+position)
 
 
 
@@ -79,7 +79,7 @@ class BannerCarouselItem(private val banners: MutableList<BannerPromo>,
 
 
             listener.onBannerClick(banners,position)
-
+            Log.e("Position in setOnClickListener",""+position)
 
 
         }
