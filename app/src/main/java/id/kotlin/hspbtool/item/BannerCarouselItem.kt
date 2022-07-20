@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.util.Log
+import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import com.xwray.groupie.kotlinandroidextensions.Item
 import com.xwray.groupie.kotlinandroidextensions.ViewHolder
@@ -18,6 +19,8 @@ import kotlinx.android.synthetic.main.item_carousel_banner.view.*
 interface BannerListener {
     fun onSeeAllPromoClick()
     fun onBannerClick(promo:List<BannerPromo>,positionBanner: Int)
+
+
 }
 
 class BannerCarouselItem(private val banners: MutableList<BannerPromo>,
@@ -66,6 +69,11 @@ class BannerCarouselItem(private val banners: MutableList<BannerPromo>,
         viewHolder.itemView.btnSemuaPromo.setOnClickListener {
 
             listener.onBannerClick(banners,position)
+            //ini ketika di klik buttonnya
+
+
+
+
         }
         viewHolder.itemView.setOnClickListener{
 
@@ -75,6 +83,8 @@ class BannerCarouselItem(private val banners: MutableList<BannerPromo>,
 
 
         }
+
+
 
         /*viewHolder.itemView.indicator.setOnClickListener {
             listener.onBannerClick(banners,position)

@@ -244,8 +244,8 @@ class hotel_information_test_activity : AppCompatActivity(), HeroListener, Banne
 
     override fun onBannerClick(banners: List<BannerPromo>,positionBanner:Int) {
 
-        Log.d("Position : ",positionBanner.toString())
-        Log.d("Jumlah List Banner Promo : ",""+banners?.size)
+        Log.e("Position : ",positionBanner.toString())
+        Log.e("Jumlah List Banner Promo : ",""+banners?.size)
 
         var sharedPref : SharedPreferences
         sharedPref=getSharedPreferences("PromoNumber", Context.MODE_PRIVATE)
