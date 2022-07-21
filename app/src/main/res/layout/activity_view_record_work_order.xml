@@ -30,6 +30,8 @@
                 app:popupTheme="@style/Theme.HSPBTool.PopupOverlay" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"

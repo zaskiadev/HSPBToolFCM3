@@ -22,7 +22,7 @@ class AddRecordActivityACMaintenance : AppCompatActivity() {
         val sharedPref : SharedPreferences
         sharedPref=   getSharedPreferences("UserName", Context.MODE_PRIVATE)
         val userLoginName : String = sharedPref.getString("UserName","Belum Login").toString()
-        var maintenance_type : String=""
+      //  var maintenance_type : String=""
 
         var isRepairBrokenPart:Int=0; var isTuningFilter:Int=0; var isBlower:Int=0; var isCoilEvavorator:Int=0; var isVacumDrain:Int=0
         var isCheckingDuctingConnection:Int=0

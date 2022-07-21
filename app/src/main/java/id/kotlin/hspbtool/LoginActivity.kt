@@ -9,9 +9,12 @@ import android.content.SharedPreferences
 import android.media.RingtoneManager
 import android.os.Build
 import android.os.Bundle
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
 import android.util.Log
 import android.view.View
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -38,6 +41,20 @@ override fun onCreate(savedInstanceState: Bundle?) {
     var sharedPrefEditor= sharedPref.edit()
     val button_click_signin= findViewById(R.id.buttonSignIn) as Button
     val button_click_signup= findViewById(R.id.buttonSignUp) as Button
+    val checkBoxShowpass=findViewById(R.id.checkBoxShowPassword) as CheckBox
+
+    checkBoxShowpass.setOnClickListener(View.OnClickListener {
+        if(checkBoxShowpass.isChecked)
+        {
+            textViewPassword.transformationMethod=HideReturnsTransformationMethod.getInstance()
+        }
+        else
+        {
+
+            textViewPassword.transformationMethod=PasswordTransformationMethod.getInstance()
+        }
+
+    })
     button_click_signin.setOnClickListener {
 
         AndroidNetworking.post(ApiEndPoint.login)
@@ -68,7 +85,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
                                 val userName = textViewUser.text.toString()
                                 sharedPrefEditor.putString("UserName", userName)
                                 sharedPrefEditor.apply()
-
                                 val sharedPref =
                                     getSharedPreferences("deptCodeLogin", Context.MODE_PRIVATE)
                                 val sharedPrefEditor = sharedPref.edit()
@@ -77,13 +93,16 @@ override fun onCreate(savedInstanceState: Bundle?) {
                                     jsonObject.getString("dept_code")
                                 )
                                 sharedPrefEditor.apply()
+
+
                                 Log.e("Dept Code Login", jsonObject.getString("dept_code"))
 
+                                sharedPrefEditor.putString("UserName", userName)
+                                sharedPrefEditor.apply()
                             }
                             pbLogin.visibility = View.VISIBLE
                             getDataTimeCard()
                             pbLogin.visibility = View.INVISIBLE
-
 
                             val intent = Intent(this@LoginActivity, MainActivity::class.java)
                             startActivity(intent)

@@ -235,7 +235,7 @@ class WorkOrderActivity : AppCompatActivity() {
             sharedPref = getSharedPreferences("CodeBarang", Context.MODE_PRIVATE)
             codeBarang = sharedPref.getString("CodeBarang", null).toString().replace("Item Code = ","")
 
-            Log.e("Code barangnya nih kiriman dari shared pref",codeBarang)
+            //Log.e("Code barangnya nih kiriman dari shared pref",codeBarang)
             sharedPref = getSharedPreferences("namaBarang", Context.MODE_PRIVATE)
             namaBarang = sharedPref.getString("namaBarang", null)
 
@@ -420,7 +420,7 @@ class WorkOrderActivity : AppCompatActivity() {
         if(intentFrom!="") {
 
             if (codeBarang != "") {
-                Log.e("Kode Barangny adalah ",codeBarang)
+              //  Log.e("Kode Barangny adalah ",codeBarang)
                 sendWO()
             } else {
                 sendWoAndCreateDataBarang()
@@ -510,7 +510,7 @@ class WorkOrderActivity : AppCompatActivity() {
 
                 override fun onError(anError: ANError?) {
 
-                    Log.e("ONERROR",anError?.errorDetail?.toString())
+                    Log.e("ONERROR",anError?.errorDetail.toString())
 
                 }
             })
@@ -771,7 +771,7 @@ class WorkOrderActivity : AppCompatActivity() {
             }
 
         }
-        Log.e("code Barang : ",codeBarang)
+      //  Log.e("code Barang : ",codeBarang)
         val sharedPref : SharedPreferences
         sharedPref=   getSharedPreferences("UserName", Context.MODE_PRIVATE)
         val userLoginName : String = sharedPref.getString("UserName","Belum Login").toString()

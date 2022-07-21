@@ -104,7 +104,7 @@ class CameraXActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks
 
                 override fun onImageSaved(output: ImageCapture.OutputFileResults) {
                     val savedUri = Uri.fromFile(photoFile)
-                    val msg = "Photo capture succeeded: $savedUri"
+                    //val msg = "Photo capture succeeded: $savedUri"
 
                     var sharedPref : SharedPreferences
                     sharedPref=getSharedPreferences("url", Context.MODE_PRIVATE)

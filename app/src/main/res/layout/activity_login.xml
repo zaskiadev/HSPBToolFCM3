@@ -40,7 +40,7 @@
         android:background="#f0f0f4"
         android:textColor="#000"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:padding="12dp"
@@ -48,6 +48,13 @@
         android:drawableLeft="@drawable/lockkers"
         android:layout_below="@+id/textViewUser"
         />
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Show Password"
+    android:layout_below="@+id/textViewPassword"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/checkBoxShowPassword"/>
 
     <Button
         android:id="@+id/buttonSignIn"
@@ -64,8 +71,9 @@
         android:text="Sign In"
         android:textSize="16dp"
         android:textColor="#fff"
-        android:layout_below="@+id/textViewPassword"
+        android:layout_below="@+id/checkBoxShowPassword"/>
         />
+
     <Button
         android:id="@+id/buttonSignUp"
         android:layout_width="150dp"
@@ -82,7 +90,7 @@
         android:textSize="16dp"
         android:textColor="#fff"
         android:layout_toRightOf="@+id/buttonSignIn"
-        android:layout_below="@+id/textViewPassword"
+        android:layout_below="@+id/checkBoxShowPassword"
         />
 <ProgressBar
     android:layout_width="wrap_content"

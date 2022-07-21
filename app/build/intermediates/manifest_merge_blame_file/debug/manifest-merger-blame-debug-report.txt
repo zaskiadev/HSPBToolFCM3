@@ -2,13 +2,13 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="id.kotlin.hspbtool"
 4    android:installLocation="auto"
-5    android:versionCode="7"
-6    android:versionName="0.0007" >
+5    android:versionCode="8"
+6    android:versionName="0.0008" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="24"
 9-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.3 /app/src/main/AndroidManifest.xml
-10        android:targetSdkVersion="29" />
+10        android:targetSdkVersion="30" />
 10-->/Users/fandy/AndroidStudioProjects/HSPBTool_v_003.3 /app/src/main/AndroidManifest.xml
 11
 12    <uses-feature android:name="android.hardware.camera.any" />

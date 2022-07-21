@@ -122,7 +122,7 @@ Log.e("Jumlah Data di WO",""+jsonArray?.length())
 
                     override fun onError(anError: ANError?) {
 
-                         Log.e("View Record Error:",anError?.toString())
+                         Log.e("View Record Error:",anError.toString())
 
                     }
                 })

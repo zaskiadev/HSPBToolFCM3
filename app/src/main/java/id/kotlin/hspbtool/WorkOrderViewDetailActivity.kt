@@ -141,7 +141,7 @@ class WorkOrderViewDetailActivity : AppCompatActivity() {
                             }
                             catch(e:ANError)
                             {
-                                Log.e("Error WOD",e?.errorDetail?.toString())
+                                Log.e("Error WOD",e?.errorDetail.toString())
                             }
                             EditTextWorkOrderCodeWD!!.setText(EditTextWorkOrderCodeWDText)
                             EditTextWorkOrderTypeWD.setText(EditTextWorkOrderTypeWDText)
@@ -157,7 +157,7 @@ class WorkOrderViewDetailActivity : AppCompatActivity() {
                     }
                     override fun onError(anError: ANError?) {
 
-                        Log.e("Error WOD",anError?.errorDetail?.toString())
+                      //  Log.e("Error WOD",anError?.errorDetail?.toString())
 
                     }
 

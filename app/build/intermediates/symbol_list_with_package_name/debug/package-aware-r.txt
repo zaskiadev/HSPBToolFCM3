@@ -1977,6 +1977,7 @@ id center_vertical
 id chain
 id chains
 id change_password
+id checkBoxShowPassword
 id checkbox
 id checked
 id chip
@@ -2014,11 +2015,13 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id deptNameNavbar
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailPromo
 id dialog_button
 id dimensions
 id direct
@@ -2111,7 +2114,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imagePromoDetail
+id imageListPromo
 id imageTakedWorkOrder
 id imageTakedWorkOrderWD
 id imbCheers
@@ -2221,6 +2224,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id namaPromo
 id nav_controller_view_tag
 id nav_engineering_data_record
 id nav_graph
@@ -2393,7 +2397,6 @@ id textView5
 id textView5AC
 id textViewLoadingStatus
 id textViewPassword
-id textViewPromoDetail
 id textViewRegisterAccount
 id textViewStartDate
 id textViewUser
@@ -2446,6 +2449,7 @@ id useLogo
 id userChangeLog
 id userExecuteAC
 id userExecuteMaintenanceVentaza
+id userNameNavbar
 id username
 id vertical
 id video
@@ -2607,6 +2611,7 @@ layout list
 layout list_card_ac
 layout list_card_battery
 layout list_card_data_item_work_order
+layout list_card_list_promo
 layout list_card_log_maintenance_ventaza
 layout list_card_time_card
 layout list_card_work_order_list

@@ -11,6 +11,7 @@ import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -21,10 +22,12 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_home.view.*
+import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,11 +38,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
 //        setSupportActionBar(toolbar)
-        val sharedPref : SharedPreferences
+  //      findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title =
+    //        "Hotel Santika Premiere Bintaro"
+        var sharedPref : SharedPreferences
         sharedPref=   getSharedPreferences("UserName", Context.MODE_PRIVATE)
         val userLoginName : String = sharedPref.getString("UserName", "Belum Login").toString()
 
 
+
+        sharedPref=   getSharedPreferences("deptCodeLogin", Context.MODE_PRIVATE)
+
+        val deptCode : String = sharedPref.getString("deptCodeLogin", "Belum Login").toString()
+        var deptName : String=""
         val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -48,6 +58,52 @@ class MainActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
+        val headerView = navView.getHeaderView(0)
+        val userNameUsed : TextView = headerView.findViewById(R.id.userNameNavbar)
+        userNameUsed.setText(userLoginName)
+
+        if(deptCode=="D0001")
+        {
+            deptName="Accounting"
+        }
+        else if(deptCode=="D0002")
+        {
+            deptName="Housekeeping"
+        }
+        else if (deptCode=="D0003")
+        {
+            deptName="Front Office"
+        }
+        else if(deptCode=="D0004")
+        {
+            deptName="F&B Product"
+        }
+        else if (deptCode=="D0005")
+        {
+            deptName="F&B Service"
+        }
+        else if (deptCode=="D0006")
+        {
+            deptName="Human Resources"
+        }
+        else if (deptCode=="D0007")
+        {
+            deptName="Engineering"
+        }
+        else if (deptCode=="D0008")
+        {
+            deptName="Sales"
+        }
+
+
+        val DeptCodeUsed : TextView = headerView.findViewById(R.id.deptNameNavbar)
+        DeptCodeUsed.setText("Dept: "+deptName)
+
+        //val
+        //val userNameUsed : TextView = .findViewById(R.id.userNameNavbar)
+
+       // userNameUsed.setText(userLoginName
+        //)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
 

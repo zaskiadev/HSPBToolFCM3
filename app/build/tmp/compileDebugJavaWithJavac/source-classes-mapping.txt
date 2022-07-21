@@ -114,8 +114,8 @@ id/kotlin/hspbtool/databinding/ContentVentazaFilterShowDataBinding.java
  id.kotlin.hspbtool.databinding.ContentVentazaFilterShowDataBinding
 id/kotlin/hspbtool/databinding/ListCardBatteryBinding.java
  id.kotlin.hspbtool.databinding.ListCardBatteryBinding
-id/kotlin/hspbtool/databinding/AppBarMainBinding.java
- id.kotlin.hspbtool.databinding.AppBarMainBinding
+id/kotlin/hspbtool/databinding/ContentMainBinding.java
+ id.kotlin.hspbtool.databinding.ContentMainBinding
 id/kotlin/hspbtool/databinding/ActivityAcRecordBinding.java
  id.kotlin.hspbtool.databinding.ActivityAcRecordBinding
 id/kotlin/hspbtool/databinding/ActivityWorkOrderDetailViewBinding.java
@@ -140,5 +140,5 @@ id/kotlin/hspbtool/databinding/ActivityVentazaFilterShowLogBinding.java
  id.kotlin.hspbtool.databinding.ActivityVentazaFilterShowLogBinding
 id/kotlin/hspbtool/BuildConfig.java
  id.kotlin.hspbtool.BuildConfig
-id/kotlin/hspbtool/databinding/ContentMainBinding.java
- id.kotlin.hspbtool.databinding.ContentMainBinding
+id/kotlin/hspbtool/databinding/AppBarMainBinding.java
+ id.kotlin.hspbtool.databinding.AppBarMainBinding

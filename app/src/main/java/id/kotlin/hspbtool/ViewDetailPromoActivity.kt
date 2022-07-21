@@ -42,17 +42,8 @@ class ViewDetailPromoActivity : AppCompatActivity() {
 
         mRecyclerView2.setHasFixedSize(true)
         mRecyclerView2.layoutManager = LinearLayoutManager(this)
-
-        var sharedPref: SharedPreferences
-        sharedPref = getSharedPreferences("SpinerVentazaChooseShowData", Context.MODE_PRIVATE)
-
-
-        val VentazaChooseShowData: String =
-            sharedPref.getString("SpinerVentazaChooseShowData", "Belum Login").toString()
-
-
-
-
+        findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title =
+            "Promo Bulan Ini"
 
         // val test:MutableList<BannerPromo> = mutableListOf()
         AndroidNetworking.post(ApiEndPoint.list_banner)

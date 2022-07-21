@@ -35,7 +35,7 @@ class ACFilterShowData : AppCompatActivity() {
 
         }
 
-        val spinnerVentazaFilterBy = findViewById<Spinner>(R.id.spinnerFilterBy)
+       // val spinnerVentazaFilterBy = findViewById<Spinner>(R.id.spinnerFilterBy)
 
         val button_click= findViewById(R.id.buttonShowFilterAC) as Button
 
