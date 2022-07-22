@@ -101,7 +101,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
                                 sharedPrefEditor.apply()
                             }
                             pbLogin.visibility = View.VISIBLE
-                            getDataTimeCard()
+                           // getDataTimeCard()
+                           // getDataAC()
+                           // getDataBattery()
                             pbLogin.visibility = View.INVISIBLE
 
                             val intent = Intent(this@LoginActivity, MainActivity::class.java)
@@ -127,7 +129,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 }
 
-    fun getDataBattery()
+   /* fun getDataBattery()
     {
         var dataNoKamar:String=""
         var jumlahkamar=0
@@ -165,9 +167,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
             })
-    }
+    }*/
 
-    fun getDataTimeCard()
+   /* fun getDataTimeCard()
     {
         var dataNoKamar:String=""
         var jumlahkamar=0
@@ -207,9 +209,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
             })
 
 
-    }
+    }*/
 
-    fun getDataAC()
+   /* fun getDataAC()
     {
         var dataNoKamar:String=""
         var jumlahkamar=0
@@ -247,10 +249,10 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
             })
-    }
+    }*/
 
 
-    fun notificationBuilder(Title:String?, Text:String?)
+    /*fun notificationBuilder(Title:String?, Text:String?)
     {
         val intent2 = Intent(this, LoginActivity::class.java)
         intent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
@@ -274,5 +276,5 @@ override fun onCreate(savedInstanceState: Bundle?) {
             notificationManager.createNotificationChannel(channel)
         }
         notificationManager.notify(0, notificationBuilder.build())
-    }
+    }*/
 }

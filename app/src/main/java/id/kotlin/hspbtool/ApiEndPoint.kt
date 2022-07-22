@@ -22,6 +22,10 @@ class ApiEndPoint {
         val notification_tap_time_card=SERVER+"notification_tap_time_card.php"
         val notification_change_battery=SERVER+"notification_change_battery.php"
         val notification_ac_maintenance=SERVER+"notification_ac_maintenance.php"
+
+        val notification_tap_time_card_count=SERVER+"notification_tap_time_card_count.php"
+        val notification_change_battery_count=SERVER+"notification_change_battery_count.php"
+        val notification_ac_maintenance_count=SERVER+"notification_ac_maintenance_count.php"
         val register_account=SERVER+"register_account.php"
         val get_code_wo=SERVER+"get_code_wo.php"
         val get_code_wo_detail=SERVER+"get_code_wo_detail.php"

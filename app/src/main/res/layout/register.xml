@@ -54,6 +54,16 @@
         android:layout_below="@+id/editTextRegisterUserName"
         android:gravity="center"
         />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxShowPasswordSignup"
+        android:layout_below="@id/editTextRegisterPassword"
+        android:layout_marginLeft="20dp"
+        android:text="Lihat Password (Show Password) "
+        />
+
     <EditText
         android:id="@+id/editTextRegisterEmail"
         android:layout_width="match_parent"
@@ -68,7 +78,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:drawablePadding="16dp"
-        android:layout_below="@+id/editTextRegisterPassword"
+        android:layout_below="@+id/checkBoxShowPasswordSignup"
         android:gravity="center"
         />
 

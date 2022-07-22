@@ -1952,6 +1952,7 @@ id buttonCancelDialogDoWorkOrder
 id buttonChangePassword
 id buttonChooseFromGallery
 id buttonDoWorkOrder
+id buttonOKDialog
 id buttonOkWarningCantDoWorkOrder
 id buttonPanel
 id buttonSaveDialogDoWorkOrder
@@ -1978,6 +1979,7 @@ id chain
 id chains
 id change_password
 id checkBoxShowPassword
+id checkBoxShowPasswordSignup
 id checkbox
 id checked
 id chip
@@ -2429,6 +2431,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvEnglishTitle
 id tvNote
 id tvTitle
 id txtHeroName
@@ -2582,6 +2585,7 @@ layout content_ventaza_filter_show_log
 layout costum_dialog_do_work_order
 layout costum_dialog_warning_cant_do_work_order
 layout custom_dialog
+layout custom_dialog_please_complete_data
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

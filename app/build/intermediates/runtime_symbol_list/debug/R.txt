@@ -1951,6 +1951,7 @@ int id buttonCancelDialogDoWorkOrder 0x7f0a007d
 int id buttonChangePassword 0x7f0a007e
 int id buttonChooseFromGallery 0x7f0a007f
 int id buttonDoWorkOrder 0x7f0a0080
+int id buttonOKDialog 0x7f0a028b
 int id buttonOkWarningCantDoWorkOrder 0x7f0a0081
 int id buttonPanel 0x7f0a0082
 int id buttonSaveDialogDoWorkOrder 0x7f0a0083
@@ -1977,6 +1978,7 @@ int id chain 0x7f0a0097
 int id chains 0x7f0a0098
 int id change_password 0x7f0a0099
 int id checkBoxShowPassword 0x7f0a009a
+int id checkBoxShowPasswordSignup 0x7f0a028d
 int id checkbox 0x7f0a009b
 int id checked 0x7f0a009c
 int id chip 0x7f0a009d
@@ -2428,6 +2430,7 @@ int id transition_position 0x7f0a025a
 int id transition_scene_layoutid_cache 0x7f0a025b
 int id transition_transform 0x7f0a025c
 int id triangle 0x7f0a025d
+int id tvEnglishTitle 0x7f0a028c
 int id tvNote 0x7f0a025e
 int id tvTitle 0x7f0a025f
 int id txtHeroName 0x7f0a0260
@@ -2581,6 +2584,7 @@ int layout content_ventaza_filter_show_log 0x7f0d0046
 int layout costum_dialog_do_work_order 0x7f0d0047
 int layout costum_dialog_warning_cant_do_work_order 0x7f0d0048
 int layout custom_dialog 0x7f0d0049
+int layout custom_dialog_please_complete_data 0x7f0d00bb
 int layout design_bottom_navigation_item 0x7f0d004a
 int layout design_bottom_sheet_dialog 0x7f0d004b
 int layout design_layout_snackbar 0x7f0d004c
