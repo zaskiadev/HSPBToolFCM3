@@ -2715,7 +2715,10 @@ menu menu_sales_marketing
 menu menu_santika_information
 menu menu_work_order
 mipmap ic_launcher
+mipmap ic_launcher_1
 mipmap ic_launcher_round
+mipmap ic_launcher_round_
+mipmap ic_launcher_round_1
 navigation mobile_navigation
 navigation nav_graph
 navigation nav_graph2

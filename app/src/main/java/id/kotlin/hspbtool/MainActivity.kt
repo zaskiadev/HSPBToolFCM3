@@ -46,8 +46,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
+        val navView: NavigationView = findViewById(R.id.nav_view)
 
+        val menuNav : Menu = navView.menu
+        val engItem : MenuItem = menuNav.findItem(R.id.nav_engineering_data_record)
 
+        engItem.setEnabled(false)
 //        setSupportActionBar(toolbar)
   //      findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title =
     //        "Hotel Santika Premiere Bintaro"
@@ -63,7 +67,7 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
-        val navView: NavigationView = findViewById(R.id.nav_view)
+
         val navController = findNavController(R.id.nav_host_fragment)
         val headerView = navView.getHeaderView(0)
         val userNameUsed : TextView = headerView.findViewById(R.id.userNameNavbar)
@@ -161,7 +165,7 @@ class MainActivity : AppCompatActivity() {
         if(deptCode=="D0007")
         {
 
-
+            engItem.setEnabled(true)
             Handler().postDelayed({
                 notificationBuilder("Urgent To Execute : ", "Jumlah kamar harus di tap time card : "+
                         jumlahKamarTap +", Jumlah kamar yang harus di ganti battery ventaza : "+jumlahKamarGantiBattery+
@@ -169,6 +173,8 @@ class MainActivity : AppCompatActivity() {
                     ,"Notification Engineering")
             }, 2000)
 
+
+            engItem.setEnabled(true)
         }
     }
 
@@ -352,6 +358,8 @@ class MainActivity : AppCompatActivity() {
             })
 
     }
+
+
 
 
 }

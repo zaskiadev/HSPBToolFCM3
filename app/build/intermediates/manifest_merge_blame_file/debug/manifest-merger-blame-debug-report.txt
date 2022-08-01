@@ -2,8 +2,8 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="id.kotlin.hspbtool"
 4    android:installLocation="auto"
-5    android:versionCode="8"
-6    android:versionName="0.0008" >
+5    android:versionCode="9"
+6    android:versionName="0.0009" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="24"

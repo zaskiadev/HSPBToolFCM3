@@ -14,8 +14,8 @@ android {
         applicationId "id.kotlin.hspbtool"
         minSdkVersion 24
         targetSdkVersion 30
-        versionCode 8
-        versionName "0.0008"
+        versionCode 9
+        versionName "0.0009"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

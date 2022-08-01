@@ -22,6 +22,11 @@
             android:title="Work Order">
 
         </item>
+
+        <item
+            android:id="@+id/nav_emergency_rescue_team"
+            android:title="Emergency Rescue Team">
+        </item>
 <!--            android:icon="@drawable/ic_menu_camera"-->
 
 <!--        <item-->
